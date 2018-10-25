@@ -8,13 +8,15 @@ import { Animation1Component } from './animation1/animation1.component';
 import {RouterModule} from '@angular/router';
 import { Animation2Component } from './animation2/animation2.component';
 import { Animation3Component } from './animation3/animation3.component';
+import { Animation4Component } from './animation4/animation4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Animation1Component,
     Animation2Component,
-    Animation3Component
+    Animation3Component,
+    Animation4Component
   ],
   imports: [
     BrowserModule,
