@@ -1,9 +1,15 @@
 
+<p>子路由测试</p>
+<button type="button" (click)="jumper('home')">go home</button>
+<button type="button" (click)="jumper('garden')">go garden</button>
+<router-outlet></router-outlet>
 <div>
     <h1>{{'demo.title' | translate}}</h1>
     <p translate>demo.text</p>
     <p>参数翻译</p>
     <!--<p translate>demo.greeting</p>-->
 </div>
-<button type="button" (click)="useLanguage('en')">英语</button>
-<button type="button" (click)="useLanguage('de')">德语</button>
+
+<!--放到那个组件里面那个组件要注入utilService-->
+<button type="button" (click)="utilService.useLanguage('en')">英语</button>
+<button type="button" (click)="utilService.useLanguage('de')">德语</button>

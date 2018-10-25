@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {RouterModule} from '@angular/router';
 
 
 

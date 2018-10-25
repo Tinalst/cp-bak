@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACA,MAAM,EAAE,iBAAiB",
+"sources": ["garden.component.scss"],
+"names": [],
+"file": "garden.component.css"
+}

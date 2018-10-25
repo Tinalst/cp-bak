@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import {Router} from '@angular/router';
+import {UtilService} from './public/util.service';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +9,15 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    constructor(private translate: TranslateService) {
+    constructor(private translate: TranslateService,
+                private router: Router,
+                public utilService: UtilService) {
         // 设置默认语言
         translate.setDefaultLang('de');
     }
 
-    useLanguage = (lang: string): void => {
-        this.translate.use(lang);
+    jumper = (url: string): void => {
+        this.router.navigate([`../${url}`]);
     }
 }
 
