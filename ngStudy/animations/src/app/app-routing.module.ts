@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {Animation1Component} from './animation1/animation1.component';
 import {Animation2Component} from './animation2/animation2.component';
+import {Animation3Component} from './animation3/animation3.component';
 
 const routes: Routes = [
     {path: '', component: Animation1Component},
     {path: 'a1', component: Animation1Component},
-    {path: 'a2', component: Animation2Component}
+    {path: 'a2', component: Animation2Component},
+    {path: 'a3', component: Animation3Component}
 ];
 
 @NgModule({
