@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {state, style, transition, trigger} from '@angular/animations';
+import {state, style, trigger} from '@angular/animations';
 
 @Component({
     selector: 'app-animation1',
@@ -7,11 +7,14 @@ import {state, style, transition, trigger} from '@angular/animations';
     styleUrls: ['./animation1.component.scss'],
     animations: [
         trigger('myAnimationTrigger', [
+            // 添加状态1
             state('visible', style({
                 height: '100px',
                 opacity: 0.5,
                 backgroundColor: 'green'
             })),
+
+            // 添加状态2
             state('hidden', style({
                 opacity: 1,
                 backgroundColor: 'pink'
