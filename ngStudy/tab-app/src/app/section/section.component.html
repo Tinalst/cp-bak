@@ -1,0 +1,15 @@
+<div>
+    <nav>
+        <ul>
+            <li *ngFor="let menu of tabMenu"
+                [ngClass]="{'select-menu': menu.uuid === currentClick}"
+                (click)="reqProductList(menu)" >{{menu.name}}</li>
+        </ul>
+    </nav>
+    <section *ngIf="haveProductList">
+            <app-product-detial  *ngFor="let product of productList" [product]="product"></app-product-detial>
+    </section>
+    <section *ngIf="!haveProductList">
+        <p class="dsc">列表为空,试试其他栏目~</p>
+    </section>
+</div>
