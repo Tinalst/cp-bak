@@ -10,6 +10,7 @@ import { Animation2Component } from './animation2/animation2.component';
 import { Animation3Component } from './animation3/animation3.component';
 import { Animation4Component } from './animation4/animation4.component';
 import { Animations5Component } from './animations5/animations5.component';
+import { Animation6Component } from './animation6/animation6.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Animations5Component } from './animations5/animations5.component';
     Animation2Component,
     Animation3Component,
     Animation4Component,
-    Animations5Component
+    Animations5Component,
+    Animation6Component
   ],
   imports: [
     BrowserModule,
