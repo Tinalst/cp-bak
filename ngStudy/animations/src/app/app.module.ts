@@ -9,6 +9,7 @@ import {RouterModule} from '@angular/router';
 import { Animation2Component } from './animation2/animation2.component';
 import { Animation3Component } from './animation3/animation3.component';
 import { Animation4Component } from './animation4/animation4.component';
+import { Animations5Component } from './animations5/animations5.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Animation4Component } from './animation4/animation4.component';
     Animation1Component,
     Animation2Component,
     Animation3Component,
-    Animation4Component
+    Animation4Component,
+    Animations5Component
   ],
   imports: [
     BrowserModule,
