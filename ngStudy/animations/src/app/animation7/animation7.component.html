@@ -1,0 +1,6 @@
+<div [@openClose]="isOpen"
+    (@openClose.start)="onAnimationsEvent($event)"
+     ([@openClose.done)="onAnimationsEvent($event)">
+    123456
+</div>
+<button (click)="change()">change</button>
