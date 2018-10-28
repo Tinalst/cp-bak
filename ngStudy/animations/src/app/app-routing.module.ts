@@ -6,6 +6,7 @@ import {Animation3Component} from './animation3/animation3.component';
 import {Animation4Component} from './animation4/animation4.component';
 import {Animations5Component} from './animations5/animations5.component';
 import {Animation6Component} from './animation6/animation6.component';
+import {Animation7Component} from './animation7/animation7.component';
 
 const routes: Routes = [
     {path: '', component: Animation1Component},
@@ -14,7 +15,8 @@ const routes: Routes = [
     {path: 'a3', component: Animation3Component},
     {path: 'a4', component: Animation4Component},
     {path: 'a5', component: Animations5Component},
-    {path: 'a6', component: Animation6Component}
+    {path: 'a6', component: Animation6Component},
+    {path: 'a7', component: Animation7Component}
 ];
 
 @NgModule({
