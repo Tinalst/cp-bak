@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1>vue.directive</h1>
+    <hr>
+    <div class="app">
+        <div v-changecolor="color">{{num}}</div>
+        <button @click="add">增加</button>
+    </div>
+    <p>
+        <button onclick="unbind()">解绑</button>
+    </p>
+
+    <script>
+        // 自定义指令 
+        Vue.directive('changecolor',{
+            bind: function(el, binding) {   // 被绑定 调用一次
+                console.log('1 - bind');
+                console.log(el);
+                console.log(binding);
+                el.style = `color:${binding.value}`
+            },
+            inserted: function() {          // 绑定到节点 调用一次
+                console.log('2 - inserted')
+            },
+            update: function() {            //组件更新 调用多次
+                console.log('3 - update');
+                // changeColor(el, binding)
+            },
+            componentUpdated: function() {   // 组件更新完成 调用多次
+                console.log('4 - componentUpdated');
+            }, 
+            unbind: function() {            // 组件销毁时候 调用一次
+                console.log('5 - unbind');
+            }
+        });
+
+        // var changeColor = function (el, binding){
+        //     console.log(el);
+        //     console.log(binding);
+        //     el.style = `color:${binding.value}`
+        // }
+
+        //  function(el, binding){
+        //     console.log(el);
+        //     console.log(binding);
+        //     el.style = `color:${binding.value}`
+        // }
+
+        var app = new Vue({
+            el: '.app',
+            data: {
+                num: 0,
+                color: 'red'
+            },
+            methods: {
+                add : function() {
+                    this.num++;
+                }
+            }
+        });
+        
+        // 解绑
+        function unbind() {
+            app.$destroy();
+        }
+    </script>
+</body>
+</html>

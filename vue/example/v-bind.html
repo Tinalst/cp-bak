@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+    <style>
+        .classA {
+            color: rgb(116, 116, 11)
+        }
+        .classB {
+            color: pink
+        }
+        .classC {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello world</h1>
+    <hr>
+    <div class="app">
+       <img v-bind:src="imgSrc" alt=""  width="200">
+       <img :src="imgSrc" alt=""  width="200">
+       <hr>
+       <h3 :class="className">1.绑定class</h3>
+       <hr>
+       
+       <h3 :class="{classA: isOk, classB: !isOk}">2.绑定class中的判断</h3>
+       <div>
+           <input type="checkbox" v-model="isOk">
+           <label>{{isOk}}</label>
+       </div>
+       <hr>
+       <h3 :class="{classA,classC}">3.数组形式绑定class</h3>
+       <div>
+           <input type="checkbox" v-model="isOk">
+           <label>{{isOk}}</label>
+       </div>
+       <hr>
+
+       <h3 :class="isOk ? classA : classB">4. 三元运算符</h3>
+       <div>
+           <input type="checkbox" v-model="isOk">
+           <label>{{isOk}}</label>
+       </div>
+       <hr>
+       <h3 :style="{color:colorName}">5. 绑定style</h3>
+       <hr>
+       <h3 :style="styleObj">6. 用对象绑定style</h3>
+
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '.app',
+            data: {
+                imgSrc: 'http://wxmini.tinalst.com/002.172075046d1f64ea1dee.jpg',
+                className: 'classB',
+                isOk: true,
+                classA: true,
+                classC: true,
+                colorName: 'red',
+                styleObj: {
+                    color: 'green',
+                    backgroundColor: 'yellow'
+                }
+            }
+        })
+    </script>
+</body>
+</html>
