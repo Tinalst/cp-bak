@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1>components 标签</h1>
+    <hr>
+    <div class="app">
+        <!--  组件名称有-符号在VUE构造器中组件名是小驼峰格式，记住 -->
+        <!-- <component-a></component-a> -->
+        <component :is="who"></component>
+        <button @click="changeComponent('componentA')">a</button>
+        <button @click="changeComponent('componentB')">b</button>
+        <button @click="changeComponent('componentC')">c</button>
+    </div>
+
+    <script>
+        var componentA = {
+            template: `<div style="color:red"> component a</div>`
+        };
+
+        var componentB = {
+            template: `<div style="color:green"> component b</div>`
+        };
+
+        var componentC = {
+            template: `<div style="color:orange"> component c</div>`
+        };
+        
+        var app = new Vue({
+            el: '.app',
+            data: {
+                who: 'componentC'
+            },
+            components: {
+                "componentA" : componentA,   // 一定要注意双引号要写不然不会显示出来也不报错提示
+                "componentB": componentB,
+                "componentC": componentC
+            },
+            methods: {
+                changeComponent: function(c) {
+                    this.who = c;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
