@@ -11,14 +11,49 @@
     <h1>watch option</h1>
     <hr>
     <div class="app">
-        {{message}}
+        <p>今日的温度： {{temprature}}</p>
+        <p>日的温度： {{recomend}}</p>
+        <p><button @click="up()">升高</button></p>
+        <p><button @click="down()">升高</button></p>
     </div>
 
     <script>
+        var dressArray = [ '穿衣', '夹克长裙', '棉衣羽绒衣'];
         var app = new Vue({
             el: '.app',
             data: {
-                message: 'hello world 111'
+                temprature: 14,
+                recomend: '夹克长裙'
+            },
+            methods: {
+                up: function() {
+                    this.temprature += 5;
+                },
+                down: function() {
+                    this.temprature -= 5;
+                }
+            },
+            watch: {
+                // temprature: function(newVal, oldVal) {
+                //     if(newVal > 26) {
+                //         this.recomend = dressArray[0];
+                //     }else if(newVal > 0) {
+                //         this.recomend = dressArray[1];
+                //     }else{
+                //         this.recomend = dressArray[2];
+                //     }
+                // }
+            }
+        });
+
+        // 在外部监听数据
+        app.$watch('temprature', function(newVal, oldVal){
+            if(newVal > 26) {
+                this.recomend = dressArray[0];
+            }else if(newVal > 0) {
+                this.recomend = dressArray[1];
+            }else{
+                this.recomend = dressArray[2];
             }
         })
     </script>

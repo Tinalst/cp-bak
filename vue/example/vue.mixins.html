@@ -17,8 +17,9 @@
 
     <script>
 
+        // 全局混入方式
         Vue.mixin({
-            newUpdate: function() {
+            updated: function() {
                 console.log('全局混入函数');
             }
         })
@@ -37,6 +38,9 @@
                 add: function() {
                     this.count ++;
                 }
+            },
+            updated: function() {
+                console.log('我是vuE原生update');
             },
             mixins: [    // mixins的调用数序总是早于构造函数 且如果出现同名函数，构造函数里的会覆盖mixins里的
                 addLog
