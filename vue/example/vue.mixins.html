@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1>mixins options</h1>
+    <hr>
+    <div class="app">
+        <p>{{count}}</p>
+        <p><button @click="add">add</button></p>
+    </div>
+
+    <script>
+
+        Vue.mixin({
+            newUpdate: function() {
+                console.log('全局混入函数');
+            }
+        })
+
+        var addLog = {    // mixins 函数
+            updated: function() {
+                console.log(`数据发生变化${this.count}`);
+            }
+        }
+        var app = new Vue({
+            el: '.app',
+            data: {
+                count: 1
+            },
+            methods: {
+                add: function() {
+                    this.count ++;
+                }
+            },
+            mixins: [    // mixins的调用数序总是早于构造函数 且如果出现同名函数，构造函数里的会覆盖mixins里的
+                addLog
+            ]
+
+        })
+    </script>
+</body>
+</html>

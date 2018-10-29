@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1>vue extends 扩展函数</h1>
+    <hr>
+    <div class="app">
+        {{count}}
+        <button @click="add">add</button>
+    </div>
+
+    <script>
+
+        // extends 扩展函数
+        var extendFun = {
+            created: function() {
+                console.log('拓展函数created');
+            },
+            methods: {
+                add: function() {
+                    console.log('拓展函数add');
+                }
+            }
+        }
+
+        var app = new Vue({
+            el: '.app',
+            data: {
+                count: 0
+            },
+            methods: {
+                add: function() {
+                    this.count ++;
+                }
+            },
+            extends: extendFun
+        })
+    </script>
+</body>
+</html>
