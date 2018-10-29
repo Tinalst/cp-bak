@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1> solt</h1>
+    <hr>
+    <div class="app">
+       <tinalst>
+           <span slot="blogUrl">{{messageData.blogUrl}}</span>
+           <span slot="nenName">titi</span>
+           <span slot="skill">{{messageData.skill}}</span>
+       </tinalst>
+    </div>
+
+    <template id="tep">
+        <div>
+            <p>博客地址：<slot name="blogUrl"></slot></p>
+            <p>网名: <slot name="nenName"></slot></p>
+            <p>技术：<slot name="skill"></slot></p>
+        </div>
+    </template>
+
+    <script>
+        var tinalstComponent = {
+            template: "#tep"
+        }
+     
+        var app = new Vue({
+            el: '.app',
+            data: {
+               messageData: {
+                   blogUrl: 'http://tinalst.com',
+                   nenName: 'tina',
+                   skill: 'front-end'
+               }
+            },
+            components: {
+                'tinalst': tinalstComponent
+            }
+        })
+    </script>
+</body>
+</html>
