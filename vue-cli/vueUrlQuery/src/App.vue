@@ -6,7 +6,10 @@
     <router-link to="/gohome">go home 重定向路由</router-link>
     <router-link to="/goparams/1111/222222 title">go params 重定向路由</router-link>
     <router-link to="/hi1">Hi1 page</router-link>
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
+
   </div>
 </template>
 
@@ -24,5 +27,19 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: opacity .5s;
+}
+.fade-leave {
+  opacity: 1;
+}
+.fade-leave-active {
+  transform: scale(0.5);
+  opacity: 0;
+  transition: opacity .5s, scale .5s;
 }
 </style>
