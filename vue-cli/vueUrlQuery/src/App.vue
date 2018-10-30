@@ -29,7 +29,7 @@ export default {
       this.$router.forward();
     },
     jumper() {
-      this.$router.push('/hi1',)
+      this.$router.push('/hi1')
     }
   }
 }
