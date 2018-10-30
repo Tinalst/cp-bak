@@ -3,6 +3,8 @@
     <img src="./assets/logo.png">
     <router-link to="/">home</router-link>
     <router-link to="/params/198/tinalst title test">params</router-link>
+    <router-link to="/gohome">go home 重定向路由</router-link>
+    <router-link to="/goparams/1111/222222 title">go params 重定向路由</router-link>
     <router-view/>
   </div>
 </template>
