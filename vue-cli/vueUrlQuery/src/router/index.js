@@ -16,7 +16,15 @@ export default new Router({
       component: HelloWorld
     }, {
       path: '/params/:newsId/:newsTitle',
-      component: Params
+      component: Params,
+      beforeEnter: (to, from, next) => {   // 在路由配置文件中写路由钩子函数
+        console.log(to);
+        console.log(from);
+        console.log(next);
+        next({
+          path: '/'  // 跳转到根目录 ，如果不写next路由无法进行跳转
+        });
+      }
     },{
       path: '/gohome',
       redirect: '/'
