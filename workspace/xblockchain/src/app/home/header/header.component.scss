@@ -1,0 +1,7 @@
+header {
+    height: 730px;
+    background: linear-gradient(to right, var(--grey-gradient-light), var(--grey-gradient-dark));
+    & > div {
+        display: inline-block;
+    }
+}

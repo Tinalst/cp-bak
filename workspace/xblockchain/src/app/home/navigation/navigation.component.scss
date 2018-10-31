@@ -1,0 +1,27 @@
+:host {
+    position: relative;
+    z-index: 10;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    img {
+        height: 27px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        a {
+            color: var(--white);
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: color .2s;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+}
+
+

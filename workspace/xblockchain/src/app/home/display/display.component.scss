@@ -1,0 +1,32 @@
+@import "../../../assets/style/mixin";
+.display {
+    position: absolute;
+    top: 0;
+    height: 730px;
+    .gridentBg {
+        transform-origin: 250px 250px;
+        transform: rotate(0deg);
+        animation: rotate 2.5s linear infinite;
+    }
+    @keyframes rotate {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    & >div {
+        border: 1px solid red;
+        position: absolute;
+        top: 325px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: var(--white);
+    }
+    .title > text:nth-child(1),
+    .title > text:nth-child(2){
+        font-size: 50px;
+    }
+    .title > text:nth-child(3){
+        font-size: 25px;
+    }
+}

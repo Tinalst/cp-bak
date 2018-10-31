@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@material/layout-grid/mdc-layout-grid";
+
+:root {
+
+    --primary: #232537;
+    --grey: #7A7B87;
+    --grey-light: #F2F2F9;
+    --grey-bg: #F9F9FB;
+    --grey-gradient-dark: #15161E;
+    --grey-gradient-light: #353C51;
+    --white: #ffffff;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}

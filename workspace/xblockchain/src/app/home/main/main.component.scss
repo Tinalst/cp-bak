@@ -1,0 +1,206 @@
+:host {
+    text-align: center;
+    .time-container {
+        padding-top: 80px;
+        padding-bottom: 74px;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        background: var(--grey-bg);
+        .time{
+            display: flex;
+            justify-content: center;
+            & > div {
+                margin: 0 35px 35px 35px;
+                color: var(--primary);
+                font-size: 48px;
+                & > p {
+                    font-size: 14px;
+                    color: var(--grey);
+                }
+            }
+
+        }
+        .title {
+            font-size: 20px;
+            position: relative;
+            margin-bottom: 35px;
+        }
+        .title:after {
+            content: 'ABOUT THE SUMMIT';
+            position: absolute;
+            top: -10px;
+            font-size: 30px;
+            width: 500px;
+            left: 120px;
+            color: var(--grey-light);
+            z-index: -1;
+        }
+        p {
+            font-size: 14px;
+            color: var(--grey);
+            padding-bottom: 35px;
+        }
+    }
+    .landscapes {
+        & > div {
+            width: 100%;
+            height: 100vh;
+            border: 1px salmon solid;
+        }
+        .landscapsebg {
+            height: 170px;
+            width: 100%;
+            background-attachment: fixed;
+            background: url("../../../assets/images/img1.jpg") no-repeat;
+            background-position: 0px -400px;
+            background-size: cover;
+        }
+    }
+    .event {
+        display: flex;
+        text-align: left;
+        margin: 80px 20vw;
+        article {
+            margin-right: 35px;
+        }
+        article > .title {
+            font-size: 20px;
+            position: relative;
+            margin-bottom: 35px;
+        }
+        article > .title:after {
+            position: absolute;
+            top: -10px;
+            font-size: 30px;
+            width: 500px;
+            left: 0px;
+            color: var(--grey-light);
+            z-index: -1;
+        }
+        .lf-sub-title:after {
+            content: 'EVENT OVERVIEW';
+        }
+        .rf-sub-title:after {
+            content: 'WHY ATTEND';
+        }
+        p {
+            font-size: 14px;
+            color: var(--grey);
+            padding-bottom: 35px;
+        }
+    }
+    .event-info {
+        display: flex;
+        justify-content: center;
+        & > div:nth-child(1)  div {
+            background: url("../../../assets/Material/icons/HomeTab1.svg")  no-repeat top left;
+        }
+        & > div:nth-child(2)  div{
+            background: url("../../../assets/Material/icons/HomeTab2.svg")  no-repeat top left;
+        }
+        & > div:nth-child(3)  div {
+            background: url("../../../assets/Material/icons/HomeTab3.svg")  no-repeat top left;
+        }
+        & > div:nth-child(4)  div {
+            background: url("../../../assets/Material/icons/HomeTab4.svg")  no-repeat top left;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            align-self: center;
+        }
+        & > div {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        & > div > p {
+            font-size: 36px;
+        }
+        & > div > span {
+            font-size: 20px;
+            color: var(--grey);
+        }
+
+    }
+    .speaker-container {
+        & > p {
+            font-size: 20px;
+            position: relative;
+            padding-bottom: 35px;
+            padding-top: 132px;
+        }
+        & > p:after {
+            content: 'SPEAKERS';
+            position: absolute;
+            top: 123px;
+            font-size: 30px;
+            width: 500px;
+            left: 31%;
+            color: var(--grey-light);
+            z-index: -1;
+        }
+        & > div {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+        & > .speaker {
+            display: flex;
+            & > div {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+            }
+            aside {
+                display: none;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 35px;
+            }
+            span {
+                font-size: 14px;
+                color: var(--grey);
+            }
+
+        }
+        .avatar {
+            width: 168px;
+            height: 168px;
+            align-self: center;
+            border-radius: 50%;
+            margin-bottom: 35px;
+        }
+        .speaker > div:nth-child(1) > div {
+            background: url("../../../assets/images/Jed.jpg")  no-repeat;
+            background-size: contain;
+
+        }
+        .speaker > div:nth-child(2) > div {
+            background: url("../../../assets/images/Vilius.jpg")  no-repeat;
+            background-size: contain;
+        }
+        .speaker > div:nth-child(3) > div {
+            background: url("../../../assets/images/hon.jpg")  no-repeat;
+            background-size: contain;
+        }
+        .speaker > div:nth-child(4) > div {
+            background: url("../../../assets/images/jason.jpg")  no-repeat;
+            background-size: contain;
+        }
+
+        .avatar:hover + aside {
+            display: block;
+            position: absolute;
+            animation: socialAnimation .3s ease-in-out forwards;
+        }
+
+        @keyframes socialAnimation {
+           to{
+                transform: translateY(-40px);
+            }
+        }
+    }
+}
+
