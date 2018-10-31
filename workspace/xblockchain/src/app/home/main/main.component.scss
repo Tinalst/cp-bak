@@ -1,46 +1,6 @@
 :host {
     text-align: center;
-    .time-container {
-        padding-top: 80px;
-        padding-bottom: 74px;
-        padding-left: 20vw;
-        padding-right: 20vw;
-        background: var(--grey-bg);
-        .time{
-            display: flex;
-            justify-content: center;
-            & > div {
-                margin: 0 35px 35px 35px;
-                color: var(--primary);
-                font-size: 48px;
-                & > p {
-                    font-size: 14px;
-                    color: var(--grey);
-                }
-            }
 
-        }
-        .title {
-            font-size: 20px;
-            position: relative;
-            margin-bottom: 35px;
-        }
-        .title:after {
-            content: 'ABOUT THE SUMMIT';
-            position: absolute;
-            top: -10px;
-            font-size: 30px;
-            width: 500px;
-            left: 120px;
-            color: var(--grey-light);
-            z-index: -1;
-        }
-        p {
-            font-size: 14px;
-            color: var(--grey);
-            padding-bottom: 35px;
-        }
-    }
     .landscapes {
         & > div {
             width: 100%;
@@ -56,6 +16,7 @@
     }
     .event {
         display: flex;
+        flex-wrap: wrap;
         text-align: left;
         margin: 80px 20vw;
         article {
@@ -89,6 +50,7 @@
     }
     .event-info {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         & > div:nth-child(1)  div {
             background: url("../../../assets/Material/icons/HomeTab1.svg")  no-repeat top left;
@@ -144,11 +106,13 @@
         }
         & > .speaker {
             display: flex;
+            flex-wrap: wrap;
             & > div {
                 flex: 1;
                 display: flex;
                 flex-direction: column;
                 position: relative;
+                padding: 0 35px;
             }
             aside {
                 display: none;

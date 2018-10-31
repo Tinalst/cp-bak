@@ -1,0 +1,31 @@
+.ticket {
+    width: 397px;
+    padding: 35px;
+    .header {
+        width: 100%;
+        height: 160px;
+        background: linear-gradient(to right, var(--grey-gradient-light), var(--grey-gradient-dark));
+        box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
+    }
+
+}
+div.ticket:hover .header {
+    border: 11px solid salmon;
+}
+div.ticket:hover .footer {
+    border: 11px solid salmon;
+}
+
+section {
+    box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
+    height: 333px;
+    & > ul{
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+        li {
+            list-style: none;
+            height: 40px;
+        }
+    }
+}

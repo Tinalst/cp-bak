@@ -1,14 +1,15 @@
-<div>
-    <header>
-        <p></p>
-        <p></p>
-    </header>
+<div class="ticket">
+    <div class="header">
+        <p>{{ticket.type}}</p>
+        <p>{{ticket.price}}</p>
+    </div>
     <section>
-        <ul>
-            <li></li>
+        <ul >
+            <li *ngFor="let item of  ticket.items">{{item}}</li>
         </ul>
     </section>
-    <footer>
-        <app-btn [btnName]="'BUY NOW'" [btnWidth]="'100px'"></app-btn>
-    </footer>
+    <div class="footer">
+        <app-btn [btnName]="'BUY NOW'" [btnWidth]="'332px'"></app-btn>
+    </div>
 </div>
+

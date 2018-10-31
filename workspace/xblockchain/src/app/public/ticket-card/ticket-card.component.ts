@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { ProductModel } from './../../util/product.model';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ticket-card',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TicketCardComponent implements OnInit {
 
-  constructor() { }
+    @Input() ticket: ProductModel;
+    constructor() {
 
-  ngOnInit() {
-  }
+    }
+
+    ngOnInit() {
+    }
+
+
 
 }

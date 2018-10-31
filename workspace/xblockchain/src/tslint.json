@@ -14,10 +14,16 @@
             "kebab-case"
         ],
         "no-trailing-whitespace": false,
-        "no-trailing-whitespace": false,
         "no-inferrable-types": [
             false,
             "ignore-params"
+        ],
+        "one-line": [
+            false,
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-whitespace"
         ]
     }
 }
