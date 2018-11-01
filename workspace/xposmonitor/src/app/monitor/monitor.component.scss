@@ -1,0 +1,31 @@
+.forward-rotate{
+    transform-origin: 900px 290px;
+   animation: forwardRotate 2s infinite ease-in-out ;
+}
+@keyframes forwardRotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.back-rotate{
+    transform-origin: 900px 290px;
+    animation: forwardRotate 2s infinite ease-in-out ;
+}
+@keyframes forwardRotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.gridentBg {
+    transform-origin: 800px 250px;
+    transform: rotate(0deg);
+    animation: rotate 2.5s linear infinite;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
