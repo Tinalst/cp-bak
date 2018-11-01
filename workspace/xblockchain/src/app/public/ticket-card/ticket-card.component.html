@@ -1,13 +1,10 @@
 <div class="ticket">
-    <div class="header">
-        <p>{{ticket.type}}</p>
-        <p>{{ticket.price}}</p>
-    </div>
-    <section>
+    <div class="header" #header></div>
+    <div class="main">
         <ul >
             <li *ngFor="let item of  ticket.items">{{item}}</li>
         </ul>
-    </section>
+    </div>
     <div class="footer">
         <app-btn [btnName]="'BUY NOW'" [btnWidth]="'332px'"></app-btn>
     </div>

@@ -1,24 +1,32 @@
 :host {
     text-align: center;
-    p {
-        font-size: 20px;
-        position: relative;
-        padding-bottom: 156px;
-    }
-    p:after {
-        content: 'GET YOUR TICKET';
-        position: absolute;
-        top: -10px;
-        font-size: 30px;
-        width: 500px;
-        left: 33%;
-        color: var(--grey-light);
-        z-index: -1;
+    .title {
+        display: flex;
+        justify-content: center;
+        p {
+            width: 500px;
+            font-size: 20px;
+            position: relative;
+            padding-bottom: 156px;
+        }
+        p:after {
+            content: 'GET YOUR TICKET';
+            position: absolute;
+            top: -10px;
+            font-size: 30px;
+            width: 500px;
+            left: 0;
+            color: var(--grey-light);
+            z-index: -1;
+        }
     }
     .map {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        background: url("../../../assets/images/img2@2x.png") no-repeat;
+        background-size: contain;
+        height: 700px;
     }
 
 }

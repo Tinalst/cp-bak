@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class TicketComponent implements OnInit {
     ticketsArray: Array<ProductModel> =  [
         {
-            type: 'PLATINUM PASS',
+            type: '../../../assets/images/head1.svg',
             price: 'USD 250',
             items: [
                 'Access to All Content Stages',
@@ -23,7 +23,7 @@ export class TicketComponent implements OnInit {
             ]
         },
         {
-            type: 'SILVER PASS',
+            type: '../../../assets/images/head2.svg',
             price: 'USD 150',
             items: [
                 'Access to All Content Stages',

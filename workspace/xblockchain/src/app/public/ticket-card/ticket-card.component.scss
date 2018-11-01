@@ -1,31 +1,68 @@
 .ticket {
     width: 397px;
     padding: 35px;
+    position: relative;
+
     .header {
-        width: 100%;
         height: 160px;
-        background: linear-gradient(to right, var(--grey-gradient-light), var(--grey-gradient-dark));
-        box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
+        //background: url("../../../assets/images/head2.svg") no-repeat;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,0.50);
+        position: absolute;
+        z-index: 3;
+        width: 397px;
+    }
+    .main {
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,0.40);
+        height: 333px;
+
+        background: var(--white);
+        position: absolute;
+        width: 397px;
+        top: 180px;
+        z-index: 2;
+
+        & > ul{
+            display: flex;
+            flex-direction: column;
+
+            li {
+                list-style: none;
+                height: 40px;
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+            li:nth-child(1) {
+                padding-top: 35px;
+            }
+            li:nth-child(odd) {
+                background: var(--grey-bg);
+            }
+        }
+    }
+    .footer {
+        transform: translateY(-5px);
+        opacity: 0;
+        top: 490px;
+        z-index: -1;
+        position: absolute;
+        left: 54px;
+
     }
 
 }
 div.ticket:hover .header {
-    border: 11px solid salmon;
+    transform: translateY(-15px);
+    box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
+    transition: all 1.5s ease;
 }
 div.ticket:hover .footer {
-    border: 11px solid salmon;
+    transform: translateY(20px);
+    opacity: 1;
+    transition: all 1s ease;
+}
+div.ticket:hover .main {
+    box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
+    transition: all 1.5s ease;
 }
 
-section {
-    box-shadow: 0 20px 30px -5px rgba(0,0,0,0.40);
-    height: 333px;
-    & > ul{
-        display: flex;
-        flex-direction: column;
-        padding: 35px;
-        li {
-            list-style: none;
-            height: 40px;
-        }
-    }
-}
+

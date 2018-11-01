@@ -1,0 +1,41 @@
+.quote {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, var(--grey-gradient-light), var(--grey-gradient-dark));
+    padding: 30px;
+    .avatarImg {
+        background: url("../../../assets/images/Mulyani.jpg") no-repeat;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    .avatar {
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .setence{
+        flex: 3;
+        align-items: center;
+        align-self: center;
+        color: var(--white);
+        padding: 17px 290px 17px 49px;
+
+        p {
+
+        }
+        section {
+            position: relative;
+            background: url("../../../assets/Material/icons/quoRight.svg") no-repeat right bottom;
+            background-size: contain;
+        }
+    }
+    .setence-title {
+        text-align: right;
+        position: relative;
+        background: url("../../../assets/Material/icons/quoLeft.svg") no-repeat left top;
+        background-size: contain;
+    }
+}

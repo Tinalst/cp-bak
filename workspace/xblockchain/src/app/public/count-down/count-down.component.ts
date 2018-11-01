@@ -47,20 +47,21 @@ export class CountDownComponent implements OnInit {
     showTime = () => {
         const timeDate = new Date('2019/09/10, 10:10:33');
         const now = new Date();
-        const date = ((timeDate.getTime() - now.getTime()) / 1000);
+        const date = parseInt(String((timeDate.getTime() - now.getTime()) / 1000));
 
         if (date < 0) {
             this.isShow = false;
             clearInterval(this.timer);
         }else {
-            let  day = this.checkTime((date / 60 / 60 / 24), 3);
-            let  hour = this.checkTime((date / 60 / 60 % 24));
-            let  minute = this.checkTime((date /60 % 60));
-            let  second = this.checkTime((date % 60));
-            this.days = String(parseInt(String(day)));
-            this.hours = String(parseInt(String(hour)));;
-            this.minutes =String(parseInt(String(minute)));;
-            this.seconds = String(parseInt(String(second)));;
+            const day = parseInt(String(date / 60 / 60 / 24));
+            this.days = this.checkTime(day, 3);
+            this.hours = this.checkTime(parseInt(String(date / 60 / 60 % 24)));
+            this.minutes = this.checkTime(parseInt(String(date / 60 % 60)));
+            this.seconds = this.checkTime(parseInt(String((date % 60))));
+            // this.days = String(parseInt(String(day)));
+            // this.hours = String(parseInt(String(hour)));;
+            // this.minutes =String(parseInt(String(minute)));;
+            // this.seconds = String(parseInt(String(second)));;
         }
 
     }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="397px" height="160px" viewBox="0 0 397 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>images/head2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="47.7070848%" x2="100%" y2="47.7070848%" id="linearGradient-1">
+            <stop stop-color="#353C51" offset="0%"></stop>
+            <stop stop-color="#15161E" offset="100%"></stop>
+        </linearGradient>
+        <path d="M168.358267,2.48001619e-12 C172.431432,9.2796649 184.386315,16 198.5,16 C212.613685,16 224.568568,9.2796649 228.641733,2.47646348e-12 L395,0 C396.104569,-2.02906125e-16 397,0.8954305 397,2 L397,155 C397,157.761424 394.761424,160 392,160 L5,160 C2.23857625,160 -5.50001544e-16,157.761424 -8.8817842e-16,155 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L168.358267,0 Z" id="path-2"></path>
+        <text id="text-4" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" letter-spacing="2.5" fill="#E3E3E3">
+            <tspan x="20" y="49">SILVER PASS</tspan>
+        </text>
+        <filter x="-4.8%" y="-20.8%" width="109.7%" height="158.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-732.000000, -3192.000000)">
+            <g id="Group-23-Copy" transform="translate(732.000000, 3192.000000)">
+                <g id="Group-21">
+                    <g id="Group-20">
+                        <g id="images/head2">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                            <g id="SILVER-PASS" mask="url(#mask-3)" fill="#E3E3E3" fill-opacity="1">
+                                <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                                <use xlink:href="#text-4"></use>
+                            </g>
+                            <text id="USD-150" mask="url(#mask-3)" font-family="Roboto-Medium, Roboto" font-size="48" font-weight="400" letter-spacing="6" fill="#FFFFFF">
+                                <tspan x="83.4101562" y="115">USD 150</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

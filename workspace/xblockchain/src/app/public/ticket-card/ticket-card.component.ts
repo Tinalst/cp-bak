@@ -1,5 +1,6 @@
 import { ProductModel } from './../../util/product.model';
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input, ViewChild, ElementRef, Renderer2} from '@angular/core';
+
 
 @Component({
   selector: 'app-ticket-card',
@@ -9,13 +10,18 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TicketCardComponent implements OnInit {
 
     @Input() ticket: ProductModel;
-    constructor() {
+    @ViewChild('header') header: ElementRef;
+    constructor(private render: Renderer2) {
 
     }
 
     ngOnInit() {
+        this.setBg();
     }
 
-
+    setBg = () => {
+        this.render.setStyle(this.header.nativeElement, 'backgroundImage', `url("${this.ticket.type}")`);
+        this.render.setStyle(this.header.nativeElement, 'backgroundRepeat', 'no-reapt');
+    }
 
 }

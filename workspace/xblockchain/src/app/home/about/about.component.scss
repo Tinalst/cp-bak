@@ -1,0 +1,103 @@
+section {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    & > div {
+        padding-right: 46px;
+    }
+    .about {
+        flex: 3;
+        .title {
+            position: relative;
+            p {
+                color: var(--primary);
+                width: 500px;
+                font-size: 20px;
+                position: relative;
+                padding-bottom: 35px;
+                z-index: 10;
+            }
+        }
+        & > p {
+            color: var(--grey);
+            font-size: 14px;
+        }
+        & > p:nth-child(1) {
+            margin-bottom: 35px;
+
+        }
+    }
+    .recent {
+        flex: 2;
+        ul {
+            //list-style: none;
+        }
+        ul li {
+            margin-bottom: 15px;
+            padding: 15px;
+        }
+        & >ul li:hover {
+            background: var(--grey-bg);
+            transition: all .5s ease;
+        }
+
+    }
+    .twitter {
+        flex: 3;
+        ul {
+            list-style: none;
+        }
+        .twitter-container {
+            padding: 15px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .twitter-card-title {
+            display: flex;
+            justify-content: start;
+            position: absolute;
+            left: 30px;
+            .avatar{
+                width: 40px;
+                height: 40px;
+                padding-right: 15px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+
+            }
+            .nickname {
+                color: var(--primary);
+                font-size: 16px;
+            }
+            .time {
+                color: var(--grey);
+                font-size: 12px;
+            }
+
+        }
+
+        .twitter-content {
+            margin-top: 28px;
+            padding: 35px 15px 15px;
+            background: var(--grey-bg);
+            color: var(--primary);
+            text-align: left;
+
+        }
+    }
+    .firstline {
+        margin-bottom: 35px;
+    }
+    .email{
+        color: var(--primary) !important;
+    }
+    .recent .title p,
+    .twitter .title p{
+        color: var(--primary);
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+}

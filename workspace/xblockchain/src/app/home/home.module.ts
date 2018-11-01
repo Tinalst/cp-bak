@@ -9,6 +9,10 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { MainComponent } from './main/main.component';
 import { TicketComponent } from './ticket/ticket.component';
 import {PublicModule} from '../public/public.module';
+import { QuoteComponent } from './quote/quote.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
+import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     imports: [
@@ -16,6 +20,6 @@ import {PublicModule} from '../public/public.module';
         HomeRoutingModule,
         PublicModule
     ],
-    declarations: [HomeComponent, HeaderComponent, DisplayComponent, NavigationComponent, MainComponent, TicketComponent]
+    declarations: [HomeComponent, HeaderComponent, DisplayComponent, NavigationComponent, MainComponent, TicketComponent, QuoteComponent, SubscribeComponent, AboutComponent, FooterComponent]
 })
 export class HomeModule { }

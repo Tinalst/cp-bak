@@ -5,18 +5,17 @@
         & > div {
             width: 100%;
             height: 100vh;
-            border: 1px salmon solid;
         }
         .landscapsebg {
             height: 170px;
             width: 100%;
             background: url("../../../assets/images/img1.jpg") no-repeat;
-           background-attachment: fixed;
+            background-attachment: fixed;
+            background-size: cover;
         }
     }
     .event {
         display: flex;
-        flex-wrap: wrap;
         text-align: left;
         margin: 80px 20vw;
         article {
@@ -84,22 +83,29 @@
 
     }
     .speaker-container {
-        & > p {
-            font-size: 20px;
-            position: relative;
+        .title {
+            display: flex;
+            justify-content: center;
             padding-bottom: 35px;
             padding-top: 132px;
+
+            & > p {
+                width: 500px;
+                font-size: 20px;
+                position: relative;
+            }
+            & > p:after {
+                content: 'SPEAKERS';
+                position: absolute;
+                top: -10px;
+                font-size: 30px;
+                width: 500px;
+                left: 0;
+                color: var(--grey-light);
+                z-index: -1;
+            }
         }
-        & > p:after {
-            content: 'SPEAKERS';
-            position: absolute;
-            top: 123px;
-            font-size: 30px;
-            width: 500px;
-            left: 31%;
-            color: var(--grey-light);
-            z-index: -1;
-        }
+
         & > div {
             margin-top: 150px;
             margin-bottom: 150px;

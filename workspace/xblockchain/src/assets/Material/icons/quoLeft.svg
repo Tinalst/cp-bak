@@ -4,11 +4,9 @@
     <title>Material/icons/quoLeft</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Regular, Roboto" font-size="88" font-weight="normal" letter-spacing="5.5">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Home" transform="translate(-526.000000, -3917.000000)" fill="#FFFFFF">
-            <text id="Material/icons/quoLeft">
-                <tspan x="521" y="3980">“</tspan>
-            </text>
+            <path d="M526.285156,3932.69141 L530.625,3917.4375 L534.792969,3917.4375 L534.75,3932.94922 L534.75,3940.59766 L526.285156,3940.59766 L526.285156,3932.69141 Z M540.378906,3932.69141 L544.71875,3917.4375 L548.886719,3917.4375 L548.84375,3932.94922 L548.84375,3940.59766 L540.378906,3940.59766 L540.378906,3932.69141 Z" id="Material/icons/quoLeft"></path>
         </g>
     </g>
 </svg>
