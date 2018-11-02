@@ -1,5 +1,5 @@
 .forward-rotate{
-    transform-origin: 900px 290px;
+    transform-origin: 960.5px 540.5px;
    animation: forwardRotate 2s infinite ease-in-out ;
 }
 @keyframes forwardRotate {
@@ -8,8 +8,8 @@
     }
 }
 .back-rotate{
-    transform-origin: 900px 290px;
-    animation: forwardRotate 2s infinite ease-in-out ;
+    transform-origin: 530px 530px;
+    animation: forwardRotate 2.5s infinite ease-in ;
 }
 @keyframes forwardRotate {
     to {
@@ -18,7 +18,7 @@
 }
 
 .gridentBg {
-    transform-origin: 800px 250px;
+    transform-origin: 950px 500px;
     transform: rotate(0deg);
     animation: rotate 2.5s linear infinite;
 }
@@ -28,4 +28,48 @@
     }
 }
 
+.amplification-top {
+    transform-origin: 367px 367px;
+    animation: amplification 1.5s linear;
+}
+@keyframes amplification {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.amplification-middle {
+    transform-origin: 367px 367px;
+    animation: amplification 1.5s .5s linear;
+
+}
+.amplification-bottom {
+    transform-origin: 367px 367px;
+    animation: amplification 1.5s 1s linear;
+}
+.timeshark {
+    animation: timeShark 2s ease-in-out infinite;
+}
+@keyframes timeShark {
+    0%{
+       opacity: 1;
+    }
+    25% {
+        opacity: .5;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 

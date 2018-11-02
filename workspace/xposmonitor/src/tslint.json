@@ -24,6 +24,19 @@
             "check-catch",
             "check-else",
             "check-whitespace"
-        ]
+        ],
+        "semicolon": [
+            false,
+            "always"
+        ],
+        "whitespace": [
+            false,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "no-redundant-jsdoc": false
     }
 }

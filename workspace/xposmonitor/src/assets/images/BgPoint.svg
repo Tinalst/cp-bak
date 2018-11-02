@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="54px" viewBox="0 0 68 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>BgPoint</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="xpos_ui_商户交易信息查询" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+        <g id="bg" transform="translate(-18.000000, -27.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(18.000000, -2.000000)">
+                <g id="bg-copy" transform="translate(0.000000, 29.000000)">
+                    <g id="Group-3">
+                        <g id="BgPoint" transform="translate(0.000000, 25.000000)">
+                            <rect id="Rectangle-6" x="0" y="0" width="4" height="4"></rect>
+                            <rect id="Rectangle-6-Copy" opacity="0.5" x="24" y="1" width="2" height="2"></rect>
+                            <rect id="Rectangle-6-Copy-2" opacity="0.5" x="46" y="1" width="2" height="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
