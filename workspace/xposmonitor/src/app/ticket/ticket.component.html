@@ -1,1 +1,9 @@
-<div>test</div>
+<div [@showTickets]="isShow"
+    (@showTickets.done)="onAnimationEvent($event)"
+>
+    <p>+ {{ticketObj.amount}} BW Coin</p>
+    <section>
+        <span></span>
+        <span>{{ticketObj.storeName}}</span>
+    </section>
+</div>

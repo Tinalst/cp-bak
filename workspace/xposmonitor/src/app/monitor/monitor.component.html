@@ -177,14 +177,13 @@
             <path d="M960,1095 C653.481964,1095 405,846.518036 405,540 C405,233.481964 653.481964,-15 960,-15 C1266.51804,-15 1515,233.481964 1515,540 C1515,846.518036 1266.51804,1095 960,1095 Z M960,1081 C1258.78605,1081 1501,838.78605 1501,540 C1501,241.21395 1258.78605,-1 960,-1 C661.21395,-1 419,241.21395 419,540 C419,838.78605 661.21395,1081 960,1081 Z" id="Body/circle3"></path>
         </clipPath>
     </defs>
-
     <g id="gradientCircle" style="clip-path: url(#clipPath);">
         <circle class="gridentBg" fill="url(#myLinearGradient1)" cx="950" cy="500" r="600" ></circle>
     </g>
 
     <!--点缀圆环-->
     <g id="Tickmarks-circle"  transform="translate(430.000000, 10.000000)">
-        <g [ngClass]="{'back-rotate': true}">
+        <g #dotCircle [ngClass]="{'back-rotate': true}">
             <g id="Minor-tickmarks" opacity="0.200000003">
                 <path d="M530,0 C719.3478,0 894.3114,101.018 988.9906,265 C1083.6698,428.982 1083.6698,631.018 988.9906,795 C894.3114,958.982 719.3478,1060 530,1060 C340.6522,1060 165.6886,958.982 71.0094,795 C-23.6698,631.018 -23.6698,428.982 71.0094,265 C165.6886,101.018 340.6522,0 530,0 L530,10.6 C344.4364,10.6 172.9708,109.5934 80.189,270.3 C-12.5928,431.0066 -12.5928,628.9934 80.189,789.7 C172.9708,950.4066 344.4364,1049.4 530,1049.4 C715.5636,1049.4 887.0292,950.4066 979.811,789.7 C1072.5928,628.9934 1072.5928,431.0066 979.811,270.3 C887.0292,109.5934 715.5636,10.6 530,10.6 L530,0 Z" id="Base-plate" fill-opacity="0.002" fill="#455A64"></path>
                 <path d="M529.47,0 C529.8198,0 530.1802,0 530.53,0 L530.5194,10.6 C530.1696,10.6 529.8304,10.6 529.4806,10.6 L529.47,0 Z" id="Tick-minor-0" fill="#FFFFFF"></path>
@@ -516,7 +515,7 @@
     </g>
 
     <!--单线圆环-->
-    <g [ngClass]="{'forward-rotate': true}">
+    <g #singleCircle [ngClass]="{'forward-rotate': true}">
         <circle  cx="960.5" cy="540.5" r="479.5"
                  stroke="#FFFFFF" stroke-width="0.5"
                  fill="transparent" opacity=".1"></circle>
@@ -531,17 +530,16 @@
     <!--</g>-->
 
     <g  id="Body/Rectangle" transform="translate(596.000000, 176.000000)" stroke="#FFFFFF">
-        <g [ngClass]="{'amplification-top': true}" >
+        <g #amplificationTop [ngClass]="{'amplification-top': ampliAnimation}" >
             <rect id="Body/Rectangle1" stroke-opacity="0.15" transform="translate(364.000000, 364.000000) rotate(-315.000000) translate(-364.000000, -364.000000) " x="160.5" y="160.5" width="407" height="407" fill="transparent"></rect>
         </g>
-        <g [ngClass]="{'amplification-middle': true}">
+        <g #amplificationMiddle [ngClass]="{'amplification-middle': ampliAnimation}">
             <rect id="Rectangle-Copy" stroke-opacity="0.05" transform="translate(364.000000, 364.000000) rotate(-315.000000) translate(-364.000000, -364.000000) " x="127.5" y="127.5" width="473" height="473" fill="transparent"></rect>
         </g>
-        <g [ngClass]="{'amplification-bottom': true}">
+        <g  #amplificationBottom [ngClass]="{'amplification-bottom': ampliAnimation}">
             <rect id="Rectangle-Copy-2" stroke-opacity="0.1" transform="translate(363.500000, 363.500000) rotate(-315.000000) translate(-363.500000, -363.500000) " x="107.5" y="107.5" width="512" height="512" fill="transparent"></rect>
         </g>
     </g>
-
 
     <g id="text" transform="translate(632.000000, 98.000000)">
         <text id="2018-商周創新之夜-無人經濟體驗區即" font-family="PingFangSC-Light, PingFang SC" font-size="30" font-weight="300" fill="#8CFFF9">
@@ -552,7 +550,7 @@
             <tspan x="228" y="324">總交易額</tspan>
         </text>
         <text id="200040905" font-family="Roboto-BoldCondensed, Roboto" font-size="120" font-style="condensed" font-weight="bold" letter-spacing="10" fill="#8CFFF9">
-            <tspan x="0.052734375" y="483">{{currentCount}}</tspan>
+            <tspan  text-anchor="middle"  x="330" y="483">{{totalAmount}}</tspan>
         </text>
         <text id="BW-Coin" font-family="PingFangSC-Regular, PingFang SC" font-size="40" font-weight="normal" fill="#8CFFF9">
             <tspan x="247.12" y="549">BW Coin</tspan>
@@ -586,5 +584,4 @@
         <image _ngcontent-c1="" xlink:href="../assets/images/BW80.png" height="80px" width="80px" x="840" y="90"></image>
     </g>
 </svg>
-<app-ticket></app-ticket>
-<button (click)="startAnimation()" style="width: 100px; height: 100px">进票</button>
+<app-ticket [monitorList]="monitorList"></app-ticket>
