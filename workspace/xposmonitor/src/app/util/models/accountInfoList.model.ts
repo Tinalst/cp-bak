@@ -1,12 +1,12 @@
 export class AccountInfoListModel {
 
-    amount: string;     // 金额
-    percent: string;    // 百分比，前端自己添加%
-    storeName: string   // 门店名称
+    amount: number;      // 金额
+    percent: number;     // 百分比，前端自己添加%
+    storeName: string;   // 门店名称
 
     constructor(obj?) {
-        this.amount = obj && obj['amount'] || '';
-        this.percent = obj && obj['percent'] || '';
-        this.storeName = obj && obj['storeName'] || '';
+        this.amount = obj && obj['amount'] || 0;
+        this.percent = obj && obj['percent'] || 0;
+        this.storeName = obj && obj['storeName'] || 0;
     }
 }

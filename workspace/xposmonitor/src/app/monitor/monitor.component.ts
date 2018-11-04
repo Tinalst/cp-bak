@@ -4,6 +4,8 @@ import {TimeUtil} from '../util/time.util';
 import {AccountInfoListModel} from '../util/models/accountInfoList.model';
 import {MonitorListModel} from '../util/models/monitorList.model';
 import {NumberUtil} from '../util/number.util';
+import {from, Observable} from 'rxjs';
+import {Jsonp} from '@angular/http';
 
 @Component({
   selector: 'app-monitor',
@@ -16,7 +18,7 @@ export class MonitorComponent implements OnInit {
     nowTimer;
     timeObj: TimeModel = new TimeModel();
 
-    analysicInfo: AccountInfoListModel[] = [];
+    analysicInfo: Array<AccountInfoListModel> = [];
     monitorList: Array<MonitorListModel> = [];
     totalAmount: any = 0;
 
@@ -28,9 +30,38 @@ export class MonitorComponent implements OnInit {
     @ViewChild('singleCircle') singleCircle: ElementRef;                // 单线圆环元素引用
     @ViewChild('dotCircle') dotCircle: ElementRef;                      // 点缀圆环元素引用
 
+    @ViewChild('rect0') rect0: ElementRef;
+
     constructor(private render: Renderer2) {
         this.analysicInfo = [
-
+            {
+                amount: 200,
+                percent: 10,
+                storeName: '無人資創館'
+            },
+            //
+            // ['amount':200]
+            //
+            {
+                amount: 550,
+                percent: 29,
+                storeName: '無人文創館'
+            },
+            {
+                amount: 350,
+                percent: 18,
+                storeName: '無人社創館'
+            },
+            {
+                amount: 600,
+                percent: 32,
+                storeName: '無人健檢館'
+            },
+            {
+                amount: 200,
+                percent: 10,
+                storeName: '無人飛行館'
+            }
         ];
         this.monitorList = [
             {
@@ -54,7 +85,7 @@ export class MonitorComponent implements OnInit {
                 'storeName': '无人资创馆',
             },
         ]
-        this.totalAmount = 200040905;
+        this.totalAmount = 1800;
     }
 
     ngOnInit() {
@@ -64,6 +95,9 @@ export class MonitorComponent implements OnInit {
         this.changeAmpliAnimationCount();
         this.changeRotateSpeed();
         this.totalAmount = NumberUtil.toThousands(this.totalAmount);
+
+        this.setRectWidth();
+        this.test();
     }
 
     changeTradeCount = () => {
@@ -130,7 +164,15 @@ export class MonitorComponent implements OnInit {
         }
     }
 
+    setRectWidth = (): void => {
+        this.render.setStyle(this.rect0.nativeElement, 'width', `${(this.analysicInfo[0].amount*300)/1800}`);
+    }
 
-
+    test = (): void => {
+        const before = JSON.stringify(this.analysicInfo);
+        this.analysicInfo[0].amount = 300;
+        const after =  JSON.stringify(this.analysicInfo);
+        console.log(before === after);
+    }
 
 }

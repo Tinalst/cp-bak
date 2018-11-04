@@ -2,70 +2,70 @@
     <g id="left">
         <g id="Left/left1" transform="translate(18.000000, 159.000000)" fill="#8CFFF9">
             <text id="無人資創館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
-                <tspan x="26" y="77">無人資創館</tspan>
+                <tspan x="26" y="77">{{analysicInfo[0].storeName}}</tspan>
             </text>
             <text id="400-BW" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-            <tspan x="26" y="48">400 BW </tspan>
+            <tspan x="26" y="48">{{analysicInfo[0].amount}} BW </tspan>
             <!--<tspan x="102.788" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  x="26" y="99" width="166" height="14"></rect>
+            <rect  #rect0 class="widthAnimation"  x="26" y="99" height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 
         <g id="Left/left2" transform="translate(18.000000, 320.000000)"  fill="#8CFFF9">
             <text id="無人文創館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
-                <tspan x="26" y="77">無人文創館</tspan>
+                <tspan x="26" y="77">{{analysicInfo[1].storeName}}</tspan>
             </text>
             <text id="550-BW" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                <tspan x="26" y="48">550 BW</tspan>
+                <tspan x="26" y="48">{{analysicInfo[1].amount}} BW</tspan>
                 <tspan x="90.8" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="30" font-weight="normal"> </tspan>
                 <!--<tspan x="100.79" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  x="26" y="99" width="227" height="14"></rect>
+            <rect  x="26" y="99" [attr.width]="(analysicInfo[1].amount*300)/1800"  height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 
         <g id="Left/left3" transform="translate(18.000000, 483.000000)" fill="#8CFFF9">
             <text id="無人社創館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
-                <tspan x="26" y="77">無人社創館</tspan>
+                <tspan x="26" y="77">{{analysicInfo[2].storeName}}</tspan>
             </text>
             <text id="350-BW" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                <tspan x="26" y="48">350 BW</tspan>
+                <tspan x="26" y="48">{{analysicInfo[2].amount}} BW</tspan>
                 <tspan x="90.8" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="30" font-weight="normal"> </tspan>
                 <!--<tspan x="100.79" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  x="26" y="99" width="125" height="14"></rect>
+            <rect  x="26" y="99" [attr.width]="(analysicInfo[2].amount*300)/1800"  height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 
         <g id="Left/left4" transform="translate(18.000000, 645.000000)"  fill="#8CFFF9">
             <text id="無人健檢館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
-                <tspan x="26" y="77">無人健檢館</tspan>
+                <tspan x="26" y="77">{{analysicInfo[3].storeName}}</tspan>
             </text>
             <text id="600-BW" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                <tspan x="26" y="48" textLength="200">600 BW</tspan>
+                <tspan x="26" y="48" >{{analysicInfo[3].amount}} BW</tspan>
                 <tspan x="90.8" y="48" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal"> </tspan>
                 <!--<tspan x="102.788" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  x="26" y="99" width="245" height="14"></rect>
+            <rect  x="26" y="99" [attr.width]="(analysicInfo[3].amount*300)/1800"  height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 
         <g id="Left/left5" transform="translate(18.000000, 807.000000)"  fill="#8CFFF9">
             <text id="無人飛行館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
-                <tspan x="26" y="77">無人飛行館</tspan>
+                <tspan x="26" y="77">{{analysicInfo[4].storeName}}</tspan>
             </text>
             <text id="200-BW" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                <tspan x="26" y="48">200 BW</tspan>
+                <tspan x="26" y="48">{{analysicInfo[4].amount}} BW</tspan>
                 <tspan x="90.8" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="30" font-weight="normal"> </tspan>
                 <!--<tspan x="100.79" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  x="26" y="99" width="79" height="14"></rect>
+            <rect  x="26" y="99" [attr.width]="(analysicInfo[4].amount*300)/1800"  height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 
@@ -101,13 +101,12 @@
         <g id="xpos_ui_BW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Right/right2" transform="translate(1596.000000, 267.000000)">
                 <use id="Rectangle-7" stroke="#8CFFF9" mask="url(#mask-2)" stroke-dasharray="1,4" fill-rule="nonzero" xlink:href="#path-1"></use>
-                <path d="M3.5,172.25 L259.5,172.25" id="Line" stroke="#8CFFF9" stroke-linecap="square" fill-rule="nonzero"></path>
                 <g id="Group-8" transform="translate(87.000000, 51.000000)" fill="#8CFFF9">
                     <text id="無人資創館" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal">
                         <tspan x="0" y="67">無人資創館</tspan>
                     </text>
                     <text id="30-%" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                        <tspan x="5.266" y="38">30 </tspan>
+                        <tspan x="5.266" y="38">{{analysicInfo[0].percent}} </tspan>
                         <tspan x="60.454" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
                     </text>
                 </g>
@@ -116,7 +115,7 @@
                         <tspan x="0" y="67">無人文創館</tspan>
                     </text>
                     <text id="22-%" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                        <tspan x="5.266" y="38">22 </tspan>
+                        <tspan x="5.266" y="38">{{analysicInfo[1].percent}} </tspan>
                         <tspan x="60.454" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
                     </text>
                 </g>
@@ -125,7 +124,7 @@
                         <tspan x="0" y="67">無人社創館</tspan>
                     </text>
                     <text id="38-%" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                        <tspan x="5.266" y="38">38 </tspan>
+                        <tspan x="5.266" y="38">{{analysicInfo[2].percent}}</tspan>
                         <tspan x="60.454" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
                     </text>
                 </g>
@@ -134,7 +133,7 @@
                         <tspan x="0" y="67">無人健檢館</tspan>
                     </text>
                     <text id="15-%" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                        <tspan x="8.722" y="38">15 </tspan>
+                        <tspan x="8.722" y="38">{{analysicInfo[3].percent}}</tspan>
                         <tspan x="56.998" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
                     </text>
                 </g>
@@ -143,10 +142,11 @@
                         <tspan x="0" y="67">無人飛行館</tspan>
                     </text>
                     <text id="5-%" font-family="PingFangSC-Medium, PingFang SC" font-size="36" font-weight="400">
-                        <tspan x="16.066" y="38">5 </tspan>
-                        <tspan x="49.654" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
+                        <tspan x="5" y="38">{{analysicInfo[4].percent}} </tspan>
+                        <tspan x="58" y="38" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">%</tspan>
                     </text>
                 </g>
+                <path d="M3.5,172.25 L259.5,172.25" id="Line" stroke="#8CFFF9" stroke-linecap="square" fill-rule="nonzero"></path>
                 <path d="M3.5,262.25 L259.5,262.25" id="Line-Copy" stroke="#8CFFF9" stroke-linecap="square" fill-rule="nonzero"></path>
                 <path d="M3.5,435.25 L259.5,435.25" id="Line-Copy-2" stroke="#8CFFF9" stroke-linecap="square" fill-rule="nonzero"></path>
                 <path d="M3.5,562.25 L259.5,562.25" id="Line-Copy-3" stroke="#8CFFF9" stroke-linecap="square" fill-rule="nonzero"></path>
@@ -585,3 +585,5 @@
     </g>
 </svg>
 <app-ticket [monitorList]="monitorList"></app-ticket>
+<app-right-analysic></app-right-analysic>
+
