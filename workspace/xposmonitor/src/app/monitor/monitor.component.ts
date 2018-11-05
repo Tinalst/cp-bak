@@ -29,6 +29,7 @@ export class MonitorComponent implements OnInit {
 
     @ViewChild('singleCircle') singleCircle: ElementRef;                // 单线圆环元素引用
     @ViewChild('dotCircle') dotCircle: ElementRef;                      // 点缀圆环元素引用
+    @ViewChild('gradientCircle') gradientCircle: ElementRef;            // 渐变圆环元素引用
 
     @ViewChild('rect0') rect0: ElementRef;
 
@@ -36,28 +37,6 @@ export class MonitorComponent implements OnInit {
 
     constructor(private render: Renderer2,
                 private monitorService: MonitorService) {
-        // this.monitorList = [
-        //     {
-        //         'amount': 100,
-        //         'storeName': '无人飞行馆',
-        //     },
-        //     {
-        //         'amount': 200,
-        //         'storeName': '无人健创馆',
-        //     },
-        //     {
-        //         'amount': 300,
-        //         'storeName': '无人社创馆',
-        //     },
-        //     {
-        //         'amount': 400,
-        //         'storeName': '无人文创馆',
-        //     },
-        //     {
-        //         'amount': 500,
-        //         'storeName': '无人资创馆',
-        //     }
-        // ]
     }
 
     ngOnInit() {
@@ -114,22 +93,36 @@ export class MonitorComponent implements OnInit {
      */
     changeAmpliAnimationCount = (): void => {
         (this.monitorList.length > 0) && (this.ampliAnimation = true);
-        this.render.setStyle(this.amplificationTop.nativeElement, 'animation-iteration-count', this.monitorList.length);
-        this.render.setStyle(this.amplificationMiddle.nativeElement, 'animation-iteration-count', this.monitorList.length);
-        this.render.setStyle(this.amplificationBottom.nativeElement, 'animation-iteration-count', this.monitorList.length);
+        this.render.setStyle(this.amplificationTop.nativeElement, 'animation-iteration-count', this.monitorList.length*2/1.3);
+        this.render.setStyle(this.amplificationMiddle.nativeElement, 'animation-iteration-count', this.monitorList.length*2/1.3);
+        this.render.setStyle(this.amplificationBottom.nativeElement, 'animation-iteration-count', this.monitorList.length*2/1.3);
     };
 
     /**
      * 功能： 当订单数量大于三单加速圆盘转动速度
      */
     changeRotateSpeed = ():void => {
+        let count = 0;
         if(this.monitorList.length > 3) {
+            count = this.monitorList.length;
             this.render.setStyle(this.singleCircle.nativeElement, 'animation-duration', '1s');
             this.render.setStyle(this.dotCircle.nativeElement, 'animation-duration', '1s');
-        }else {
-            this.render.setStyle(this.singleCircle.nativeElement, 'animation-duration', '2s');
-            this.render.setStyle(this.dotCircle.nativeElement, 'animation-duration', '2.5s');
+            this.render.setStyle(this.gradientCircle.nativeElement, 'animation-duration', '1s');
+            setInterval(()=>{
+                count --;
+                if(count < 0) {
+                    this.resetRotateSpeed();
+                }
+            }, 2000)
         }
+
+
+    };
+
+    resetRotateSpeed = ():void => {
+        this.render.setStyle(this.singleCircle.nativeElement, 'animation-duration', '5s');
+        this.render.setStyle(this.dotCircle.nativeElement, 'animation-duration', '6s');
+        this.render.setStyle(this.gradientCircle.nativeElement, 'animation-duration', '6s');
     };
 
     setRectWidth = (): void => {
@@ -155,7 +148,6 @@ export class MonitorComponent implements OnInit {
                     this.monitorList = res['data']['monitorList'];
                     this.changeAmpliAnimationCount();
                     this.changeRotateSpeed();
-
                 }
 
                 this.totalAmountNumber = res['data']['totalAmount'];

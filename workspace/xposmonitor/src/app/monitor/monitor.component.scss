@@ -45,10 +45,10 @@
         transform: scale(1);
     }
     25% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     50% {
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
     100% {
         transform: scale(1);
@@ -60,12 +60,12 @@
 }
 .amplification-middle {
     transform-origin: 367px 367px;
-    animation: amplification 1s .5s linear;
+    animation: amplification 1s .2s linear;
 
 }
 .amplification-bottom {
     transform-origin: 367px 367px;
-    animation: amplification 1s 1s linear;
+    animation: amplification 1s .3s linear;
 }
 
 
