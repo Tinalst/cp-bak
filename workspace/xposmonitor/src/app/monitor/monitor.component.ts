@@ -5,6 +5,7 @@ import {AccountInfoListModel} from '../util/models/accountInfoList.model';
 import {MonitorListModel} from '../util/models/monitorList.model';
 import {NumberUtil} from '../util/number.util';
 import {MonitorService} from './monitor.service';
+import {ToolUtil} from '../util/tool.util';
 
 @Component({
   selector: 'app-monitor',
@@ -34,6 +35,7 @@ export class MonitorComponent implements OnInit {
     @ViewChild('rect0') rect0: ElementRef;
 
     requestTimer;                                                       // 请求计时器ID
+
 
     constructor(private render: Renderer2,
                 private monitorService: MonitorService) {
@@ -158,5 +160,7 @@ export class MonitorComponent implements OnInit {
             }
         })
     };
+
+
 
 }
