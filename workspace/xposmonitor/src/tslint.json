@@ -37,6 +37,10 @@
             "check-separator",
             "check-type"
         ],
-        "no-redundant-jsdoc": false
+        "no-redundant-jsdoc": false,
+        "max-line-length": [
+            false,
+            140
+        ]
     }
 }

@@ -5,7 +5,7 @@
 export const environment = {
     production: false,
     appcofig: {
-        remoteBaseUrl: 'http://xxxx/xx/x'
+        remoteBaseUrl: 'http://192.168.21.212:9000'
     }
 };
 

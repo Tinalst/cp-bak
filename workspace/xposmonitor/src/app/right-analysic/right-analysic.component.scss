@@ -1,11 +1,46 @@
-div {
+.right-container {
     width: 14%;
     height: 643px;
     position: absolute;
     top: 25vh;
     right: 58px;
-    opacity: .5;
     border: 1px dashed #8CFFF9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    section {
+        min-height: 17%;
+    }
+    .number {
+        height: 100%;
+        color: #8CFFF9;
+        position: relative;
+        border-bottom: 1px solid #8CFFF9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        position: relative;
+        display: block;
+        p {
+            font-size: 20px;
+        }
+    }
+    .number-content {
+        position: relative;
+    }
+    .number-content:after {
+        content: '%';
+        position: absolute;
+        color: #8CFFF9;
+        top: 19px;
+        left: 79px;
+        font-size: 20px;
+    }
+    .percent {
+        font-size: 40px;
+    }
 }
 
 //@media screen and (max-width: 1920px){

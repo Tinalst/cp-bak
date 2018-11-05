@@ -7,7 +7,7 @@ import {AccountInfoListModel} from '../util/models/accountInfoList.model';
   styleUrls: ['./right-analysic.component.scss']
 })
 export class RightAnalysicComponent implements OnInit {
-    @Input analysicInfo: AccountInfoListModel [] = [];
+    @Input() analysicInfo: AccountInfoListModel [] = [];
     constructor() { }
 
     ngOnInit() {

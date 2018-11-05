@@ -1,9 +1,17 @@
-<div>
-    <!--<section *ngIf="let item of analysicInfo">-->
-        <!--<div>-->
-           <!--<div>{{item.percent}}</div>-->
-            <!--<div>%</div>-->
-        <!--</div>-->
-        <!--<div>{{item.storeName}}</div>-->
-    <!--</section>-->
+<div class="right-container">
+    <section *ngFor="let item of analysicInfo"
+             [style.height]="item.percent + '%'">
+        <div  class="number"
+              *ngIf="item.percent"
+              >
+            <span>
+                <div class="number-content">
+                     <div class="percent">{{item.percent}}</div>
+                </div>
+                <p >{{item.storeName}}</p>
+            </span>
+
+        </div>
+    </section>
+
 </div>

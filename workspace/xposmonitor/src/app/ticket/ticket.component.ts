@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {animate, keyframes, state, style, transition, trigger} from '@angular/animations';
 import {MonitorListModel} from '../util/models/monitorList.model';
 import {TicketModel} from '../util/models/ticket.model';
@@ -25,13 +25,17 @@ import {TicketModel} from '../util/models/ticket.model';
         ])
     ]
 })
-export class TicketComponent implements OnInit {
+export class TicketComponent implements OnInit, OnChanges {
     @Input() monitorList: MonitorListModel[] = [];   // 订单数据
     isShow: string ;
     ticketObj: TicketModel = new TicketModel();
     constructor() { }
 
     ngOnInit() {
+        this.showTicket();
+    }
+
+    ngOnChanges(changes: SimpleChanges): void {
         this.showTicket();
     }
 
@@ -66,5 +70,7 @@ export class TicketComponent implements OnInit {
         // console.log(this.monitorList);
         this.showTicket();
     }
+
+
 
 }

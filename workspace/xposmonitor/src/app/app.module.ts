@@ -8,6 +8,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { IsNumberChangeDirective } from './util/directives/is-number-change.directive';
 import {FormsModule} from '@angular/forms';
 import { RightAnalysicComponent } from './right-analysic/right-analysic.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RightAnalysicComponent } from './right-analysic/right-analysic.componen
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
-        FormsModule
+        FormsModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
