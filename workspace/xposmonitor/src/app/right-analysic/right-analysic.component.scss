@@ -1,24 +1,28 @@
 .right-container {
     width: 14%;
-    height: 643px;
     position: absolute;
     top: 25vh;
     right: 58px;
-    border: 1px dashed #8CFFF9;
     text-align: center;
     display: flex;
     flex-direction: column;
-    section {
-        min-height: 17%;
-    }
     .number {
         height: 100%;
         color: #8CFFF9;
+        min-height: 100px !important;
         position: relative;
-        border-bottom: 1px solid #8CFFF9;
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+    .number:nth-child(1) {
+        border: 1px dashed #8CFFF9;
+        border-bottom: 1px solid #8CFFF9;
+    }
+    .number:nth-child(2) {
+        border: 1px dashed #8CFFF9;
+        border-bottom: 1px solid #8CFFF9;
     }
     span {
         position: relative;
@@ -56,13 +60,11 @@
 //
 //}
 @media screen and (max-width: 1440px){
-    div {
+    .right-container {
         width: 13%;
-        height: 487px;
         position: absolute;
         top: 27vh;
         right: 52px;
-        opacity: .5;
         border: 1px dashed #8CFFF9;
     }
 

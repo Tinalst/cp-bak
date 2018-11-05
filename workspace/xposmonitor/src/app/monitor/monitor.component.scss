@@ -3,35 +3,43 @@
     height: 98%;
     position: absolute;
 }
-.forward-rotate{
-    transform-origin: 960.5px 540.5px;
-   animation: forwardRotate 2s infinite ease-in-out ;
-}
+
+
 @keyframes forwardRotate {
     to {
         transform: rotate(360deg);
     }
 }
-.back-rotate{
-    transform-origin: 530px 530px;
-    animation: forwardRotate 2.5s infinite ease-in ;
+.forward-rotate{
+    transform-origin: 960.5px 540.5px;
+    animation: forwardRotate 5s infinite linear ;
 }
-@keyframes forwardRotate {
+
+
+
+@keyframes backRotate {
     to {
         transform: rotate(-360deg);
     }
 }
+.back-rotate{
+    transform-origin: 530px 530px;
+    animation: backRotate  6s infinite linear ;
+}
+
 
 .gridentBg {
     transform-origin: 950px 500px;
     transform: rotate(0deg);
-    animation: rotate 2.5s linear infinite;
+    animation: rotate 5s linear infinite;
 }
 @keyframes rotate {
     to {
         transform: rotate(360deg);
     }
 }
+
+
 @keyframes amplification {
     0% {
         transform: scale(1);

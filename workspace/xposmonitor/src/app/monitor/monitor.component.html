@@ -9,7 +9,7 @@
             <!--<tspan x="102.788" y="48" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">BW</tspan>-->
             </text>
             <rect  opacity="0.100000001" x="26" y="99" width="300" height="14"></rect>
-            <rect  #rect0 class="widthAnimation"  x="26" y="99" [attr.width]="(analysicInfo[1]?.amount*300)/1800"  height="14"></rect>
+            <rect  #rect0 class="widthAnimation"  x="26" y="99" [attr.width]="(analysicInfo[0]?.amount*300)/totalAmountNumber || 0"  height="14"></rect>
             <rect id="Rectangle-6-Copy-5" fill-rule="nonzero" x="0" y="0" width="6" height="6"></rect>
         </g>
 

@@ -13,11 +13,19 @@ import {TicketModel} from '../util/models/ticket.model';
                 opacity: 0
             })),
             transition('* => show', [
-                animate('1s linear', keyframes([
+                animate('2s linear', keyframes([
                     style({
                         opacity: 1,
                         transformOrigin: '-50%',
-                        transform: 'translateY(-100px)',
+                        transform: 'translateY(-140px)',
+                        offset: 0.1
+                    }),
+                    style({
+                        opacity: 1,
+                        offset: .9
+                    }),
+                    style({
+                        opacity: 0,
                         offset: 1
                     })
                 ]))

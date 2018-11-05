@@ -1,16 +1,18 @@
 <div class="right-container">
     <section *ngFor="let item of analysicInfo"
-             [style.height]="item.percent + '%'">
+            >
         <div  class="number"
+              [style.height]="item.percent * 4 + 'px'"
               *ngIf="item.percent"
               >
-            <span>
-                <div class="number-content">
-                     <div class="percent">{{item.percent}}</div>
-                </div>
-                <p >{{item.storeName}}</p>
-            </span>
-
+            <div class="main">
+                 <span>
+                    <div class="number-content">
+                        <div class="percent">{{item.percent}}</div>
+                        <p >{{item.storeName}}</p>
+                    </div>
+                </span>
+            </div>
         </div>
     </section>
 

@@ -36,6 +36,28 @@ export class MonitorComponent implements OnInit {
 
     constructor(private render: Renderer2,
                 private monitorService: MonitorService) {
+        // this.monitorList = [
+        //     {
+        //         'amount': 100,
+        //         'storeName': '无人飞行馆',
+        //     },
+        //     {
+        //         'amount': 200,
+        //         'storeName': '无人健创馆',
+        //     },
+        //     {
+        //         'amount': 300,
+        //         'storeName': '无人社创馆',
+        //     },
+        //     {
+        //         'amount': 400,
+        //         'storeName': '无人文创馆',
+        //     },
+        //     {
+        //         'amount': 500,
+        //         'storeName': '无人资创馆',
+        //     }
+        // ]
     }
 
     ngOnInit() {
@@ -133,6 +155,7 @@ export class MonitorComponent implements OnInit {
                     this.monitorList = res['data']['monitorList'];
                     this.changeAmpliAnimationCount();
                     this.changeRotateSpeed();
+
                 }
 
                 this.totalAmountNumber = res['data']['totalAmount'];
