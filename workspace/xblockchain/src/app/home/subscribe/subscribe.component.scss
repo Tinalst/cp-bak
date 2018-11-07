@@ -53,14 +53,15 @@ section {
         position: relative;
         color: var(--white);
         font-size: 14px;
+        position: relative;
     }
-    input:nth-child(1):after {
+    label {
+        position: relative;
+    }
+    input:before {
         content: '';
-        width: 100px;
-        height: 100px;
-        background: url("../../../assets/Material/icons/Subscribe/Name.svg") no-repeat;
         position: absolute;
-        top: 0;
+
     }
 
 }

@@ -5,7 +5,8 @@
 export const environment = {
     production: false,
     appcofig: {
-        remoteBaseUrl: 'http://192.168.21.212:9000'
+        remoteBaseUrl: 'http://bw.testonline.pundix.com/arena'
+
     }
 };
 

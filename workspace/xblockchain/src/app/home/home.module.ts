@@ -13,6 +13,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { SpeakerComponent } from './speaker/speaker.component';
 
 @NgModule({
     imports: [
@@ -20,6 +21,6 @@ import { FooterComponent } from './footer/footer.component';
         HomeRoutingModule,
         PublicModule
     ],
-    declarations: [HomeComponent, HeaderComponent, DisplayComponent, NavigationComponent, MainComponent, TicketComponent, QuoteComponent, SubscribeComponent, AboutComponent, FooterComponent]
+    declarations: [HomeComponent, HeaderComponent, DisplayComponent, NavigationComponent, MainComponent, TicketComponent, QuoteComponent, SubscribeComponent, AboutComponent, FooterComponent, SpeakerComponent]
 })
 export class HomeModule { }

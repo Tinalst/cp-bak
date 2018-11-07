@@ -1,0 +1,124 @@
+:host {
+    text-align: center;
+    .speaker-container {
+        .title {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 35px;
+            padding-top: 132px;
+
+            & > p {
+                width: 500px;
+                font-size: 20px;
+                position: relative;
+            }
+            & > p:after {
+                content: 'SPEAKERS';
+                position: absolute;
+                top: -10px;
+                font-size: 30px;
+                width: 500px;
+                left: 0;
+                color: var(--grey-light);
+                z-index: -1;
+            }
+        }
+
+        & > div {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+        & > .speaker {
+            display: flex;
+            flex-wrap: wrap;
+            & > div {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                padding: 0 35px;
+            }
+            aside {
+                display: none;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 35px;
+            }
+            span {
+                font-size: 14px;
+                color: var(--grey);
+            }
+
+        }
+        .avatar {
+            width: 168px;
+            height: 168px;
+            align-self: center;
+            border-radius: 50%;
+            margin-bottom: 35px;
+            position: relative;
+        }
+        .avatar:hover > div {
+            width: 168px;
+            height: 168px;
+            border-radius: 50%;
+            background: wheat;
+            //background: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 100%);
+            animation: avatarScreen .5s ease-in-out forwards;
+        }
+        .avatar > div {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .avatar > div > section > span {
+            opacity: 0;
+        }
+        .avatar:hover > div > section > span {
+            opacity: 1;
+        }
+        .avatar > div > section {
+            position: absolute;
+            background: blueviolet;
+        }
+        @keyframes avatarScreen {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: .5;
+            }
+        }
+
+
+        .speaker > div:nth-child(1) > div {
+            background: url("../../../assets/images/Jed.jpg")  no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+
+        }
+        .speaker > div:nth-child(2) > div {
+            background: url("../../../assets/images/Vilius.jpg")  no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .speaker > div:nth-child(3) > div {
+            background: url("../../../assets/images/hon.jpg")  no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .speaker > div:nth-child(4) > div {
+            background: url("../../../assets/images/jason.jpg")  no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+
+
+        @keyframes socialAnimation {
+            to{
+                transform: translateY(-40px);
+            }
+        }
+    }
+}

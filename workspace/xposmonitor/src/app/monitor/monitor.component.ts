@@ -5,7 +5,6 @@ import {AccountInfoListModel} from '../util/models/accountInfoList.model';
 import {MonitorListModel} from '../util/models/monitorList.model';
 import {NumberUtil} from '../util/number.util';
 import {MonitorService} from './monitor.service';
-import {ToolUtil} from '../util/tool.util';
 
 @Component({
   selector: 'app-monitor',
@@ -44,7 +43,7 @@ export class MonitorComponent implements OnInit {
     ngOnInit() {
         this.reqMonitorDatas();
         this.requestTimer = setInterval(this.reqMonitorDatas, 1000);
-        this.changeTradeCount();
+        // this.changeTradeCount();
         this.showTime();
         this.nowTimer = setInterval(this.showTime, 1000);
     }
