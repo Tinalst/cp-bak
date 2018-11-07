@@ -58,6 +58,14 @@ section {
     label {
         position: relative;
     }
+    label:nth-child(1) {
+        background: url("../../../assets/Material/icons/Subscribe/Name.svg") no-repeat 8px;
+        background-size: contain;
+    }
+    label:nth-child(2) {
+        background: url("../../../assets/Material/icons/Subscribe/Email.svg") no-repeat 8px;
+        background-size: contain;
+    }
     input:before {
         content: '';
         position: absolute;
