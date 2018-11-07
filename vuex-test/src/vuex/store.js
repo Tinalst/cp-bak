@@ -23,8 +23,19 @@ const getters = {
     }
 }
 
+// 异步
+const actions = {
+    addAction(context) {
+        context.commit(add, 10);
+    },
+    reduceAction({commit}){
+        commit('reduce');
+    }
+}
+
 export default new vuex.Store({
     state,
     mutations,
-    getters
+    getters,
+    actions
 })
