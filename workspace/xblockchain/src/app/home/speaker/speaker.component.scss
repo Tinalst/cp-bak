@@ -63,31 +63,50 @@
             width: 168px;
             height: 168px;
             border-radius: 50%;
-            background: wheat;
-            //background: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 100%);
-            animation: avatarScreen .5s ease-in-out forwards;
+            background: linear-gradient(-180deg, rgba(0,0,0,0.00) 50%, #000000 100%);
+            animation: avatarIn .25s ease-in-out forwards;
+        }
+        .avatar:hover > div > section > a {
+            animation: avatarImg .25s ease-in-out forwards;
         }
         .avatar > div {
             position: relative;
             display: flex;
             align-items: center;
         }
-        .avatar > div > section > span {
-            opacity: 0;
-        }
-        .avatar:hover > div > section > span {
-            opacity: 1;
-        }
         .avatar > div > section {
             position: absolute;
-            background: blueviolet;
+            top: 130px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            a {
+                opacity: 0;
+                padding: 4px;
+            }
         }
-        @keyframes avatarScreen {
+        @keyframes avatarIn{
             from {
                 opacity: 0;
             }
             to {
                 opacity: .5;
+            }
+        }
+        @keyframes avatarOut{
+            from {
+                opacity: 0.5;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+        @keyframes avatarImg {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
             }
         }
 
