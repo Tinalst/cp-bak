@@ -8,6 +8,13 @@ import { ScanComponent } from './scan/scan.component';
 import { ObservableComponent } from './observable/observable.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { SubscriptionMultiplyComponent } from './subscription-multiply/subscription-multiply.component';
+import { SubjectObservabelComponent } from './subject-observabel/subject-observabel.component';
+import { SubjectObserverComponent } from './subject-observer/subject-observer.component';
+import { BehaviorSubjectComponent } from './behavior-subject/behavior-subject.component';
+import { OperatorComponent } from './operator/operator.component';
+import {RouterModule} from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { FromComponent } from './operators/from/from.component';
 
 @NgModule({
         declarations: [
@@ -16,11 +23,18 @@ import { SubscriptionMultiplyComponent } from './subscription-multiply/subscript
                 ScanComponent,
                 ObservableComponent,
                 SubscriptionComponent,
-                SubscriptionMultiplyComponent
+                SubscriptionMultiplyComponent,
+                SubjectObservabelComponent,
+                SubjectObserverComponent,
+                BehaviorSubjectComponent,
+                OperatorComponent,
+                HomeComponent,
+                FromComponent
         ],
         imports: [
                 BrowserModule,
-                AppRoutingModule
+                AppRoutingModule,
+                RouterModule
         ],
         providers: [],
         bootstrap: [AppComponent]
