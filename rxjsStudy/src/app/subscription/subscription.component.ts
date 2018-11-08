@@ -8,7 +8,7 @@ import {interval, Observable, Subscription} from 'rxjs';
 })
 export class SubscriptionComponent implements OnInit {
 
-        obserable: Observable;          // 可观察对象
+        obserable: Observable<any>;          // 可观察对象
         subscription: Subscription;   // 订阅对象
         constructor() {
         }
