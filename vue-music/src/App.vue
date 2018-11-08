@@ -1,17 +1,23 @@
 <template>
         <div id="app">
-                hello world
-                <router-view/>
+               <m-header></m-header>
         </div>
 </template>
 
 <script>
-        // export default {
-        //         name: 'App'
-        // }
+        // 从@开始绝对路径相对 import MHeader from  '@/components/m-header/m-header.vue'
+        // 相对路径从 ./开始有效
+        import MHeader from  './components/m-header/m-header.vue'
+
+        export default {
+                components : {
+                        MHeader
+                }
+        }
 </script>
 
 <style lang="scss" >
+        // 全局环境变量
         @import "common/scss/index";
         @import "common/scss/variable";
         #app {
