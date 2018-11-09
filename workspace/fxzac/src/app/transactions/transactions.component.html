@@ -1,0 +1,25 @@
+<section >
+        <header>Transactions</header>
+        <main class="transactions">
+                <div class="item-list" *ngFor="let item of ethInofObj?.transaction">
+                        <span></span>
+                        <div class="item-conatiner">
+                                <div class="tx">
+                                        <p>TX# {{item?.transactionHash}}</p>
+                                        <p> From
+                                                <span class="text-color">{{item?.from}}</span>
+                                                to <span class="text-color">xxxxxx</span>
+                                        </p>
+                                        <p>Amount 123,123, NPXS</p>
+                                        <div class="block">
+                                                <span>Block: {{item?.block}}</span>
+                                                <span>|</span>
+                                                <span>Node: {{item?.name}}</span>
+                                        </div>
+                                </div>
+                                <span class="time">12s  ago</span>
+                        </div>
+
+                </div>
+        </main>
+</section>

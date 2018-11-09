@@ -1,0 +1,72 @@
+section {
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+        margin-bottom: 22px;
+        .overview ,
+        .notes{
+                height: 100%;
+                flex: 1;
+                margin: 10px;
+                border-radius: 5px;
+                background: var(--color-highlight-background);
+        }
+        .overview{
+                flex: 1.5;
+                main  {
+                        p > span:nth-child(2) {
+                                color: var(--color-text-white);
+                                font-weight: bold;
+                        }
+                }
+                .notes-info {
+                        border-bottom: 1px var(--color-text-grey) solid;
+                }
+        }
+        .overview header ,
+        .notes header{
+                background: var(--title-background);
+                padding: 18px;
+                font-size: .3rem;
+                font-weight: bold;
+        }
+         .overview main,
+         .notes main {
+                 margin: 20px;
+        }
+        .overview main p {
+                display: flex;
+                justify-content: space-between;
+                font-size: 15px;
+                margin-bottom: 28px;
+        }
+
+        .ethInfo  {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 0 !important;
+                div  > p:nth-child(2) {
+                        color: var(--color-text-white);
+                        font-weight: bold;
+                }
+        }
+
+        .notes .notes-container {
+                height: 85%;
+                //border: 1px solid;
+                margin: 0;
+                padding-left: 20px;
+                padding-top: 20px;
+                overflow: scroll;
+                div {
+                        display: flex;
+                        justify-content: left;
+                        color: var(--color-text-white);
+                        font-size: 0.3rem;
+                }
+                span {
+                        margin-left: 15px;
+                }
+        }
+}
+

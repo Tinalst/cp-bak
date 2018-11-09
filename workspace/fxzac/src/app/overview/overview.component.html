@@ -1,0 +1,60 @@
+<section>
+        <div class="overview">
+                <header>Overview</header>
+                <main class="notes-info">
+                        <p>
+                                <span>Node Name</span>
+                                <span>{{nodeObj?.name}}</span>
+                        </p>
+                        <p>
+                                <span>IP Address</span>
+                                <span>{{nodeObj?.ip}}</span>
+                        </p>
+                        <p>
+                                <span>Nodes</span>
+                                <span>{{nodeObj?.nodeNumbe}}</span>
+                        </p>
+                        <p>
+                                <span>Clients Connected</span>
+                                <span>{{nodeObj?.clientConnected}}</span>
+                        </p>
+                        <p>
+                                <span>All Clients</span>
+                                <span>{{nodeObj?.allClient}}</span>
+                        </p>
+                </main>
+                <main class="ethInfo">
+                        <div>
+                                <p>Height</p>
+                                <p>{{ethInofObj?.blockHeight}}</p>
+                        </div>
+                        <div>
+                                <p>Transactions</p>
+                                <p>{{ethInofObj?.transactionCount}}</p>
+                        </div>
+                        <div>
+                                <p>Contracts</p>
+                                <p>{{ethInofObj?.clientConnected}}</p>
+                        </div>
+                </main>
+        </div>
+        <div class="notes">
+                <header>12 Notes</header>
+                <main class="notes-container" >
+                        <div *ngFor="let item of nodeObj?.peers">
+                                <i>
+                                        <svg viewBox="0 0 610 610" version="1.1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10">
+                                                <g transform="scale(0.6)">
+                                                          <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"   [attr.fill]="circleColorArray[item.credit]" opacity="0.5"></path>
+                                                </g>
+                                                <g transform="scale(0.3) translate(500,500)" >
+                                                        <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"  [attr.fill]="circleColorArray[item.credit]"></path>
+                                                </g>
+                                        </svg>
+                                </i>
+                                <span>{{item?.name}}</span>
+                        </div>
+                </main>
+        </div>
+</section>
+

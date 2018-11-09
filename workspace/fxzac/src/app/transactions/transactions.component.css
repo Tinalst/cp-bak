@@ -1,0 +1,40 @@
+section {
+  margin: 10px;
+  border-radius: 5px;
+  background: var(--color-highlight-background); }
+  section header {
+    background: var(--title-background);
+    padding: 18px;
+    font-size: .3rem;
+    font-weight: bold; }
+  section > .transactions {
+    height: 60vh;
+    overflow: scroll;
+    margin: 20px; }
+    section > .transactions .item-list {
+      display: flex;
+      justify-content: space-between; }
+      section > .transactions .item-list > span:nth-child(1) {
+        flex: .5;
+        background: url(../../assets/image/transactions.svg) no-repeat;
+        background-position: top; }
+      section > .transactions .item-list div {
+        flex: 5; }
+        section > .transactions .item-list div .tx > p {
+          font-size: 18px;
+          padding-bottom: 15px; }
+        section > .transactions .item-list div .tx > p:nth-child(1) {
+          color: var(--color-text-white); }
+      section > .transactions .item-list .item-conatiner {
+        display: flex;
+        border-bottom: 1px var(--color-text-grey) solid; }
+        section > .transactions .item-list .item-conatiner .block {
+          font-size: 18px;
+          margin-bottom: 20px; }
+          section > .transactions .item-list .item-conatiner .block span:nth-child(2) {
+            margin-left: .5rem;
+            margin-right: .5rem; }
+        section > .transactions .item-list .item-conatiner .time {
+          font-size: 16px; }
+
+/*# sourceMappingURL=transactions.component.css.map */
