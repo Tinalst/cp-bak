@@ -28,4 +28,9 @@ export class TransactionsComponent implements OnInit, OnChanges {
                 }
         }
 
+        reduceTime(time: number)  {
+                const currentTime = new Date().getTime();
+                return new Date( currentTime - time);
+        }
+
 }

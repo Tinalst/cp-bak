@@ -5,10 +5,10 @@
                         <span></span>
                         <div class="item-conatiner">
                                 <div class="tx">
-                                        <p>TX# {{item?.transactionHash}}</p>
+                                        <p>TX# {{item?.hash}}</p>
                                         <p> From
                                                 <span class="text-color">{{item?.from}}</span>
-                                                to <span class="text-color">xxxxxx</span>
+                                                to <span class="text-color">{{item.to}}</span>
                                         </p>
                                         <p>Amount 123,123, NPXS</p>
                                         <div class="block">
@@ -17,7 +17,7 @@
                                                 <span>Node: {{item?.name}}</span>
                                         </div>
                                 </div>
-                                <span class="time">12s  ago</span>
+                                <span class="time">{{reduceTime(item.time)}}ago</span>
                         </div>
 
                 </div>

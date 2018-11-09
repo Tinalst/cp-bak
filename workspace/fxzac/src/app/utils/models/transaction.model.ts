@@ -26,7 +26,7 @@ export class TransactionModel {
                 this.contractNumber = obj && obj['ethInfo']['contractNumber'] || 0;
 
                 this.peers = obj && obj['nodeInfo']['peers'] || [];
-                this.transaction = obj && obj['ethInfo']['transaction'] || 0;
+                this.transaction = obj && obj['ethInfo']['transaction'] || [];
 
                 this.tag = obj && obj['tag'] || '';
         }
