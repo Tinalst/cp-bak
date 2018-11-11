@@ -1,18 +1,21 @@
 section {
-        margin: 10px;
         border-radius: 5px;
         background: var(--color-highlight-background);
+        width: 100%;
+        height: 100%;
         header {
                 background: var(--title-background);
-                padding: 18px;
+                padding: 14px;
                 font-size: .3rem;
                 font-weight: bold;
         }
         & > .transactions {
-                height: 60vh;
-                overflow: scroll;
-                margin: 20px;
+                padding: 25px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                height: 76%;
                 & .item-list {
+                        margin-bottom: 25px;
                         display: flex;
                         justify-content: space-between;
                         & > span:nth-child(1){
@@ -23,7 +26,7 @@ section {
                         div {
                                 flex: 5;
                                .tx > p {
-                                       font-size: 18px;
+                                       font-size: 14px;
                                        padding-bottom: 15px;
                                }
                                 .tx > p:nth-child(1) {
@@ -34,7 +37,7 @@ section {
                                 display: flex;
                                 border-bottom: 1px var(--color-text-grey) solid;
                                 .block {
-                                        font-size: 18px;
+                                        font-size: 14px;
                                         margin-bottom: 20px;
                                         span:nth-child(2) {
                                                 margin-left: .5rem;
@@ -42,10 +45,16 @@ section {
                                         }
                                 }
                                 .time {
-                                        font-size: 16px;
+                                        font-size: 14px;
                                 }
                         }
                 }
 
         }
+}
+:host {
+        position: absolute;
+        top: 42%;
+        height: 57%;
+        width: 97%;
 }

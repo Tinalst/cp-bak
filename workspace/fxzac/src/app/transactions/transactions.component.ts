@@ -29,8 +29,19 @@ export class TransactionsComponent implements OnInit, OnChanges {
         }
 
         reduceTime(time: number)  {
-                const currentTime = new Date().getTime();
-                return new Date( currentTime - time);
+                const now = new Date();
+                const date = parseInt(String((now.getTime() - time) / 1000));
+                const days =  parseInt(String(date / 60 / 60 / 24));
+                const hours = parseInt(String(date / 60 / 60 % 24));
+                const minutes = parseInt(String(date / 60 % 60));
+                const seconds = parseInt(String((date % 60)));
+
+                return `${days > 0 ? `${days}d(s)`  : ''}
+                ${hours > 0 ? `${hours}h(s)`  : ''}
+                ${minutes > 0 ? `${minutes}m(s)` : ''}
+                ${seconds > 0 ? `${seconds}s` : ''}
+                 `;
         }
+
 
 }

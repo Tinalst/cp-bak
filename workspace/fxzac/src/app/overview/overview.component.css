@@ -1,17 +1,18 @@
 section {
   display: flex;
   justify-content: space-between;
-  height: 30vh;
-  margin-bottom: 22px; }
+  height: 100%;
+  width: 100%; }
   section .overview,
   section .notes {
     height: 100%;
     flex: 1;
-    margin: 10px;
     border-radius: 5px;
     background: var(--color-highlight-background); }
   section .overview {
-    flex: 1.5; }
+    margin-right: 10px;
+    flex: 1.5;
+    background: rgba(51, 51, 51, 0.35); }
     section .overview main p > span:nth-child(2) {
       color: var(--color-text-white);
       font-weight: bold; }
@@ -20,7 +21,7 @@ section {
   section .overview header,
   section .notes header {
     background: var(--title-background);
-    padding: 18px;
+    padding: 14px;
     font-size: .3rem;
     font-weight: bold; }
   section .overview main,
@@ -29,8 +30,8 @@ section {
   section .overview main p {
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
-    margin-bottom: 28px; }
+    margin-bottom: .2rem;
+    font-size: .25rem; }
   section .ethInfo {
     display: flex;
     justify-content: space-between;
@@ -39,17 +40,23 @@ section {
       color: var(--color-text-white);
       font-weight: bold; }
   section .notes .notes-container {
-    height: 85%;
-    margin: 0;
-    padding-left: 20px;
-    padding-top: 20px;
-    overflow: scroll; }
+    height: 69%;
+    margin: 20px;
+    overflow: auto;
+    overflow-x: hidden; }
     section .notes .notes-container div {
       display: flex;
       justify-content: left;
       color: var(--color-text-white);
-      font-size: 0.3rem; }
+      font-size: 0.3rem;
+      margin-bottom: 10px; }
     section .notes .notes-container span {
-      margin-left: 15px; }
+      margin-left: 15px;
+      font-size: .35rem; }
+
+:host {
+  width: 97%;
+  position: absolute;
+  height: 35%; }
 
 /*# sourceMappingURL=overview.component.css.map */

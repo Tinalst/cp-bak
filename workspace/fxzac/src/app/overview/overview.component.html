@@ -40,20 +40,42 @@
         </div>
         <div class="notes">
                 <header>12 Notes</header>
-                <main class="notes-container" >
+                <main class="notes-container">
                         <div *ngFor="let item of nodeObj?.peers">
                                 <i>
-                                        <svg viewBox="0 0 610 610" version="1.1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10">
+                                        <svg viewBox="0 0 610 610" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10">
                                                 <g transform="scale(0.6)">
-                                                          <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"   [attr.fill]="circleColorArray[item.credit]" opacity="0.5"></path>
+                                                        <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"
+                                                              [attr.fill]="circleColorArray[item.credit]"
+                                                              opacity="0.5"></path>
                                                 </g>
-                                                <g transform="scale(0.3) translate(500,500)" >
-                                                        <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"  [attr.fill]="circleColorArray[item.credit]"></path>
+                                                <g transform="scale(0.3) translate(500,500)">
+                                                        <path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"
+                                                              [attr.fill]="circleColorArray[item.credit]"></path>
                                                 </g>
                                         </svg>
                                 </i>
                                 <span>{{item?.name}}</span>
                         </div>
+                        <!--<div>-->
+                                <!--<i>-->
+                                        <!--<svg viewBox="0 0 610 610" version="1.1" xmlns="http://www.w3.org/2000/svg"-->
+                                             <!--xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10">-->
+                                                <!--<g transform="scale(0.6)">-->
+                                                        <!--<path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"-->
+                                                              <!--[attr.fill]="circleColorArray[1]"-->
+                                                              <!--opacity="0.5"></path>-->
+                                                <!--</g>-->
+                                                <!--<g transform="scale(0.3) translate(500,500)">-->
+                                                        <!--<path d="M62 512c0 248.528 201.472 450 450 450s450-201.472 450-450c0-248.528-201.472-450-450-450-248.528 0-450 201.472-450 450z"-->
+                                                              <!--[attr.fill]="circleColorArray[1]"></path>-->
+                                                <!--</g>-->
+                                        <!--</svg>-->
+                                <!--</i>-->
+                                <!--<span>node</span>-->
+                        <!--</div>-->
+
                 </main>
         </div>
 </section>
