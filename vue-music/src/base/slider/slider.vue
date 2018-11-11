@@ -121,12 +121,19 @@
 
                 // 自动播放
                 this.timer = setTimeout(() => {
+                    if(pageIndex === 5) {
+                        pageIndex = 0;
+                    }
                     // 参数一： 横向方向
                     // 参数二： 纵向方向
                     // 参数三： 时间间隔
                     this.slider.goToPage(pageIndex, 0, 400);
                 }, this.interval)
             }
+        },
+        destroyed() {
+            // 优化
+            clearTimeout(this.timer);
         }
     }
 </script>

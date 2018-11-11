@@ -12,7 +12,7 @@ export const commonParams = {
 
 export const options  = {
     param: 'jsonpCallback'
-}
+};
 
 /**
  * 语义化错误代码

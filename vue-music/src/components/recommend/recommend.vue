@@ -1,41 +1,62 @@
 <template>
     <div class="recommend">
-        <div class="recommend-content">
-            <div v-if="recomments.length" class="slider-wrapper">
-                <Slider>
-                    <div v-for="item in recomments">
-                        <a :href="item.linkUrl">
-                            <img :src="item.picUrl">
-                        </a>
-                    </div>
-                </Slider>
+        <scroll class="recommend-content" ref="scroll">
+            <div>
+                <div v-if="recomments.length" class="slider-wrapper">
+                    <Slider>
+                        <div v-for="item in recomments">
+                            <a :href="item.linkUrl">
+                                <img @load="loadImage" :src="item.picUrl">
+                            </a>
+                        </div>
+                    </Slider>
+                </div>
+                <div class="recommend-list">
+                    <h1 class="list-title">热门歌单推荐</h1>
+                    <ul>
+                        <li v-for="item in discList" class="item">
+                            <div class="icon">
+                                <img width="60" height="60" :src="item.imgurl" alt="">
+                            </div>
+                            <div class="text">
+                                <h2 class="name">{{item.creator.name}}</h2>
+                                <p class="desc">{{item.dissname}}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="recommend-list">
-                <h1 class="list-title">热门歌单推荐</h1>
-            </div>
-        </div>
+        </scroll>
     </div>
 </template>
 
 <script>
 
-    import {getRecommend} from "../../api/recommend";
+    import {getRecommend, getDisList} from "../../api/recommend";
     import {ERR_OK} from "api/config";
     import Slider from 'base/slider/slider';
+    import Scroll from 'base/scroll/scroll';
 
     export default {
         data() {
             return {
-                recomments: []
+                recomments: [],
+                discList: []
             }
         },
         created() {
             // 获取推荐列表数据
-            this._getRecommend();
+            setTimeout(() => {
+                this._getRecommend();
+            }, 2000);
+
+            // 获取歌单列表
+            this._getDisList();
         },
         mounted() {
         },
         components: {
+            Scroll,
             Slider
         },
         methods: {
@@ -49,6 +70,19 @@
                         console.log(res.data );
                     }
                 })
+            },
+            _getDisList() {
+                getDisList().then(res => {
+                    this.discList = res.data.list;
+                    console.log(res);
+                })
+            },
+            loadImage() {
+                if(!this.checkLoading){
+                    this.$refs.scroll.refresh();
+                    this.checkLoading = true;
+                }
+
             }
         }
     }
@@ -71,6 +105,33 @@
                 text-align: center;
                 font-size: $font-size-medium;
                 color: $color-theme;
+            }
+            .item {
+                display: flex;
+                box-sizing: border-box;
+                align-items: center;
+                padding: 0 20px 20px 20px;
+            }
+            .icon {
+                flex: 0 0 60px;
+                width: 60px;
+                padding-right: 20px;
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex: 1;
+                line-height: 20px;
+                overflow: hidden;
+                font-size: $font-size-medium;
+                .name {
+                    margin-bottom: 10px;
+                    color: $color-text;
+                }
+                .desc {
+                    color: $color-text-d;
+                }
             }
         }
     }
