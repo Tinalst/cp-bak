@@ -40,8 +40,8 @@ section {
       color: var(--color-text-white);
       font-weight: bold; }
   section .notes .notes-container {
-    height: 69%;
-    margin: 20px;
+    height: 79%;
+    margin: 0px 20px;
     overflow: auto;
     overflow-x: hidden; }
     section .notes .notes-container div {

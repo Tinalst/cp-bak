@@ -10,14 +10,15 @@
                                                 <span class="text-color">{{item?.from}}</span>
                                                 to <span class="text-color">{{item.to}}</span>
                                         </p>
-                                        <p>Amount 123,123, NPXS</p>
+                                        <p>Amount {{item?.amount}} NPXS</p>
                                         <div class="block">
                                                 <span>Block: {{item?.block}}</span>
                                                 <span>|</span>
                                                 <span>Node: {{item?.name}}</span>
                                         </div>
                                 </div>
-                                <span class="time">{{reduceTime(item.time)}}ago</span>
+                                <!--<span class="time">{{reduceTime(item.time)}}ago</span>-->
+                                <span class="time">{{item.time |  customdate}}ago</span>
                         </div>
 
                 </div>

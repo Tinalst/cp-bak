@@ -33,6 +33,11 @@ export class OverviewComponent implements OnInit, OnChanges {
                         switch (dataList.tag) {
                                 case 'NODE_INFO':
                                         this.nodeObj = new NodeInfoModel(dataList);
+                                        if(this.nodeObj.peers.length > 0) {
+                                                this.nodeObj.peers = this.nodeObj.peers.sort((a, b) => {
+                                                        return b['credit'] - a['credit'];
+                                                });
+                                        }
                                         break;
                                 case  'ETH_INFO':
                                         this.heightTransactionObj = new HeightTransactionModel(dataList);
@@ -43,7 +48,7 @@ export class OverviewComponent implements OnInit, OnChanges {
 
                         }
                 }
-
         }
+
 
 }
