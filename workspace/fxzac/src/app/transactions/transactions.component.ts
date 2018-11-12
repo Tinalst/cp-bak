@@ -1,9 +1,6 @@
 import {Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges} from '@angular/core';
 import {TransactionModel} from '../utils/models/transaction.model';
-import {NodeInfoModel} from '../utils/models/nodeInfo.model';
 import {EthinfoModel} from '../utils/models/ethinfo.model';
-import {clearInterval} from 'timers';
-import {THIS_EXPR} from '@angular/compiler/src/output/output_ast';
 
 @Component({
         selector: 'app-transactions',
