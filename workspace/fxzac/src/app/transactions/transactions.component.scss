@@ -14,11 +14,11 @@ section {
                 overflow-x: hidden;
                 overflow-y: auto;
                 height: 83%;
-                & .item-list {
+                & .item-box {
                         margin-bottom: 25px;
                         display: flex;
                         justify-content: space-between;
-                        & > span:nth-child(1){
+                        .bg{
                                 flex: .5;
                                 background: url(../../assets/image/transactions.svg) no-repeat;
                                 background-position: top;
@@ -50,6 +50,9 @@ section {
                         }
                 }
 
+        }
+        .text-color {
+                color: var(--color-text-white);
         }
 }
 :host {

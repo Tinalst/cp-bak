@@ -1,14 +1,15 @@
-import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import {Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges} from '@angular/core';
 import {TransactionModel} from '../utils/models/transaction.model';
 import {NodeInfoModel} from '../utils/models/nodeInfo.model';
 import {EthinfoModel} from '../utils/models/ethinfo.model';
+import {clearInterval} from 'timers';
 
 @Component({
         selector: 'app-transactions',
         templateUrl: './transactions.component.html',
         styleUrls: ['./transactions.component.scss']
 })
-export class TransactionsComponent implements OnInit, OnChanges {
+export class TransactionsComponent implements OnInit, OnChanges, OnDestroy {
 
         @Input() dataList: TransactionModel ;
         ethInofObj: EthinfoModel;
@@ -16,6 +17,8 @@ export class TransactionsComponent implements OnInit, OnChanges {
         timeArray: any [] = [];
         count: number = 0;
         newArr: any;
+
+        intervalTimer;
 
         constructor() {
         }
@@ -37,7 +40,7 @@ export class TransactionsComponent implements OnInit, OnChanges {
                                 this.ethInofObj.transaction = this. newArr;
 
                                 this.changeBeforeTime();
-                                setInterval(() => {
+                                this.intervalTimer = setInterval(() => {
                                        this.changeBeforeTime();
                                 }, 1000);
                         }
@@ -72,6 +75,10 @@ export class TransactionsComponent implements OnInit, OnChanges {
                         // return `${ms}ms  `;
                         return '0s ';
                 }
+        }
+
+        ngOnDestroy(): void {
+                // clearInterval(this.intervalTimer);
         }
 
 

@@ -1,7 +1,7 @@
 export class TransactionModel {
         name: string;
         ip: string;
-        nodeNumbe: number;
+        nodeNumber: number;
         clientConnected: number;
         allClient: number;
 
@@ -17,7 +17,7 @@ export class TransactionModel {
         constructor(obj?) {
                 this.name = obj && obj['nodeInfo']['name'] || '';
                 this.ip = obj && obj['nodeInfo']['ip'] || '';
-                this.nodeNumbe = obj && obj['nodeInfo']['nodeNumbe'] || 0;
+                this.nodeNumber= obj && obj['nodeInfo']['nodeNumber'] || 0;
                 this.clientConnected = obj && obj['nodeInfo']['clientConnected'] || 0;
                 this.allClient = obj && obj['nodeInfo']['allClient'] || 0;
 

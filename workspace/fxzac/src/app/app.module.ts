@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { OverviewComponent } from './overview/overview.component';
 import { TransactionsComponent } from './transactions/transactions.component';
 import { CustomdatePipe } from './utils/pipe/customdate.pipe';
+import { TxPipe } from './utils/pipe/tx.pipe';
+import { Number3dotsPipe } from './utils/pipe/number3dots.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CustomdatePipe } from './utils/pipe/customdate.pipe';
     HeaderComponent,
     OverviewComponent,
     TransactionsComponent,
-    CustomdatePipe
+    CustomdatePipe,
+    TxPipe,
+    Number3dotsPipe
   ],
   imports: [
     BrowserModule,
