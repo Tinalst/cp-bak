@@ -22,7 +22,7 @@ section {
   section .notes header {
     background: var(--title-background);
     padding: 14px;
-    font-size: .3rem;
+    font-size: .5rem;
     font-weight: bold; }
   section .overview main,
   section .notes main {
@@ -30,8 +30,8 @@ section {
   section .overview main p {
     display: flex;
     justify-content: space-between;
-    margin-bottom: .2rem;
-    font-size: .25rem; }
+    margin-bottom: .5rem;
+    font-size: .3rem; }
   section .ethInfo {
     display: flex;
     justify-content: space-between;

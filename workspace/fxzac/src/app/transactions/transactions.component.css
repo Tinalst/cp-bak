@@ -12,7 +12,7 @@ section {
     padding: 25px;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 76%; }
+    height: 83%; }
     section > .transactions .item-list {
       margin-bottom: 25px;
       display: flex;
@@ -42,7 +42,7 @@ section {
 
 :host {
   position: absolute;
-  top: 42%;
+  top: 40%;
   height: 57%;
   width: 97%; }
 

@@ -2,6 +2,7 @@ import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core'
 import {TransactionModel} from '../utils/models/transaction.model';
 import {NodeInfoModel} from '../utils/models/nodeInfo.model';
 import {EthinfoModel} from '../utils/models/ethinfo.model';
+import {HeightTransactionModel} from '../utils/models/heightTransaction.model';
 
 @Component({
         selector: 'app-overview',
@@ -13,8 +14,9 @@ export class OverviewComponent implements OnInit, OnChanges {
         @Input() dataList: TransactionModel ;
         nodeObj: NodeInfoModel;
         ethInofObj: EthinfoModel;
+        heightTransactionObj: HeightTransactionModel;
 
-        circleColorArray: string[] = ['grey','grey', 'grey','yellow','yellow','yellow','green','green','green'];
+        circleColorArray: string[] = ['grey','grey', 'grey','yellow','yellow','yellow','green','green','green','green'];
 
         constructor() {
         }
@@ -22,6 +24,7 @@ export class OverviewComponent implements OnInit, OnChanges {
         ngOnInit() {
                 this.nodeObj = new NodeInfoModel(this.dataList);
                 this.ethInofObj = new EthinfoModel(this.dataList);
+                this.heightTransactionObj = new HeightTransactionModel(this.dataList);
         }
 
         ngOnChanges(changes: SimpleChanges): void {
@@ -30,12 +33,14 @@ export class OverviewComponent implements OnInit, OnChanges {
                         switch (dataList.tag) {
                                 case 'NODE_INFO':
                                         this.nodeObj = new NodeInfoModel(dataList);
-                                        console.log(this.nodeObj);
                                         break;
                                 case  'ETH_INFO':
-                                        this.ethInofObj = new EthinfoModel(dataList);
-                                        console.log(this.ethInofObj);
+                                        this.heightTransactionObj = new HeightTransactionModel(dataList);
                                         break;
+                                case  'TX':
+                                        this.ethInofObj = new EthinfoModel(dataList);
+                                        break;
+
                         }
                 }
 

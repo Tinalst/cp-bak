@@ -23,8 +23,7 @@ export class TransactionsComponent implements OnInit, OnChanges {
         ngOnChanges(changes: SimpleChanges): void {
                 const dataList = changes.dataList.currentValue;
                 if(dataList) {
-                        this.ethInofObj = new EthinfoModel(dataList);
-                        console.log(this.ethInofObj);
+                        this.ethInofObj.transaction = new EthinfoModel(dataList).transaction.concat(this.ethInofObj.transaction);
                 }
         }
 

@@ -83,6 +83,8 @@ body, html {
   -webkit-tap-highlight-color: transparent;
   background: var(--color-background);
   color: var(--color-text-grey);
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
