@@ -3,6 +3,7 @@ import {TransactionModel} from '../utils/models/transaction.model';
 import {NodeInfoModel} from '../utils/models/nodeInfo.model';
 import {EthinfoModel} from '../utils/models/ethinfo.model';
 import {clearInterval} from 'timers';
+import {THIS_EXPR} from '@angular/compiler/src/output/output_ast';
 
 @Component({
         selector: 'app-transactions',
@@ -39,10 +40,11 @@ export class TransactionsComponent implements OnInit, OnChanges, OnDestroy {
                                 this. newArr = (new EthinfoModel(dataList).transaction.reverse()).concat(this.newArr);
                                 this.ethInofObj.transaction = this. newArr;
 
+                                // this.changeBeforeTime();
+                                // this.intervalTimer = setInterval(() => {
+                                //        this.changeBeforeTime();
+                                // }, 1000);
                                 this.changeBeforeTime();
-                                this.intervalTimer = setInterval(() => {
-                                       this.changeBeforeTime();
-                                }, 1000);
                         }
 
                 }
@@ -52,6 +54,9 @@ export class TransactionsComponent implements OnInit, OnChanges, OnDestroy {
                 this.timeArray = this.ethInofObj.transaction.map((value, index) => {
                         return this.reduceTime(value['time']);
                 } )
+                setTimeout(() => {
+                        this.changeBeforeTime()
+                }, 1000)
         };
 
         reduceTime(time: number)  {
