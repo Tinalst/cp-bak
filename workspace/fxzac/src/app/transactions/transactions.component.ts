@@ -13,6 +13,10 @@ export class TransactionsComponent implements OnInit, OnChanges {
         @Input() dataList: TransactionModel ;
         ethInofObj: EthinfoModel;
 
+        timeArray: any [] = [];
+        count: number = 0;
+        newArr: any;
+
         constructor() {
         }
 
@@ -22,50 +26,51 @@ export class TransactionsComponent implements OnInit, OnChanges {
 
         ngOnChanges(changes: SimpleChanges): void {
                 const dataList = changes.dataList.currentValue;
-                if(dataList) {
-                        this.ethInofObj.transaction = new EthinfoModel(dataList).transaction.concat(this.ethInofObj.transaction);
+                if(dataList  ) {
+                        if(dataList.tag === 'TX') {
+                                if(this.count === 0) {
+                                        const first = this.ethInofObj.transaction.concat(new EthinfoModel(dataList).transaction).reverse();
+                                        this. newArr = new EthinfoModel(dataList).transaction.concat(first);
+                                        this.count = 1;
+                                }
+                                this. newArr = (new EthinfoModel(dataList).transaction.reverse()).concat(this.newArr);
+                                this.ethInofObj.transaction = this. newArr;
+
+                                this.changeBeforeTime();
+                                setInterval(() => {
+                                       this.changeBeforeTime();
+                                }, 1000);
+                        }
+
                 }
         }
 
+        changeBeforeTime = () => {
+                this.timeArray = this.ethInofObj.transaction.map((value, index) => {
+                        return this.reduceTime(value['time']);
+                } )
+        };
+
         reduceTime(time: number)  {
-                if(time) {
-                        const now = new Date();
-                        const date = parseInt(String((now.getTime() - time) / 1000));
-                        const days = parseInt(String(date / 60 / 60 / 24));
-                        const hours = parseInt(String(date / 60 / 60 % 24));
-                        const minutes = parseInt(String(date / 60 % 60));
-                        const seconds = parseInt(String((date % 60)));
-                        const ms = date;
+                const now = new Date();
+                const reduce = now.getTime() - time;
+                const date = parseInt(String(reduce % 1000));
+                if(reduce > 1000 ) {
+                        const dates = parseInt(String(reduce /1000));
+                        const days = parseInt(String(dates / 60 / 60 / 24));
+                        const hours = parseInt(String(dates / 60 / 60 % 24));
+                        const minutes = parseInt(String(dates / 60 % 60));
+                        const seconds = parseInt(String((dates % 60)));
 
-                        const result = `${days > 0 ? `${days}d(s)` : ''}
-                        ${hours > 0 ? `${hours}h(s)` : ''}
-                        ${minutes > 0 ? `${minutes}m(s)` : ''}
-                        ${seconds > 0 ? `${seconds}s` : ''}
-                        ${ms > 0 ? `${ms}ms` : ''}
-                         `;
-
-                        if (result) {
-                                // console.log('========start=======');
-                                // console.log(now.getTime())
-                                // console.log('time', time)
-                                // console.log(this.ethInofObj);
-                                // console.log(now.getTime() - time);
-                                // console.log(date)
-                                // console.log(days)
-                                // console.log(hours)
-                                // console.log(minutes)
-                                // console.log(seconds)
-                                // console.log(ms)
-                                // console.log('result', result)
-                                // console.log('========end=======');
-
-                                return result;
-                        } else {
-                                return '0';
-                        }
-
+                        return`${days > 0 ? `${days}d(s)` : ''}
+                                ${hours > 0 ? `${hours}h(s)` : ''}
+                                ${minutes > 0 ? `${minutes}m(s)` : ''}
+                                ${seconds > 0 ? `${seconds}s` : ''}
+                                 `;
                 }else {
-                        return '0ms ';
+                        const ms = date;
+                        // return `${ms}ms  `;
+                        return '0s ';
                 }
         }
 
