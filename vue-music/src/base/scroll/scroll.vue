@@ -1,60 +1,69 @@
 <template>
-    <div ref="wrapper">
+    <div ref="wrapper" class="wrapper">
         <slot></slot>
     </div>
 </template>
 
 <script>
     import BScroll from 'better-scroll';
+
     export default {
-       props:{
-           probeType: {
-               type: Number,
-               default: 1
-           },
-           click: {
-               type: Boolean,
-               default: true
-           },
-           data: {
-               type: Array,
-               default: null
-           }
-       },
+        props: {
+            probeType: {
+                type: Number,
+                default: 1
+            },
+            click: {
+                type: Boolean,
+                default: true
+            },
+            data: {
+                type: Array,
+                default: null
+            }
+        },
         mounted() {
-           setTimeout(() => {
-               this._initScroll();
-           }, 20);
+            setTimeout(() => {
+                this._initScroll();
+            }, 20);
         },
         methods: {
             _initScroll() {
-               if(this.$refs.wrapper) {
-                   this.scroll = new BScroll(this.$refs.wrapper, {
-                       probeType: this.probeType,
-                       click: this.click
-                   })
-               }
+                if (this.$refs.wrapper) {
+                    this.scroll = new BScroll(this.$refs.wrapper, {
+                        probeType: this.probeType,
+                        click: this.click
+                    });
+                    this.$nextTick(() => {
+                        this.scroll.refresh();
+                    })
+                    console.log(this.scroll);
+                }
             },
             enable() {
-               this.scroll && this.scroll.enabled();
+                this.scroll && this.scroll.enabled();
             },
             disable() {
-               this.scroll && this.scroll.disable();
+                this.scroll && this.scroll.disable();
             },
             refresh() {
-               this.scroll && this.scroll.refresh();
+                this.scroll && this.scroll.refresh();
             }
         },
         watch: {
-           data() {
-               setTimeout(() => {
-                   this.refresh();
-               }, 20);
-           }
+            data() {
+                setTimeout(() => {
+                    this.refresh();
+                }, 200);
+            }
         }
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+    .wrapper {
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
 </style>

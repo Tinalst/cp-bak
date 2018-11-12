@@ -17,7 +17,14 @@ module.exports = {
                                 pathRewrite: {
                                         '^/api': ''
                                 }
-                        }
+                        },
+                        '/apiu': {
+                                target: 'https://u.y.qq.com',
+                                changeOrigin: true,
+                                pathRewrite:  {
+                                       '^/apiu' : '/apiu'
+                                }
+                         }
                 },
 
                 // Various Dev Server settings

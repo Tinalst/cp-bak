@@ -1,6 +1,6 @@
 <template>
     <div class="recommend">
-        <scroll class="recommend-content" ref="scroll">
+        <scroll class="recommend-content" ref="scroll" :data="discList">
             <div>
                 <div v-if="recomments.length" class="slider-wrapper">
                     <Slider>
@@ -27,6 +27,9 @@
                     </ul>
                 </div>
             </div>
+            <div class="loading-container" v-show="!discList.length">
+                <Loading></Loading>
+            </div>
         </scroll>
     </div>
 </template>
@@ -37,6 +40,7 @@
     import {ERR_OK} from "api/config";
     import Slider from 'base/slider/slider';
     import Scroll from 'base/scroll/scroll';
+    import Loading from 'base/loading/loading';
 
     export default {
         data() {
@@ -51,14 +55,18 @@
                 this._getRecommend();
             }, 2000);
 
-            // 获取歌单列表
-            this._getDisList();
+            // 模拟获取远程数据，获取歌单列表
+            setTimeout(() => {
+                this._getDisList();
+            }, 2000);
+
         },
         mounted() {
         },
         components: {
             Scroll,
-            Slider
+            Slider,
+            Loading
         },
         methods: {
             // 封装获取数据方法
@@ -67,8 +75,6 @@
                     res = res.data;
                     if(res.code === ERR_OK) {
                         this.recomments = res.data.slider;
-                        console.log(this.recomments );
-                        console.log(res.data );
                     }
                 })
             },
@@ -99,6 +105,7 @@
         .recommend-content {
             height: 100%;
             overflow: hidden;
+            position: relative;
             .list-title {
                 height: 65px;
                 line-height: 65px;
@@ -133,6 +140,13 @@
                     color: $color-text-d;
                 }
             }
+        }
+        .loading-container {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
         }
     }
 
