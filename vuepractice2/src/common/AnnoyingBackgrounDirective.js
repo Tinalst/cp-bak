@@ -1,7 +1,5 @@
 import Vue from 'vue';
 
-
-
 export const  AnnoyingBackgroun = {
     bind(el, binding, vnode) {
         const defaultBackgroundColor = 'green;';

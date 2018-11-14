@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import "common/pipe/capitalize"
+import "common/AnnoyingBackgrounDirective"
 
 Vue.config.productionTip = false
 

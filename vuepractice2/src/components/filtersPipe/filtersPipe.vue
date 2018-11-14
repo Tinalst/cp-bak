@@ -1,10 +1,20 @@
 <template>
-        $END$
+        <div>
+            <h3>管道的使用</h3>
+            <div>
+                <input v-model="message"/>
+            </div>
+            {{message | capitalize}}
+        </div>
 </template>
 
 <script>
         export default {
-                name: "filtersPipe"
+            data() {
+                return {
+                    message: 'please enter'
+                }
+            }
         }
 </script>
 

@@ -7,6 +7,7 @@ import ComComponent from 'components/comunication/comComponent';
 import CustomDirevtive1 from 'components/directive/customeDirective1';
 import ScrollDirective from 'components/directive/scrollDirective';
 import AnnoyBackground from 'components/directive/AnnoyBackground';
+import FiltersPipe from 'components/filtersPipe/filtersPipe';
 
 Vue.use(Router)
 
@@ -39,6 +40,10 @@ const router = new Router({
         {
             path: '/annoyBackground',
             component: AnnoyBackground
+        } ,
+        {
+            path: '/filtersPipe',
+            component: FiltersPipe
         }
     ]
 });
