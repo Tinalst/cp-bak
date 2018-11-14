@@ -8,6 +8,7 @@
     import {getSingerList} from "../../api/singer";
     import Singer from '../../common/js/singer';
     import ListView from '../../base/listview/listview';
+    import {mapMutations} from 'vuex';
 
     const HOT_SINGER_LEN = 10;
     const HOT_NAME = '热门';
@@ -22,6 +23,8 @@
         created() {
             // 获取数据
             this._getSingerList();
+
+
         },
         methods: {
             _getSingerList() {
@@ -42,20 +45,27 @@
                 // list 为singerlist列表
                 list.forEach((value, index) => {
                     if (index < HOT_SINGER_LEN) {
-                        map.hot.items.push( new Singer({
-                            id : value['singer_mid'],
-                            name :value['singer_name']
+                        map.hot.items.push(new Singer({
+                            id: value['singer_mid'],
+                            name: value['singer_name']
                         }));
                     }
                 });
                 this.singers = map.hot.items;
                 // console.log(map);
                 // map.forEach((value, index) => {
-                    // value[]
+                // value[]
                 // })
 
 
-            }
+            },
+            _testVuex() {
+                // 测试vuex
+              this.singers(this.singers);
+            },
+            ...mapMutations({
+                setSinger: 'SET_SINGER'
+            })
         },
         components: {
             ListView
@@ -64,5 +74,5 @@
 </script>
 
 <style scoped lang="scss">
-        @import "../../common/scss/variable";
+    @import "../../common/scss/variable";
 </style>
