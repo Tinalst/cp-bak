@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+        production: false,
+        urlConfig: {
+                remoteUrl: 'ws://13.250.21.137:8080'
+        }
 };
 
 /*

@@ -8,7 +8,7 @@
                         </p>
                         <p>
                                 <span>IP Address</span>
-                                <span>{{nodeObj?.ip}}</span>
+                                <span>{{locahotsURl}}</span>
                         </p>
                         <p>
                                 <span>Nodes</span>
@@ -39,7 +39,7 @@
                 </main>
         </div>
         <div class="notes">
-                <header>12 Notes</header>
+                <header>{{nodeObj?.nodeNumber}} Notes</header>
                 <main class="notes-container">
                         <div *ngFor="let item of nodeObj?.peers">
                                 <i>

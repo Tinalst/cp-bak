@@ -3,6 +3,7 @@ import {TransactionModel} from '../utils/models/transaction.model';
 import {NodeInfoModel} from '../utils/models/nodeInfo.model';
 import {EthinfoModel} from '../utils/models/ethinfo.model';
 import {HeightTransactionModel} from '../utils/models/heightTransaction.model';
+import {ToolsUtil} from '../utils/tools.util';
 
 @Component({
         selector: 'app-overview',
@@ -18,10 +19,13 @@ export class OverviewComponent implements OnInit, OnChanges {
 
         circleColorArray: string[] = ['grey','grey', 'grey','yellow','yellow','yellow','green','green','green','green'];
 
+        locahotsURl: String;
+
         constructor() {
         }
 
         ngOnInit() {
+                this.locahotsURl = ToolsUtil.getLocalHostUrl();
                 this.nodeObj = new NodeInfoModel(this.dataList);
                 this.ethInofObj = new EthinfoModel(this.dataList);
                 this.heightTransactionObj = new HeightTransactionModel(this.dataList);
