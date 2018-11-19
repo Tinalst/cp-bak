@@ -80,4 +80,9 @@ section {
         position: absolute;
         height: 37%;
 }
-
+@media screen and (max-height: 1180px ){
+        :host {
+                //border: 1px salmon solid;
+                height: 390px;
+        }
+}

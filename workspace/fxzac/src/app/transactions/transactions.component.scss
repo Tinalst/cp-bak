@@ -61,3 +61,10 @@ section {
         height: 55%;
         width: 97%;
 }
+
+@media screen and (max-height: 1180px ){
+        :host {
+                //border: 1px salmon solid;
+                top: 452px;
+        }
+}

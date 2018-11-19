@@ -60,4 +60,8 @@ section {
   position: absolute;
   height: 37%; }
 
+@media screen and (max-height: 1180px) {
+  :host {
+    height: 390px; } }
+
 /*# sourceMappingURL=overview.component.css.map */

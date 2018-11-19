@@ -14,6 +14,7 @@ export class TransactionsComponent implements OnInit, OnChanges, OnDestroy {
 
         timeArray: any [] = [];
         count: number = 0;
+        countA: number = 0;
         newArr: any;
 
         intervalTimer;
@@ -30,17 +31,15 @@ export class TransactionsComponent implements OnInit, OnChanges, OnDestroy {
                 if(dataList  ) {
                         if(dataList.tag === 'TX') {
                                 if(this.count === 0) {
-                                        const first = this.ethInofObj.transaction.concat(new EthinfoModel(dataList).transaction).reverse();
-                                        this. newArr = new EthinfoModel(dataList).transaction.concat(first);
+                                        const test = new EthinfoModel(dataList);
+                                        const first = test.transaction.reverse();
+                                        this.newArr = first;
+                                        this.ethInofObj.transaction = this.newArr;
                                         this.count = 1;
+                                }else {
+                                        this.newArr = (new EthinfoModel(dataList).transaction.reverse()).concat(this.newArr);
+                                        this.ethInofObj.transaction = this.newArr;
                                 }
-                                this. newArr = (new EthinfoModel(dataList).transaction.reverse()).concat(this.newArr);
-                                this.ethInofObj.transaction = this. newArr;
-
-                                // this.changeBeforeTime();
-                                // this.intervalTimer = setInterval(() => {
-                                //        this.changeBeforeTime();
-                                // }, 1000);
                                 this.changeBeforeTime();
                         }
 
