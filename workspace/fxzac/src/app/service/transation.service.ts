@@ -3,9 +3,9 @@ import {WebsocketService} from './websocket.service';
 import {environment} from '../../environments/environment';
 import {ToolsUtil} from '../utils/tools.util';
 
-const  TRANSACTION_URL = 'ws://52.78.46.14:8080/api/v1/node';
+// const  TRANSACTION_URL = 'ws://52.78.46.14:8080/api/v1/node';
 
-// const  TRANSACTION_URL = `ws://${ToolsUtil.getLocalhost()}/api/v1/node`;
+const  TRANSACTION_URL = `ws://${ToolsUtil.getLocalhost()}/api/v1/node`;
 
 @Injectable({
         providedIn: 'root'

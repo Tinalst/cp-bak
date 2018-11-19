@@ -76,13 +76,16 @@ section {
         }
 }
 :host{
-        width: 97%;
+        width: 100%;
         position: absolute;
+        left: 0;
         height: 37%;
+        padding: 10px;
+        box-sizing: border-box;
 }
 @media screen and (max-height: 1180px ){
         :host {
                 //border: 1px salmon solid;
-                height: 390px;
+                height: 400px;
         }
 }

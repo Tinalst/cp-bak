@@ -1,7 +1,7 @@
 section {
   border-radius: 5px;
   background: var(--color-highlight-background);
-  width: 100%;
+  width: calc(100% - 10px);
   height: 100%; }
   section header {
     background: var(--title-background);
@@ -11,8 +11,7 @@ section {
   section > .transactions {
     padding: 25px;
     overflow-x: hidden;
-    overflow-y: auto;
-    height: 83%; }
+    overflow-y: auto; }
     section > .transactions .item-box {
       margin-bottom: 25px;
       display: flex;
@@ -44,12 +43,12 @@ section {
 
 :host {
   position: absolute;
-  top: 41%;
-  height: 55%;
-  width: 97%; }
+  top: calc(37% + 10px);
+  bottom: 10px;
+  width: calc(100% - 10px); }
 
 @media screen and (max-height: 1180px) {
   :host {
-    top: 452px; } }
+    top: 410px; } }
 
 /*# sourceMappingURL=transactions.component.css.map */
