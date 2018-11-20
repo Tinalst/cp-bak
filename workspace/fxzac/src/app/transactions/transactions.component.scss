@@ -3,6 +3,7 @@ section {
         background: var(--color-highlight-background);
         width: calc(100% - 10px);
         height: 100%;
+        overflow: hidden;
         header {
                 background: var(--title-background);
                 padding: 14px;
@@ -13,7 +14,7 @@ section {
                 padding: 14px;
                 overflow-x: hidden;
                 overflow-y: auto;
-                //height: 83%;
+                height: 100%;
                 & .item-box {
                         margin-bottom: 25px;
                         display: flex;
