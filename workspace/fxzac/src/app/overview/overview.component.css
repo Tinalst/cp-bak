@@ -27,7 +27,7 @@ section {
     color: #969696; }
   section .overview main,
   section .notes main {
-    margin: 20px; }
+    margin: 14px; }
   section .overview main p {
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ section {
       font-weight: bold; }
   section .notes .notes-container {
     height: 79%;
-    margin: 20px 20px;
+    margin: 14px 16px;
     overflow: auto;
     overflow-x: hidden; }
     section .notes .notes-container div {
@@ -60,7 +60,9 @@ section {
   position: absolute;
   left: 0;
   height: 37%;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   box-sizing: border-box; }
 
 @media screen and (max-height: 1180px) {

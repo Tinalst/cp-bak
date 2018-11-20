@@ -10,7 +10,7 @@ section {
                 font-weight: bold;
         }
         & > .transactions {
-                padding: 25px;
+                padding: 14px;
                 overflow-x: hidden;
                 overflow-y: auto;
                 //height: 83%;
@@ -19,9 +19,9 @@ section {
                         display: flex;
                         justify-content: space-between;
                         .bg{
-                                flex: .5;
+                                flex: .2;
                                 background: url(../../assets/image/transactions.svg) no-repeat;
-                                background-position: top;
+                                background-position: left top;
                         }
                         div {
                                 flex: 5;

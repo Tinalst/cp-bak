@@ -1,52 +1,52 @@
 <section >
         <header>Transactions</header>
         <main class="transactions">
-                <div class="item-list" *ngFor="let item of ethInofObj?.transaction; let index= index">
-                        <div *ngIf="item['hash']" class="item-box">
-                                <span class="bg"></span>
-                                <div class="item-conatiner">
-                                        <div class="tx">
-                                                <p>TX# {{item?.hash | tx}}</p>
-                                                <p> From
-                                                        <span class="text-color">{{item?.from | tx}}</span>
-                                                        to <span class="text-color">{{item.to | tx}}</span>
-                                                </p>
-                                                <!--<p>Amount {{ item?.amount | number3dots}} NPXS</p>-->
-                                                <p>Type  {{item?.txType }} </p>
-                                                <div class="block">
-                                                        <span>Block: {{item?.block}}</span>
-                                                        <span>|</span>
-                                                        <span>Node: {{item?.name}}</span>
-                                                </div>
-                                        </div>
-                                        <!--<span class="time">{{reduceTime(item.time)}}ago</span>-->
-                                        <!--<span class="time">{{item.time |  customdate: index}}ago</span>-->
-                                        <span class="time">{{timeArray[index]}}ago</span>
-                                </div>
-                        </div>
-                </div>
-                <!--<div class="item-list">-->
-                        <!--<div class="item-box">-->
+                <!--<div class="item-list" *ngFor="let item of ethInofObj?.transaction; let index= index">-->
+                        <!--<div *ngIf="item['hash']" class="item-box">-->
                                 <!--<span class="bg"></span>-->
                                 <!--<div class="item-conatiner">-->
                                         <!--<div class="tx">-->
-                                                <!--<p>TX# 1111111</p>-->
+                                                <!--<p>TX# {{item?.hash | tx}}</p>-->
                                                 <!--<p> From-->
-                                                        <!--<span class="text-color">11111</span>-->
-                                                        <!--to <span class="text-color">1111111</span>-->
+                                                        <!--<span class="text-color">{{item?.from | tx}}</span>-->
+                                                        <!--to <span class="text-color">{{item.to | tx}}</span>-->
                                                 <!--</p>-->
-                                                <!--<p>Amount 123,123, NPXS</p>-->
+                                                <!--&lt;!&ndash;<p>Amount {{ item?.amount | number3dots}} NPXS</p>&ndash;&gt;-->
+                                                <!--<p>Type  {{item?.txType }} </p>-->
                                                 <!--<div class="block">-->
-                                                        <!--<span>Block: 111111</span>-->
+                                                        <!--<span>Block: {{item?.block}}</span>-->
                                                         <!--<span>|</span>-->
-                                                        <!--<span>Node: 11111</span>-->
+                                                        <!--<span>Node: {{item?.name}}</span>-->
                                                 <!--</div>-->
                                         <!--</div>-->
-                                        <!--<span class="time">1111 ago</span>-->
+                                        <!--&lt;!&ndash;<span class="time">{{reduceTime(item.time)}}ago</span>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<span class="time">{{item.time |  customdate: index}}ago</span>&ndash;&gt;-->
+                                        <!--<span class="time">{{timeArray[index]}}ago</span>-->
                                 <!--</div>-->
-
                         <!--</div>-->
                 <!--</div>-->
+                <div class="item-list">
+                        <div class="item-box">
+                                <span class="bg"></span>
+                                <div class="item-conatiner">
+                                        <div class="tx">
+                                                <p>TX# 1111111</p>
+                                                <p> From
+                                                        <span class="text-color">11111</span>
+                                                        to <span class="text-color">1111111</span>
+                                                </p>
+                                                <p>Amount 123,123, NPXS</p>
+                                                <div class="block">
+                                                        <span>Block: 111111</span>
+                                                        <span>|</span>
+                                                        <span>Node: 11111</span>
+                                                </div>
+                                        </div>
+                                        <span class="time">1111 ago</span>
+                                </div>
+
+                        </div>
+                </div>
 
         </main>
 </section>
