@@ -1,13 +1,13 @@
 export class ToolsUtil {
-        static String2Json = (str: string): object => {
-                return JSON.parse(str);
-        }
+  static String2Json = (str: string): object => {
+    return JSON.parse(str);
+  }
 
-        static getLocalhost = (): string => {
-                return window.location.host;
-        }
+  static getLocalhost = (): string => {
+    return window.location.host;
+  }
 
-        static getLocalHostUrl = (): string => {
-                return window.location.hostname;
-        }
+  static getLocalHostUrl = (): string => {
+    return window.location.hostname;
+  }
 }

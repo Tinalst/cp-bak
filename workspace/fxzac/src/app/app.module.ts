@@ -12,22 +12,22 @@ import {Number3dotsPipe} from './utils/pipe/number3dots.pipe';
 import {BtnComponent} from './btn/btn.component';
 
 @NgModule({
-        declarations: [
-                AppComponent,
-                HeaderComponent,
-                OverviewComponent,
-                TransactionsComponent,
-                BtnComponent,
-                CustomdatePipe,
-                TxPipe,
-                Number3dotsPipe
-        ],
-        imports: [
-                BrowserModule,
-                AppRoutingModule
-        ],
-        providers: [],
-        bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    OverviewComponent,
+    TransactionsComponent,
+    BtnComponent,
+    CustomdatePipe,
+    TxPipe,
+    Number3dotsPipe
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule {
 }

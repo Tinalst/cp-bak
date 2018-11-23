@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ToolUtil} from '../utils/tool.util';
 
 @Component({
@@ -7,14 +7,16 @@ import {ToolUtil} from '../utils/tool.util';
   styleUrls: ['./btn.component.scss']
 })
 export class BtnComponent implements OnInit {
-    screenCount: number = 0;
-    constructor() { }
+  screenCount: number = 0;
 
-    ngOnInit() {
-    }
+  constructor() {
+  }
 
-    controlScreen = () => {
-        this.screenCount++;
-        this.screenCount % 2 === 1 ? ToolUtil.launchFullScreen(document.documentElement) : ToolUtil.exitFullScreen(document);
-    }
+  ngOnInit() {
+  }
+
+  controlScreen = () => {
+    this.screenCount++;
+    this.screenCount % 2 === 1 ? ToolUtil.launchFullScreen(document.documentElement) : ToolUtil.exitFullScreen(document);
+  }
 }
