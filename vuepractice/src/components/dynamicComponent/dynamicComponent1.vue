@@ -1,11 +1,17 @@
 <template>
-        $END$
+    <alter-box>
+        from parents error msg
+    </alter-box>
 </template>
 
 <script>
-        export default {
-                name: "dynamicComponent1"
+    import AlterBox from '../../components/solt/alter-box';
+
+    export default {
+        components: {
+            AlterBox
         }
+    }
 </script>
 
 <style scoped>

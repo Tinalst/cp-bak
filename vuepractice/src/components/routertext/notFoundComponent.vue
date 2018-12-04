@@ -1,10 +1,9 @@
 <template>
-        $END$
+    <div>sorry ~ not found</div>
 </template>
 
 <script>
         export default {
-                name: "notFoundComponent"
         }
 </script>
 

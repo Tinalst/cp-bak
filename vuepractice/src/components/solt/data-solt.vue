@@ -1,11 +1,18 @@
 <template>
-        $END$
+    <div>
+        <p>作用于插槽</p>
+        <solt></solt>
+    </div>
 </template>
 
 <script>
-        export default {
-                name: "data-solt"
+    export default {
+        data() {
+            return {
+
+            }
         }
+    }
 </script>
 
 <style scoped>

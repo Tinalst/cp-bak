@@ -1,11 +1,23 @@
 <template>
-        $END$
+    <div>
+        router props 解耦
+    </div>
 </template>
 
 <script>
-        export default {
-                name: "routerProps"
+    export default {
+        props: {
+            id: String
+        },
+        mounted() {
+          this._getQuery();
+        },
+        methods: {
+            _getQuery() {
+                console.log(this.id);
+            }
         }
+    }
 </script>
 
 <style scoped>

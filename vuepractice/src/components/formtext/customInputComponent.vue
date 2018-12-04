@@ -1,10 +1,11 @@
 <template>
-        $END$
+        <div>
+            customeInput
+        </div>
 </template>
 
 <script>
         export default {
-                name: "customInputComponent"
         }
 </script>
 

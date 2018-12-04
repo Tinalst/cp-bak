@@ -1,10 +1,11 @@
 <template>
-        $END$
+    <custom-input-component></custom-input-component>
 </template>
 
 <script>
+
         export default {
-                name: "animation1Component"
+
         }
 </script>
 

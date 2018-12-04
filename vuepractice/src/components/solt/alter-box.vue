@@ -1,5 +1,8 @@
 <template>
-        $END$
+        <div class="alert-box">
+            <strong>Error!</strong>
+            <slot></slot>
+        </div>
 </template>
 
 <script>
@@ -8,6 +11,6 @@
         }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

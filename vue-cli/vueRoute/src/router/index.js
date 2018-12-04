@@ -18,7 +18,7 @@ export default new Router({
       }
     },
     {
-      path: '/          ',
+      path: '/',
       name: 'HelloWorld',
       components: {
         default: HelloWorld,
