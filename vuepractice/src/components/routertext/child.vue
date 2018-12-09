@@ -1,13 +1,16 @@
 <template>
-    <div>
-        child
-    </div>
+    <transition>
+        <div>
+            child
+        </div>
+    </transition>
+
 </template>
 
 <script>
-        export default {
-                name: "child"
-        }
+    export default {
+        name: "child"
+    }
 </script>
 
 <style scoped>

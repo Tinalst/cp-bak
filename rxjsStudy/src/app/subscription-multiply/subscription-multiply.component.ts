@@ -70,6 +70,7 @@ export class SubscriptionMultiplyComponent implements OnInit , OnDestroy{
 
         ngOnDestroy(): void {
                 this.cancleSubscription();
+
         }
 
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- rel=stylesheet没有加 资源加载无效 -->
+    <link rel="stylesheet" href="../common/reset.css">
+    <style>
+        header {
+            background-color: #0072b0;
+            border-radius: .5em;
+            margin-bottom: 1.5em;
+            color: #fff;
+            padding: 1em 1.5em;
+        }
+
+        .main {
+            background-color: #fff;
+            border-radius: .5em;
+            padding: 0 1.5em;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+
+        .media {
+            float: left;
+            width: calc(50% - 1.5em);
+            padding: 1.5em;
+            background-color: #eee;
+            border-radius: .5em;
+            margin: 0 1.5em 1.5em 0;
+        }
+
+        .media:nth-child(odd) {
+            clear: left;
+        }
+
+        /* 清除浮动方式1 */
+        /* .clearfix::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+         */
+        /* 清除浮动方式2 */
+        .clearfix::before,
+        .clearfix::after {
+            display: table;
+            content: "";
+        }
+
+        .clearfix::after {
+            clear: both;
+        }
+
+        .media-image {
+            float: left;
+            margin-right: 1.5em;
+        }
+
+        .media-body {
+            margin-top: 0;
+            overflow: auto;
+        }
+
+        .media-body h4 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Franklin running club</h1>
+        </header>
+        <main class="main clearfix">
+            <h2>Running tips</h2>
+
+            <div>
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Strength training is an important part of
+                            injury prevention. Focus on your core&mdash;
+                            especially your abs and glutes
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Check your stride turnover. The most efficient
+                            runners take about 180 steps per minute.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Don't run the same every time you hit the
+                            road. Vary your pace, and vary the distance
+                            of your runs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Run tall but relaxed. Your feet should hit
+                            the ground beneath your hips, not out in
+                            front of you.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Don't run the same every time you hit the
+                            road. Vary your pace, and vary the distance
+                            of your runs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <img class="media-image" src="shoes.png">
+                    <div class="media-body">
+                        <h4>Strength</h4>
+                        <p>
+                            Run tall but relaxed. Your feet should hit
+                            the ground beneath your hips, not out in
+                            front of you.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

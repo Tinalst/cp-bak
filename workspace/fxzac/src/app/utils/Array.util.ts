@@ -1,5 +1,5 @@
 export class ArrayUtil {
-        // static fcompare(property) {
-        //         return
-        // }
+  // static fcompare(property) {
+  //         return
+  // }
 }

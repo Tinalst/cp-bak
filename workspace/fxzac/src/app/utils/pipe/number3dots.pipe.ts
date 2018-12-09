@@ -2,13 +2,13 @@ import {Pipe, PipeTransform} from '@angular/core';
 import {NumberUtil} from '../number.util';
 
 @Pipe({
-        name: 'number3dots'
+  name: 'number3dots'
 })
 export class Number3dotsPipe implements PipeTransform {
 
-        transform(value: any, args?: any): any {
+  transform(value: any, args?: any): any {
 
-                return NumberUtil.toThousands(value);
-        }
+    return NumberUtil.toThousands(value);
+  }
 
 }

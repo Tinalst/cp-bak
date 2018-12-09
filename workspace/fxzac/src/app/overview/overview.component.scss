@@ -1,83 +1,95 @@
 section {
-        display: flex;
-        justify-content: space-between;
-        height: 100%;
-        width: 100%;
-        .overview ,
-        .notes{
-                height: 100%;
-                flex: 1;
-                border-radius: 5px;
-                background: var(--color-highlight-background);
-        }
-        .overview{
-                margin-right: 10px;
-                flex: 1.5;
-                background: rgba(51,51,51,0.35);
-                main  {
-                        p > span:nth-child(2) {
-                                color: var(--color-text-white);
-                                font-weight: bold;
-                        }
-                }
-                .notes-info {
-                        border-bottom: 1px var(--color-text-grey) solid;
-                }
-        }
-        .overview header ,
-        .notes header{
-                background: var(--title-background);
-                padding: 14px;
-                font-size: .5rem;
-                font-weight: bold;
-                color:  #969696;
-        }
-         .overview main,
-         .notes main {
-                 margin: 20px;
-        }
-        .overview main {
-                //margin: 20px 20px 28px 20px;
-        }
-        .overview main p {
-                display: flex;
-                justify-content: space-between;
-                //font-size: 15px;
-                margin-bottom: .5rem;
-                font-size: .3rem;
-        }
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  .overview,
+  .notes {
+    height: 100%;
+    flex: 1;
+    border-radius: 5px;
+    background: var(--color-highlight-background);
+  }
+  .overview {
+    margin-right: 10px;
+    flex: 1.5;
+    background: rgba(51, 51, 51, 0.35);
+    main {
+      p > span:nth-child(2) {
+        color: var(--color-text-white);
+        font-weight: bold;
+      }
+    }
+    .notes-info {
+      border-bottom: 1px var(--color-text-grey) solid;
+    }
+  }
+  .overview header,
+  .notes header {
+    background: var(--title-background);
+    padding: 14px;
+    font-size: .5rem;
+    font-weight: bold;
+    color: #969696;
+  }
+  .overview main,
+  .notes main {
+    margin: 14px;
+  }
+  .overview main {
+    //margin: 20px 20px 28px 20px;
+  }
+  .overview main p {
+    display: flex;
+    justify-content: space-between;
+    //font-size: 15px;
+    margin-bottom: .5rem;
+    font-size: .3rem;
+  }
 
-        .ethInfo  {
-                display: flex;
-                justify-content: space-between;
-                padding-top: 0 !important;
-                div  > p:nth-child(2) {
-                        color: var(--color-text-white);
-                        font-weight: bold;
-                }
-        }
+  .ethInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0 !important;
+    div > p:nth-child(2) {
+      color: var(--color-text-white);
+      font-weight: bold;
+    }
+  }
 
-        .notes .notes-container {
-                height: 79%;
-                margin: 20px 20px;
-                overflow: auto;
-                overflow-x: hidden;
-                div {
-                        display: flex;
-                        justify-content: left;
-                        color: var(--color-text-white);
-                        font-size: 0.3rem;
-                        margin-bottom: 20px;
-                }
-                span {
-                        margin-left: 15px;
-                        font-size: .35rem;
-                }
-        }
-}
-:host{
-        width: 97%;
-        position: absolute;
-        height: 37%;
+  .notes .notes-container {
+    height: 79%;
+    margin: 14px 16px;
+    overflow: auto;
+    overflow-x: hidden;
+    div {
+      display: flex;
+      justify-content: left;
+      color: var(--color-text-white);
+      font-size: 0.3rem;
+      margin-bottom: 20px;
+    }
+    span {
+      margin-left: 15px;
+      font-size: .35rem;
+    }
+  }
 }
 
+:host {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 37%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-height: 1180px) {
+  :host {
+    //border: 1px salmon solid;
+    height: 400px;
+  }
+}

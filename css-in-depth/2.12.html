@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>相对单位的最佳用法</title>
+    <style>
+         :root {
+            /* 以14px位基础字体单位 */
+            font-size: .875em;
+        }
+        
+        .panel {
+            padding: 1em;
+            border-radius: 0.5em;
+            border: 1px solid #999;
+        }
+        
+        .panel>h2 {
+            margin-top: 0;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        @media (min-width: 1200px) {
+             :root {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel">
+        <h2>Single-origin</h2>
+        <div class="panel-body">
+            We have built partnerships with small farms around the world to hand-select beans at the peak of season. We then carefully roast in <a href="/batch-size">small batches</a> to maximize their potential.
+        </div>
+    </div>
+</body>
+
+</html>
