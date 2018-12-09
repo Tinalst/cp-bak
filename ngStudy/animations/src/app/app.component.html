@@ -6,16 +6,16 @@
     <li (click)="switchComponent('a5')">通过:enter | :leave 实现元素移除显示效果</li>
     <li (click)="switchComponent('a6')">在state()中使用布尔值</li>
     <li (click)="switchComponent('a7')">动画回调</li>
-<<<<<<< HEAD
-</ul>
-=======
     <li (click)="switchComponent('a8')">keyframe()</li>
     <li (click)="switchComponent('a9')">group()</li>
     <li (click)="switchComponent('a10')">sequence()</li>
     <li (click)="switchComponent('a11')">动画复用</li>
+    <li (click)="switchComponent('test1')">test1<li>
+    <li (click)="switchComponent('test2')">test2</li>
+
 </ol>
->>>>>>> 781e55f6d4e110b21399c039fcd7f6bc5d854aa6
-<div>
-  <router-outlet></router-outlet>
-</div>
+
+<!--<div class="main" [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">-->
+  <router-outlet #o="outlet"></router-outlet>
+<!--</div>-->
 

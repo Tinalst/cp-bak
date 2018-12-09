@@ -37,7 +37,7 @@ export class Animation2Component implements OnInit {
     }
 
     changeState = (): void => {
-        this.state === 'open' ? this.state = 'close' : this.state ='open';
+        this.state === 'open' ? this.state = 'close' : this.state = 'open';
     }
 
 }
