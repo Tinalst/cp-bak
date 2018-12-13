@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>理解 flexbox</title>
+
+  <link href="reset.css" rel="stylesheet">
+  <style>
+    .container {
+      border: 1px solid crimson;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .site-nav {
+      display: flex;
+      list-style-type: none;
+      background-color: #5f4b44;
+      padding: .5em;
+      border-radius: .2em;
+
+    }
+
+    .site-nav > li {
+      margin-top: 0;
+    }
+
+    .site-nav > li > a {
+      background-color: #cc6b5a;
+      color: white;
+      text-decoration: none;
+      padding: .5em 1em;
+      display: block;
+
+    }
+
+
+    .site-nav > li + li {
+      margin-left: 1.5em;
+    }
+
+    .site-nav > .nav-right {
+      margin-left: auto;
+    }
+
+    .tile {
+      background: white;
+      padding: 1.5em;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .flex > * + * {
+      margin-top: 0;
+      margin-left: 1.5em;
+    }
+
+    .colunm-main {
+      flex: 2;
+      /*flex: 66.67%;*/
+    }
+
+    .column-sidebar {
+      flex: 1;
+      /*flex: 33.33%;*/
+      display: flex;
+      flex-direction: column;
+    }
+
+    .column-sidebar > .tile {
+      flex: 1;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ink</h1>
+    </header>
+
+    <nav>
+      <ul class="site-nav">
+        <li><a href="/features">Features</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/support">Support</a></li>
+        <li class="nav-right">
+          <a href="/about">About</a>
+        </li>
+      </ul>
+      </ul>
+    </nav>
+
+    <main class="flex">
+      <div class="colunm-main tile">
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+        <h1>Team collaboration done right</h1>
+        <p>Thousands of teams from all over the
+          world turn to <b>Ink</b> to communicate
+          and get things done.</p>
+      </div>
+
+      <div class="column-sidebar">
+        <div class="tile">
+          <form class="login-form">
+            <h3>login</h3>
+            <p>
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username">
+            </p>
+            <p>
+              <lable for="password">Password</lable>
+              <input type="password" id="password" name="password">
+            </p>
+            <button type="submit">Login</button>
+          </form>
+        </div>
+
+        <div class="tile centered">
+          <small>Starting at</small>
+          <div class="cost-currency">$</div>
+          <div class="cost-dollars">20</div>
+          <div class="cost-cents">.00</div>
+          <a href="#" class="cta-button">Sign up</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
