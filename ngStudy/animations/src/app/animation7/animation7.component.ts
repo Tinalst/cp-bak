@@ -1,18 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-
-@Component({
-  selector: 'app-animation7',
-  templateUrl: './animation7.component.html',
-  styleUrls: ['./animation7.component.scss']
-})
-export class Animation7Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-=======
 import {animate, state, style, transition, trigger} from '@angular/animations';
 
 @Component({
@@ -55,6 +41,5 @@ export class Animation7Component implements OnInit {
     onAnimationsEvent = (event: AnimationEvent): void => {
         console.log(event);
     };
->>>>>>> 781e55f6d4e110b21399c039fcd7f6bc5d854aa6
 
 }
