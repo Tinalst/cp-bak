@@ -1,0 +1,22 @@
+/*设置HTML元素盒子模型*/
+:root {
+  box-sizing: border-box;
+}
+
+/*设置所有元素和所有元素的伪类盒子模型类型*/
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*设置页面背景颜色和字体类型*/
+body {
+  background-color: #709b90;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*设置猫头鹰*/
+body * + * {
+  margin-top: 1.5em;
+}
