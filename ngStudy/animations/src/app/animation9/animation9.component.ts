@@ -9,7 +9,8 @@ import {animate, group, state, style, transition, trigger} from '@angular/animat
         trigger('flyInOut', [
             state('in', style({
                 width: 120,
-                transform: 'translateX(0)', opacity: 1
+                transform: 'translateX(0)',
+                opacity: 1
             })),
             transition('void => *', [
                 style({ width: 10, transform: 'translateX(50px)', opacity: 0 }),

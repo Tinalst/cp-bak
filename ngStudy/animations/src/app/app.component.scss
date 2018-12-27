@@ -1,3 +1,21 @@
+:host {
+    height: 100vh;
+    overflow: hidden;
+    background: cornflowerblue;
+    border: 1px solid rebeccapurple;
+    width: 100vw;
+    display: flex;
+    main {
+        position: relative;
+    }
+    /deep/ router-outlet ~* {
+        position: absolute;
+        width: 100vw;
+        height: 50vh;
+        background: salmon;
+        border: 1px solid saddlebrown;
+    }
+}
 div {
   background: beige;
 }

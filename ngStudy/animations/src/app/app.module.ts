@@ -19,6 +19,7 @@ import {Animation11Component} from './animation11/animation11.component';
 import { RouterAnimationComponent } from './router-animation/router-animation.component';
 import { Test1Component } from './test1/test1.component';
 import { Test2Component } from './test2/test2.component';
+import { FadeAnimationComponent } from './fade-animation/fade-animation.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { Test2Component } from './test2/test2.component';
     Animation11Component,
     RouterAnimationComponent,
     Test1Component,
-    Test2Component
+    Test2Component,
+    FadeAnimationComponent
 
   ],
   imports: [

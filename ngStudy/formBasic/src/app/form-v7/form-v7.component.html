@@ -1,0 +1,18 @@
+<p>新版表单ngmodel和formControlName不再支持同时使用</p>
+<p>测试只用ngModel的情况下</p>
+<form [formGroup]="myForm">
+  <p class="form-group">
+    <label>
+      name:
+      <input type="text" [(ngModel)]="myFormService.name" [ngModelOptions]="{standalone: true}" (ngModelChange)="dataChnaged($event)">
+      <!--<input type="text" [(ngModel)]="myFormService.name" formControlName="name" >-->
+    </label>
+  </p>
+  <p class="form-group">
+    <label>
+      age:
+      <input type="text" >
+    </label>
+  </p>
+
+</form>
