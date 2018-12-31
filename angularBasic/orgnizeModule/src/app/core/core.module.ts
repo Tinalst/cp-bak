@@ -1,13 +1,19 @@
 import {NgModule, Optional, SkipSelf} from '@angular/core';
 import {throwIfAlreadyLoaded} from './module-import-guard';
 import { HeaderComponent } from './components/header/header.component';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
+import {HttpconfigInterceptor} from './interceptor/httpconfig.interceptor';
 
 @NgModule({
   declarations: [HeaderComponent],
   imports: [
+    HttpClientModule
   ],
   exports: [
     HeaderComponent
+  ],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: HttpconfigInterceptor, multi: true}
   ]
   // providers: [/* Services */]
 })

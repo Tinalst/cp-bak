@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  appConfig: {
+    remoteBaseUrl: 'http://192.168.21.181:8090/fxKyc',  // TTF
+    // remoteBaseUrl: 'http://192.168.21.62:8090/fxKyc',      // testonline
+    // remoteBaseUrl: 'http://192.168.21.155:8090/fxKyc',  // lhz
+    gRecaptcha: '6Lc4ukEUAAAAAHW0WSkD1wphitG6hQvZ5vtpyjl8'
+  }
 };
 
 /*
