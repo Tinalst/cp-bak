@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      min-height: 200vh; // DEMO效果而设置
+      margin: 0;
+    }
+    button {
+      padding: 0.5em 0.7em;
+      border: 1px solid #8d8d8d;
+      background-color: white;
+      font-size: 1em;
+    }
+    .top-banner {
+      padding: 1em 0;
+      background-color: #ffd698;
+    }
+    .top-banner-inner {
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .modal {
+      display: none;
+    }
+    .modal-backdrop {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1; /*使模态框背景层级高于任何没有设置z-index的元素*/
+    }
+    .modal-body {
+      background-color: white;
+      overflow: auto;
+      position: fixed;
+      top: 3em;
+      bottom: 3em;
+      left: 20%;
+      right: 20%;
+      padding: 2em 3em;
+      z-index: 2; /*使模态框内容层级高于模态框背景层级*/
+    }
+    .modal-close {
+      cursor: pointer;
+      position: absolute;
+      top: 0.3em;
+      right: 0.3em;
+      padding: 0.3em;
+
+      font-size: 2em;    /*变大原本的字体*/
+      height: 1em;       /*设置按钮大小*/
+      width: 1em;        /*设置按钮大小*/
+      text-indent: 10em; /*行缩进*/
+      overflow: hidden;
+      border: 0;
+    }
+    .modal-close::after {
+      position: absolute;
+      line-height: 0.5;
+      top: 0.2em;
+      left: 0.1em;
+      text-indent: 0;  /*text-indent是一个可设置inherit属性会继承父元素设置的大小所以这里需要重置*/
+      content: "\00d7";
+    }
+
+    /*下拉样式*/
+    .container {
+      width: 80%;
+      max-width: 1000px;
+      margin: 1em auto;
+    }
+    .dropdown {
+      display: inline-block;
+      position: relative; /*创建包含块*/
+    }
+    .dropdown-label {    /*选中文本样式*/
+      padding: .5em 2em 0.5em 1.5em; /*右边流出更多的边距用于放置小三角形*/
+      border: 1px solid #ccc;
+      background-color: #eee;
+    }
+    .dropdown-label::after {
+      content: '';
+      position: absolute;
+      border: 0.3em solid;
+      border-color: black transparent transparent; /*上边框设置颜色 其他三边设置透明行程三角形*/
+      top: 1em;
+      right: 1em;
+    }
+    .dropdown:hover .dropdown-label::after {  /*菜单打开的时候改变三角形的方向*/
+      border-color: transparent transparent black;
+      top: 0.7em;
+    }
+    .dropdown-menu {    /*下拉菜单*/
+      position: absolute;
+      left: 0;
+      top: 2.1em;
+      min-width: 100%;
+      background-color: #c5c0c0;
+      display: none;
+    }
+    .dropdown:hover .dropdown-menu { /*当鼠标hover到选中文本上时显示下拉菜单*/
+      display: block;
+    }
+    .submenu {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+      border: 1px solid #999;
+    }
+    .submenu > li + li {
+      border-top: 1px solid #999;
+    }
+    .submenu > li > a {
+      display: block;
+      padding: .5em 1.5em;
+      background-color: #eee;
+      color: #369;
+      text-decoration: none;
+    }
+    .submenu > li > a:hover {
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+   <header class="top-banner">
+     <div class="top-banner-inner">
+        <p>
+          The emergence of grid layout was not like that of other CSS features, such as flexbox. As browsers implemented early versions of flexbox, they made it available through the use of vendor prefixes. The original intention of vendor prefixes was to allow develop- ers to experiment with the technology before using it in production. This is not how things played out, however.
+          <button id="open">Sign up</button>
+        </p>
+     </div>
+   </header>
+
+  <div class="modal" id="modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-body">
+      <button class="modal-close" id="close" >close</button>
+      <h2>Wombat Newsletter</h2>
+      <p>Sign up for our monthly newsletter. No spam.
+        We promise!</p>
+      <form>
+        <p>
+          <label for="email">Email address:</label>
+          <input type="text" name="email" />
+        </p>
+        <p><button type="submit">Submit</button></p>
+      </form>
+    </div>
+  </div>
+
+   <div class="container">
+     <nav>
+       <div class="dropdown">
+         <div class="dropdown-label">Main Menu</div>
+         <div class="dropdown-menu">
+           <ul class="submenu">
+             <li><a href="/">Home</a></li>
+             <li><a href="/coffees">Coffees</a></li>
+             <li><a href="/brewers">Brewers</a></li>
+             <li><a href="/specials">Specials</a></li>
+             <li><a href="/about">About us</a></li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+   </div>
+
+  <script type="text/javascript">
+    var button = document.getElementById('open');
+    var close = document.getElementById('close');
+    var modal = document.getElementById('modal');
+
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      modal.style.display = 'block';
+    });
+    close.addEventListener('click', function(event) {
+      event.preventDefault();
+      modal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>

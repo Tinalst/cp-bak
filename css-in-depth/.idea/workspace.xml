@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.5.2/runner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.5.2/shoes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.1/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.1/fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.4/stacking-context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans-medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,17 +60,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="771692140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="jpg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="4110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="4110" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5.1/index.html">
+        <entry file="file://$PROJECT_DIR$/8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -74,8 +111,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,6 +127,9 @@
         <option value="$PROJECT_DIR$/4.5.2/index.html" />
         <option value="$PROJECT_DIR$/5.1/reset.css" />
         <option value="$PROJECT_DIR$/5.1/index.html" />
+        <option value="$PROJECT_DIR$/7.1/fixed.html" />
+        <option value="$PROJECT_DIR$/7.4/stacking-context.html" />
+        <option value="$PROJECT_DIR$/8/index.html" />
       </list>
     </option>
   </component>
@@ -100,10 +140,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="874" />
-    <option name="y" value="69" />
-    <option name="width" value="1170" />
-    <option name="height" value="1000" />
+    <option name="x" value="1118" />
+    <option name="y" value="61" />
+    <option name="width" value="1493" />
+    <option name="height" value="1233" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,12 +164,13 @@
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="5.1" type="462c0819:PsiDirectoryNode" />
+              <item name="8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="8" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,16 +185,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/4.5.2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/4.5.2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/4.2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/8/images" />
+      <recent name="$PROJECT_DIR$/4.5.2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,17 +222,18 @@
       <updated>1544324541923</updated>
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
+      <workItem from="1546824136330" duration="21117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8762000" />
+    <option name="totallyTimeSpent" value="29879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="874" y="69" width="1170" height="1000" extended-state="0" />
+    <frame x="1118" y="61" width="1493" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19147085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08491848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2532866" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,11 +281,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        <state relative-caret-position="364">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.4/stacking-context.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/images/coffee-beans-small.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
