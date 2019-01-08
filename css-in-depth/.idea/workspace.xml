@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.1/fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.4/stacking-context.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans-medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8/images/coffee-beans.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/8/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,12 +75,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4110" />
+          <entry key="html" value="4648" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4110" />
+          <entry key="HTML" value="4648" />
         </counts>
       </usages-collector>
     </session>
@@ -96,10 +90,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -140,8 +135,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1118" />
-    <option name="y" value="61" />
+    <option name="x" value="955" />
+    <option name="y" value="69" />
     <option name="width" value="1493" />
     <option name="height" value="1233" />
   </component>
@@ -222,18 +217,18 @@
       <updated>1544324541923</updated>
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
-      <workItem from="1546824136330" duration="21117000" />
+      <workItem from="1546824136330" duration="26570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29879000" />
+    <option name="totallyTimeSpent" value="35332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1118" y="61" width="1493" height="1233" extended-state="0" />
+    <frame x="955" y="69" width="1493" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08491848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11413044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,10 +307,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="301">
+          <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
