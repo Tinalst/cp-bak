@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .message {  /*base message module*/
+      background-color: #e0f0f2;
+      color: #265559;
+      border: 1px solid #265559;
+      border-radius: 0.2em;
+      padding: 0.8em 1.2em;
+    }
+    .message--success { /*message modifiers*/
+      color: #2f5926;
+      border-color: #2f5926;
+      background-color:  #cfe8c9;
+    }
+    .message--warning {  /*message modifiers*/
+      color: #2f5926;
+      border-color: #2f5926;
+      background-color:  #cfe8c9;
+    }
+    .message--error {  /*message modifiers*/
+      color: #2f5926;
+      border-color: #2f5926;
+      background-color:  #cfe8c9;
+    }
+
+    .button {
+      padding: 0.5em 0.8em;
+      border: 1px solid #265559;
+      border-radius: 0.2em;
+      background-color: transparent;
+      font-size: 1rem;
+    }
+    .button--success { /*modifiers*/
+      border-color: #cfe8c9;
+      color: #fff;
+      background-color: #2f5926;
+    }
+    .button--danger { /*modifiers*/
+      border-color: #e8c9c9;
+      color: #fff;
+      background-color: #a92323;
+    }
+    .button--small {
+      font-size: 0.8rem;
+    }
+    .button--large {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">Save successful</div>
+  <button class="button button--large">READ MORE</button>
+  <button class="button button--danger">SAVE</button>
+  <button class="button button--success button--small">Cancel</button>
+</body>
+</html>

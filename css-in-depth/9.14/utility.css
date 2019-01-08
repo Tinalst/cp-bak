@@ -1,0 +1,17 @@
+.text-center { /*center text within a container*/
+  text-align: center;
+}
+.float-left { /*float an element left*/
+  float: left;
+}
+.clearfix::before, /*clearfix*/
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.hidden { /*hides an element on the page*/
+  display: none !important;
+}
