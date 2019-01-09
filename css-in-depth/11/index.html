@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .fade {
+      width: 5em;
+      height: 3em;
+      background-image: linear-gradient(to right, white, blue);
+    }
+    .multiple--fade {
+      width: 5em;
+      height: 3em;
+      background: linear-gradient(90deg, palegoldenrod, pink, darkorange);
+    }
+    .stop--gradient {
+      width: 5em;
+      height: 3em;
+      background: linear-gradient(90deg, pink 0%, orange 50%, yellowgreen 100%);
+    }
+    .same-stop--gradient {
+      width: 5em;
+      height: 3em;
+      background-image: linear-gradient(90deg, pink 40%, darkcyan 40%, yellowgreen 60%, darkgreen 60%);
+    }
+    .stripes {
+      height: .8em;
+      width: 10em;
+      border-radius: 0.2em;
+      background-image: repeating-linear-gradient(135deg, #57b, #57b 10px, #148 10px, #148 20px);
+    }
+
+    .gradient-basic {
+      width: 5em;
+      height: 3em;
+      background-image: radial-gradient(darkcyan, plum);
+    }
+    .gradient-circle {
+      width: 5em;
+      height: 3em;
+      background-image: radial-gradient(circle, darkcyan, plum);
+    }
+    .gradient-positioned {
+      width: 5em;
+      height: 3em;
+      background-image: radial-gradient(1.5em at 25% 25%, darkcyan, plum);
+    }
+    .gradient-multiple {
+      width: 5em;
+      height: 3em;
+      background-image: radial-gradient(circle, orange 0%, pink 75%, khaki 100%);
+    }
+    .gradient-repeating {
+      width: 5em;
+      height: 3em;
+      background-image: repeating-radial-gradient(circle, midnightblue 0,
+      midnightblue 1em, white 1em, white 2em);
+    }
+
+    .button-ske {
+      padding: 1em;
+      border: 0;
+      font-size: 0.8em;
+      color: white;
+      border-radius: 0.5em;
+      background-image: linear-gradient(180deg, #57b, #148);
+      box-shadow: 0.1em 0.1em 0.5em #124;
+    }
+    .button-ske:active {
+      box-shadow: inset 0 0 0.5em #124, inset 0 0.5em 1em rgba(0,0,0,0.4);
+    }
+
+    .button-flat {
+      padding: 1em;
+      border: 0;
+      font-size: 0.8em;
+      color: white;
+      border-radius: 0.5em;
+      background-color: #57b;
+      box-shadow: 0 10.2em 0.2em rgba(0, 0, 0, 0.15);
+    }
+    .button-flat:hover {
+      background-color: #456ab6;
+    }
+    .button-flat:active {
+      background-color: #148;
+    }
+
+    .button-mordern {
+      padding: 0.8em;
+      border: 0;
+      font-size: 1rem;
+      color: white;
+      border-radius: 0.5em;
+      background-color: #57b;
+      box-shadow: 0 0.4em #148;
+      text-shadow: 1px 1px #148;
+    }
+    .button-mordern:active {
+      background-color: #456ab5;
+      transform: translateY(0.1em);
+      box-shadow: 0 0.3em #148;
+    }
+
+    .blend-hard-multipe {
+      min-height: 400px;
+      background-image: url("images/bear.jpg"), url("images/bear.jpg");
+      background-size: cover; /*同时作用于多张背景图*/
+      background-repeat: no-repeat; /*同时作用于多张背景图*/
+      background-position: -20em, 20em; /*第一个值作用于第一张背景图， 第二个值作用于第二张背景图*/
+      background-blend-mode: multiply; /*只在多张背景图存在的情况下生效*/
+    }
+
+    .blend-tint {
+      min-height: 400px;
+      background-image: url("images/bear.jpg"), linear-gradient(180deg, #148, #148); /*实现方式一 注意背景图像是前面一层，背景颜色是后面一层*/
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      /*background-color: #148;*/  /*实现方式二 注意背景图像是前面一层，背景颜色是后面一层*/
+      background-blend-mode: luminosity;
+    }
+
+    .blend-soft-light {
+      min-height: 400px;
+      background-image: url("images/scratches.png"), url("images/bear.jpg");
+      background-size: 200px, cover;
+      background-repeat: repeat, no-repeat;
+      background-position: center, center;
+      background-blend-mode: soft-light;
+    }
+
+    .mix-blend {
+      background-image: url("images/bear.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 5em 0 10em;
+    }
+    .mix-blend > h1 {
+      font-size: 6rem;
+      text-align: center;
+      mix-blend-mode: hard-light;
+      background-color: #c33;
+      color: #808080;
+      border:  0.1em solid #ccc;
+      border-width:  0.1em 0;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h5>background-image & blend gradient</h5>
+  <div class="fade"></div>
+  <div class="multiple--fade"></div>
+  <div class="stop--gradient"></div>
+  <div class="same-stop--gradient"></div>
+  <div class="stripes"></div>
+  <div class="stripes-bar"></div>
+  <div class="gradient-basic"></div>
+  <div class="gradient-circle"></div>
+  <div class="gradient-positioned"></div>
+  <div class="gradient-multiple"></div>
+  <div class="gradient-repeating"></div>
+  <button class="button-ske">button-ske</button>
+  <button class="button-flat">button-flat</button>
+  <button class="button-mordern">button-mordern</button>
+  <h6>screen（滤色） | hard-light（强光） | color-burn（颜色加深） | multiply（正片叠底）） </h6>
+  <div class="blend-hard-multipe"></div>
+  <h6>luminosity(亮度)</h6>
+  <div class="blend-tint"></div>
+  <h6>add textture to an image(添加纹理)</h6>
+  <div class="blend-soft-light"></div>
+  <h6>mix-blend-mode(混合混合模式)</h6>
+  <div class="mix-blend">
+    <h1>Ursa Major</h1>
+  </div>
+</body>
+</html>

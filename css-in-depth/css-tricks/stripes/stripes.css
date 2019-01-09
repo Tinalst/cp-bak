@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+$color: 与黑色混合的颜色
+$dilution： 变暗程度，默认50%
+ */
+.module1 {
+  background: white;
+  border: 1px solid #ccc;
+  margin: 1em; }
+  .module1 > h1 {
+    padding: 1rem;
+    margin: 0 0 0.5rem 0; }
+  .module1 > p {
+    padding: 0 1rem; }
+
+.stripe-1 {
+  color: white;
+  background-image: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px); }
+
+.stripe-2 {
+  color: black;
+  background: repeating-linear-gradient(45deg, transparent, transparent 10px, #ccc 10px, #ccc 20px), linear-gradient(180deg, #eee, #999); }
+
+.stripe-3 {
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 10px, rgba(0, 0, 0, 0.3) 10px, rgba(0, 0, 0, 0.3) 20px), url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png); }
+
+.module1--static--stripe {
+  background: repeating-linear-gradient(135deg, #666, #666 10px, #5c5c5c 10px, #5c5c5c 20px, #666 20px) top left fixed; }
+
+.module1--dynamic {
+  width: 50%;
+  display: block;
+  margin: -1rem;
+  padding: 1rem;
+  background: repeating-linear-gradient(135deg, #465298, #465298 10px, #3f4a89 10px, #3f4a89 20px, #465298 20px) top left fixed;
+  animation: width 5s infinite; }
+
+@keyframes width {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+
+/*# sourceMappingURL=stripes.css.map */

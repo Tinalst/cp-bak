@@ -364,6 +364,7 @@ template {
 }
 
 /**** custom tag*****/
-button:focus {
+button:focus,
+button:active{
   outline: none;
 }
