@@ -1,0 +1,45 @@
+:root {
+  /*for custom*/
+  --brand-green: #076448;
+  --dark-green: #099268;
+  --medium-green: #20c997;
+  --text-color: #212529;
+  --gray: #868e96;
+  --light-gray: #f1f3f5;
+  --extra-light-gray: #f8f9fa;
+  --white: #fff;
+
+  box-sizing: border-box;
+  font-size: calc(1vw + 0.6em);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  /*for custom*/
+  line-height: 1.4;
+  background-color: var(--extra-light-gray);
+}
+
+/*for custom*/
+h1, h2, h3, h4 {
+  font-family: Georgia, Serif;
+}
+a {
+  color: var(--medium-green);
+}
+a:visited {
+  color: var(--brand-green);
+}
+a:hover {
+  color: var(--brand-green);
+}
+a:active {
+
+}
+
