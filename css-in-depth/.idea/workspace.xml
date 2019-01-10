@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/12/style/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +64,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="16" />
+          <entry key="css" value="17" />
           <entry key="html" value="19" />
           <entry key="jpg" value="2" />
           <entry key="md" value="4" />
@@ -74,7 +75,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="16" />
+          <entry key="CSS" value="17" />
           <entry key="HTML" value="19" />
           <entry key="Image" value="4" />
           <entry key="Markdown" value="4" />
@@ -84,16 +85,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="645" />
-          <entry key="html" value="9669" />
+          <entry key="css" value="680" />
+          <entry key="html" value="9939" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="645" />
-          <entry key="HTML" value="9676" />
+          <entry key="CSS" value="680" />
+          <entry key="HTML" value="9946" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
         </counts>
@@ -102,13 +103,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12/style/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+            <state relative-caret-position="678">
+              <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
               <folding>
+                <element signature="n#nav#0;n#body#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#1987#1993#0" expanded="true" />
               </folding>
             </state>
@@ -118,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="26">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -186,8 +199,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
-    <option name="y" value="97" />
+    <option name="x" value="955" />
+    <option name="y" value="149" />
     <option name="width" value="1585" />
     <option name="height" value="1233" />
   </component>
@@ -288,18 +301,18 @@
       <updated>1544324541923</updated>
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
-      <workItem from="1546824136330" duration="65584000" />
+      <workItem from="1546824136330" duration="70176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74346000" />
+    <option name="totallyTimeSpent" value="78938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="97" width="1585" height="1233" extended-state="0" />
+    <frame x="955" y="149" width="1585" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05498721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06777494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +324,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29535496" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3041192" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,17 +557,17 @@
     <entry file="file://$PROJECT_DIR$/12/images/WX20190109-175150@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/12/style/base.css">
+    <entry file="file://$PROJECT_DIR$/12/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="26">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12/style/main.css">
+    <entry file="file://$PROJECT_DIR$/12/style/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="329">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -563,10 +576,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+        <state relative-caret-position="678">
+          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
           <folding>
+            <element signature="n#nav#0;n#body#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#1987#1993#0" expanded="true" />
           </folding>
         </state>

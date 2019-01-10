@@ -14,6 +14,7 @@
       justify-content: space-between;
       margin: 0 auto;
       align-items: center;
+      padding: 0.625em 0;
     }
     .home-link {
       color: var(--text-color);
@@ -25,6 +26,7 @@
     .top-nav {
       display: flex;
       list-style-type: none;
+      margin: 0;
     }
     .top-nav  a {
       display: block;
@@ -45,6 +47,9 @@
       color: var(--medium-green);
       background-color: var(--white);
     }
+    .top-nav > li + li {
+      margin-left: 0.625em;
+    }
 
     .hero {
       background: url("images/collaboration.jpg") no-repeat ;
@@ -58,6 +63,8 @@
     }
     .hero h2 {
       font-size: 1.95rem;
+      margin-top: 2.4225rem;
+      margin-bottom: 0.61rem;
     }
     .button {
       display: inline-block;
@@ -82,10 +89,26 @@
     .tile {
       background-color: var(--white);
       border-radius: 0.3em;
-      padding: 1em 1.5em;
+      padding: 1.5625em;
     }
     .tile + .tile {
       margin-top: 1em;
+    }
+    .tile > h4 {
+      margin-bottom: 1.475em;
+      margin-top: 0;
+    }
+    .tag-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .tag-list > li {
+      display: inline;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.8rem;
+      border-radius: 0.2rem;
+      background-color: var(--light-gray);
+      line-height: 2.6; /*解决换行时候行内元素失去间距*/
     }
 
     @media (min-width: 35em) {
@@ -97,6 +120,7 @@
       }
       .tile + .tile {
         margin-top: 0;
+        margin-left: 1.5625em;
       }
     }
 
@@ -125,10 +149,6 @@
       </ul>
     </div>
   </nav>
-
-  <!--<div class="top-menu">-->
-
-  <!--</div>-->
 
   <div class="hero">
     <div class="hero__inner">
