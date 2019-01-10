@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link href="style/main.css">
+  <style>
+    .container {
+      height: 30px;
+    }
+    .box {
+      height: 3em;
+      width: 3em;
+      background-color: hsl(130, 50%, 50%);
+      transition: all 1s steps(3);
+    }
+    .container:hover .box {
+      transform: translateX(25em);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>

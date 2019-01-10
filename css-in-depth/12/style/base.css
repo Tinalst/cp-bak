@@ -19,17 +19,27 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
 
   /*for custom*/
-  line-height: 1.4;
+  line-height: 1.6;
+  letter-spacing: 0.01em; /*1/100增量*/
   background-color: var(--extra-light-gray);
 }
-
+.fonts-failed body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 /*for custom*/
 h1, h2, h3, h4 {
-  font-family: Georgia, Serif;
+  font-family: Sansita, Serif;
+  letter-spacing: 0.03em;
+}
+.fonts-failed h1,
+.fonts-failed h2,
+.fonts-failed h3,
+.fonts-failed h4{
+  font-family: Helvetica, Arial, sans-serif;
 }
 a {
   color: var(--medium-green);
