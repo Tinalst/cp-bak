@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12/lib/fontfaceobserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/styles/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.3/style/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.3/style/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.3/style/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14/style/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14/style/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14/style/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
@@ -22,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/12/style/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +63,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="28" />
-          <entry key="html" value="24" />
+          <entry key="css" value="30" />
+          <entry key="html" value="31" />
           <entry key="jpg" value="2" />
           <entry key="js" value="1" />
           <entry key="md" value="4" />
@@ -90,8 +75,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="28" />
-          <entry key="HTML" value="24" />
+          <entry key="CSS" value="30" />
+          <entry key="HTML" value="31" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="4" />
@@ -118,7 +103,78 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1588" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4785">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.11/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="150" column="38" lean-forward="true" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12/style/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css-tricks/stripes/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,6 +188,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>button</find>
+      <find>modal-backdrop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,8 +241,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="926" />
-    <option name="y" value="100" />
+    <option name="x" value="1111" />
+    <option name="y" value="61" />
     <option name="width" value="1585" />
     <option name="height" value="1233" />
   </component>
@@ -208,18 +265,12 @@
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="7.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="14.7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
-              <item name="stripes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,15 +325,15 @@
       <updated>1544324541923</updated>
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
-      <workItem from="1546824136330" duration="85443000" />
+      <workItem from="1546824136330" duration="95469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94205000" />
+    <option name="totallyTimeSpent" value="104231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="926" y="100" width="1585" height="1233" extended-state="0" />
+    <frame x="1111" y="61" width="1585" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13299233" />
@@ -318,9 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.2/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/5.1/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -334,17 +382,6 @@
           <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -380,18 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -409,24 +434,10 @@
     <entry file="file://$PROJECT_DIR$/9.3/base.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9.11/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="343" column="21" lean-forward="true" selection-start-line="343" selection-start-column="21" selection-end-line="343" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9.11/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -472,22 +483,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-tricks/stripes/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11/images/bear.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-tricks/stripes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css-tricks/base.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14/style/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -596,13 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12/style/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -627,6 +610,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tricks/stripes/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tricks/stripes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="150" column="38" lean-forward="true" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12/style/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4785">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
