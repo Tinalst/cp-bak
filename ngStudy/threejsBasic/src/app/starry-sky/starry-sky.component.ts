@@ -36,7 +36,7 @@ export class StarrySkyComponent implements OnInit {
     this.camera = new THREE.PerspectiveCamera(75, width / height, 1, 4000);
     // 渲染器
     this.renderer = new THREE.WebGLRenderer({
-      // alpha: true
+      alpha: true
     });
     // 渲染器大小： width || height || updateStyle: true || false
     this.renderer.setSize(width, height);

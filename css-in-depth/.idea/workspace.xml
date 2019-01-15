@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/assets/images/WX20190115-173629@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/assets/images/particle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threejs/starry-sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/threejs/starry-sky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/create-ascene/create-ascene.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/create-ascene/create-ascene.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threejs/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/threejs/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +74,7 @@
           <entry key="css" value="34" />
           <entry key="html" value="38" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="5" />
+          <entry key="js" value="6" />
           <entry key="md" value="4" />
           <entry key="png" value="2" />
           <entry key="rb" value="1" />
@@ -80,7 +86,7 @@
           <entry key="CSS" value="34" />
           <entry key="HTML" value="38" />
           <entry key="Image" value="4" />
-          <entry key="JavaScript" value="5" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="5" />
@@ -89,7 +95,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="12834" />
+          <entry key="html" value="12875" />
+          <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
         </counts>
@@ -97,7 +104,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="12841" />
+          <entry key="HTML" value="12882" />
+          <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
         </counts>
@@ -106,11 +114,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threejs/starry-sky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="442">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threejs/start.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -175,10 +192,10 @@
         <option value="$PROJECT_DIR$/14/index.html" />
         <option value="$PROJECT_DIR$/14.3/index.html" />
         <option value="$PROJECT_DIR$/css-tricks/transition-steps/index.html" />
-        <option value="$PROJECT_DIR$/threejs/start.js" />
         <option value="$PROJECT_DIR$/threejs/creating-a-scene.html" />
         <option value="$PROJECT_DIR$/threejs/lib/starry-sky.html" />
         <option value="$PROJECT_DIR$/threejs/starry-sky.html" />
+        <option value="$PROJECT_DIR$/threejs/start.js" />
       </list>
     </option>
   </component>
@@ -189,8 +206,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="776" />
-    <option name="y" value="75" />
+    <option name="x" value="1046" />
+    <option name="y" value="86" />
     <option name="width" value="1891" />
     <option name="height" value="1233" />
   </component>
@@ -218,6 +235,12 @@
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="threejs" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="threejs" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,11 +261,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/threejs/images" />
       <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/threejs/lib" />
       <recent name="$PROJECT_DIR$/velocityjs/lib" />
       <recent name="$PROJECT_DIR$/css-tricks/style" />
-      <recent name="$PROJECT_DIR$/14.3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/threejs" />
@@ -276,18 +299,18 @@
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
       <workItem from="1546824136330" duration="95555000" />
-      <workItem from="1547428236727" duration="12583000" />
+      <workItem from="1547428236727" duration="15284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116900000" />
+    <option name="totallyTimeSpent" value="119601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="776" y="75" width="1891" height="1233" extended-state="0" />
+    <frame x="1046" y="86" width="1891" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.029411765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10855615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -299,7 +322,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18317266" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23400526" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -623,17 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threejs/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <element signature="e#1883#2374#0" />
-            <element signature="e#2412#2513#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threejs/creating-a-scene.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -646,8 +658,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/threejs/starry-sky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="442">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threejs/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>

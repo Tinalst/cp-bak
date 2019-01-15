@@ -6,6 +6,11 @@
   <title>Title</title>
   <link rel="stylesheet" href="../common/style/main.css">
   <style>
+    body {
+      background-image: url("images/WX20190115-173629@2x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     canvas {
       width: 100%;
       height: 100%;
@@ -17,8 +22,10 @@
   <script>
     var scene, camera, renderer, particles = [];
     scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1 ,2000);
-    renderer = new THREE.WebGLRenderer();
+    camera = new THREE.PerspectiveCamera(80, window.innerWidth / window.innerHeight, 1 ,2000);
+    renderer = new THREE.WebGLRenderer({
+      alpha: true
+    });
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
