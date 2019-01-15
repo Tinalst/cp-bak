@@ -17,7 +17,7 @@
   <script>
     var scene, camera, renderer, particles = [];
     scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1 ,4000);
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1 ,2000);
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
@@ -34,10 +34,9 @@
         particle.position.x = Math.random() * 1000 - 500;
         particle.position.y = Math.random() * 1000 - 500;
         particle.position.z = zpos;
-        particle.scale.x = particle.scale.y = 1;
+        particle.scale.x = particle.scale.y = 2;
         scene.add(particle);
         particles.push(particle);
-
       }
     }
     createParticles();
