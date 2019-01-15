@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +57,7 @@
     <session id="771692140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -118,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threejs/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="416">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -198,8 +199,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1046" />
-    <option name="y" value="86" />
+    <option name="x" value="814" />
+    <option name="y" value="48" />
     <option name="width" value="1891" />
     <option name="height" value="1233" />
   </component>
@@ -291,15 +292,15 @@
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
       <workItem from="1546824136330" duration="95555000" />
-      <workItem from="1547428236727" duration="16157000" />
+      <workItem from="1547428236727" duration="16179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120474000" />
+    <option name="totallyTimeSpent" value="120496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1046" y="86" width="1891" height="1233" extended-state="0" />
+    <frame x="814" y="48" width="1891" height="1233" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10855615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -656,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/threejs/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="416">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>

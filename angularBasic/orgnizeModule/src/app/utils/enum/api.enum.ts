@@ -1,3 +1,7 @@
+/**
+ * 请求接口枚举
+ */
+
 // 公共模块
 export enum Common {
   // 获取国家列表
@@ -71,5 +75,4 @@ export enum Order {
   findKycUserOrder = '/KycUserOrder/findKycUserOrder',
   // 订单支付记录
   findOrderRecord = '/KycUserOrder/findUserOrderPay'
-
 }

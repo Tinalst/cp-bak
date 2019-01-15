@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {M1Service} from '../m1.service';
 
 @Component({
   selector: 'app-index',
@@ -8,15 +8,10 @@ import {HttpClient} from '@angular/common/http';
 })
 export class IndexComponent implements OnInit {
 
-  constructor(private http: HttpClient) { }
+  constructor(private m1Service: M1Service) { }
 
   ngOnInit() {
-    this.http.post('http://192.168.21.181:8090/fxKyc/common/findAllNation', {}, {
-
-      withCredentials: true
-    }).subscribe(res => {
-      console.log(res);
-    })
+    console.log(this.m1Service.findAllNation());
   }
 
 }
