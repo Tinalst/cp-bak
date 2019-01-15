@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/assets/images/WX20190115-173629@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/assets/images/particle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/core/interceptor/httpconfig.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/shared/service/httpBase.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/utils/enum/api.enum.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/app/views/m1/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angularBasic/orgnizeModule/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threejs/starry-sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/threejs/starry-sky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threejs/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/threejs/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ngStudy/threejsBasic/src/app/starry-sky/starry-sky.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threejs/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="624">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -299,18 +291,17 @@
       <workItem from="1544324550035" duration="4876000" />
       <workItem from="1544709607375" duration="3886000" />
       <workItem from="1546824136330" duration="95555000" />
-      <workItem from="1547428236727" duration="15284000" />
+      <workItem from="1547428236727" duration="16157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119601000" />
+    <option name="totallyTimeSpent" value="120474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1046" y="86" width="1891" height="1233" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10855615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10855615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,7 +313,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23400526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23400526" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -665,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/threejs/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="624">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
