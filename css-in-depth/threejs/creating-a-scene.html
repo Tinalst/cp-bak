@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    canvas {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <script src="lib/three.js"></script>
+  <script>
+    var scene, camera, renderer;
+    // 创建场景
+    scene = new THREE.Scene();
+    // 透视相机：FOV || 长宽比 || 近剪切面 || 远剪切面
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    // 渲染器
+    renderer = new THREE.WebGLRenderer();
+    // 渲染器大小： width || height || updateStyle: true || false
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    // 将渲染器添加到HTML文档中
+    document.body.appendChild(renderer.domElement);
+
+    var geometry, material, cube;
+    // 创建一个立方体
+    geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    // 创建材质
+    material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+    // 立方体添加材质成为一个网格
+    cube = new THREE.Mesh( geometry, material );
+    // 将网格添加在场景中
+    scene.add( cube );
+
+    // 防止相机位于网格中
+    camera.position.z = 5;
+
+    // 渲染场景
+    function animate() {
+      requestAnimationFrame(animate);
+
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
+
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+</html>
