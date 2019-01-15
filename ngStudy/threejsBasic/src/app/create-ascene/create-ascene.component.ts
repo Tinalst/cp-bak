@@ -12,13 +12,20 @@ export class CreateASceneComponent implements OnInit {
   scene;
   camera;
   renderer;
+  animateCallback;
   cube;
+
   constructor(private render: Renderer2) { }
 
   ngOnInit() {
     this.init();
     this.appendCube();
-    this.animate();
+    this.animateCallback = {
+      // this指向当前component组件类
+      // 返回一个新的函数 每次调用callAnimate的时候都是调用的组件类里的animate类型函数
+      callAnimate: (this.animate).bind(this)
+    };
+    this.animateCallback.callAnimate();
   }
 
   init() {
@@ -55,7 +62,7 @@ export class CreateASceneComponent implements OnInit {
 
   // 渲染场景
   animate() {
-    requestAnimationFrame(this.animate);
+    requestAnimationFrame(this.animateCallback.callAnimate);
 
     this.cube.rotation.x += 0.01;
     this.cube.rotation.y += 0.01;
