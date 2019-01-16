@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    body {
+      background: #2b2b2a;
+    }
+  </style>
+</head>
+<body>
+  <script src="./lib/snap.svg-min.js"></script>
+  <script>
+    window.onload = function () {
+      // 创建画布
+      var g = Snap();
+
+      // 设定画布大小
+      g.attr({
+        viewBox: [0, 0, 800, 600]
+      });
+
+
+      // 将外部文件加载为片段
+      Snap.load("images/map.svg", function (f) {
+
+        // 选择最外层元素
+        var gr = f.select("g");
+        // 选择地图元素并设置填充
+        var wrd = f.select("#world").attr({fill: "#fff"});
+        // 选择起点元素并设置填充
+        var syd = f.select("#sydney").attr({fill: "red"});
+        // 选择终点元素并设置填充
+        var msk = f.select("#san_francisco").attr({fill: "red"});
+        // 选择航线元素
+        var pth = f.select("#flight");
+        // 选择飞机元素
+        var pln = f.select("#plane");
+        // 创建元素组 顺序不能乱，因为这些元素是已经就写好的拿过来引用得所以
+        // 必须在所有元素初始化完成后创建元素组否则对元素的操作会因为找不到元素而报错
+        var top = g.paper.g();
+
+        // 为元素组添加遮罩
+        // top.attr({
+        //   mask: g.rect(100, 0 , 600, 600).attr({
+        //     fill: "r(.5,.5,.25)#fff-#000" /*白色到黑色的镜像渐变断电.5.5.25*/
+        //   })
+        // });
+        // 将gr添加到top元素（gr 下的子元素也会被添加进去）
+        top.add(gr);
+
+        // 绘制文本
+        var click = top.paper.text(410, 310, "click!").attr({
+          font: "20px Source Sans Pro, sans-serif",
+          fill: "green"
+        });
+        // 隐藏航线
+        pth.attr({
+          display: "none"
+        });
+        // 克隆飞机
+        // pln = gr.paper.g(pln, pln.clone());
+        // 隐藏飞机
+        // pln.attr({
+        //   display: "none"
+        // });
+        // 第一架飞机设置为白色
+        pln.attr({
+          fill: '#fff',
+          strokeWidth: 2
+        });
+        // 设置地图偏移
+        gr.attr({
+          transform: getShift({
+            x: syd.attr("cx"),
+            y: syd.attr("cy")
+          })
+        });
+
+        var flight = gr.path().attr({
+          fill: "none",
+          stroke: "red",
+          strokeWidth: 3,
+          strokeDasharray: "5 3"
+        }).insertBefore(pln);
+
+        window.onclick = function () {
+          pln.attr({
+            display: ""
+          });
+          click.attr({
+            display: "none"
+          })
+        }
+      });
+
+      function getShift(dot) {
+        return "t" + (400 - dot.x) + "," + (300 - dot.y);
+      }
+
+
+    }
+  </script>
+</body>
+</html>

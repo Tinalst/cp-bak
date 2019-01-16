@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .dropdown__toggle {
+      padding: 0.5em 1em;
+      border: 1px solid hsl(280, 10%, 80%);
+      color: hsl(280, 30%, 60%);
+      background-color: white;
+      font: inherit;
+      text-decoration: none;
+      transition: background-color 0.2s linear;
+      position: relative;
+    }
+    .dropdown__toggle:hover {
+      background-color: hsl(280, 15%, 95%);
+    }
+    .dropdown__drawer {
+      position: absolute;
+      background-color: white;
+      width: 10em;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s linear,
+                  visibility 0s linear 0.2s;
+    }
+    .dropdown.is-open .dropdown__drawer {
+      opacity: 1;
+      visibility: visible;
+      transition-delay: 0s;
+    }
+    .menu {
+      padding-left: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .menu > li + li > a {
+      border-top: 0;
+    }
+    .menu > li > a {
+      display: block;
+      padding: 0.5em 1em;
+      color: hsl(280, 40%, 60%);
+      background-color: white;
+      text-decoration: none;
+      border: 1px solid hsl(280, 10%, 80%);
+      transition: all .2s linear;
+    }
+    .menu > li > a:hover {
+      background-color: hsl(280, 15%, 95%);
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropdown__toggle">Menu</button>
+    <div class="dropdown__drawer">
+      <ul class="menu">
+        <li role="menuitem">
+          <a href="/features">Features</a>
+        </li>
+        <li role="menuitem">
+          <a href="/pricing">Pricing</a>
+        </li>
+        <li role="menuitem">
+          <a href="/support">Support</a>
+        </li>
+        <li role="menuitem">
+          <a href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+    <p><a href="/read-more">Read more</a></p>
+  </div>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.dropdown__toggle');
+      var dropdown = toggle.parentElement;
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        dropdown.classList.toggle('is-open');
+      })
+    })();
+  </script>
+</body>
+</html>

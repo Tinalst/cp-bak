@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../style/main.css">
+  <style>
+    .sprite {
+      width: 183px;
+      height: 122px;
+      background-color: #333;
+      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5973/muybridge_horse.jpg);
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div id="sprite" class="sprite"></div>
+  <script src="../../common/lib/velocity.min.js"></script>
+  <script>
+    window.onload = function () {
+      // var sprite = document.querySelector(".sprite");
+      Velocity(document.getElementById('sprite'), {
+        backgroundPosition: "-2563px"
+      },{
+        easing: [14],
+        duration: 2000,
+        loop: true
+      })
+    }
+
+  </script>
+</body>
+</html>
