@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SimpleTweenScrollComponent } from './simple-tween-scroll/simple-tween-scroll.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SimpleTweenScrollComponent
   ],
   imports: [
     BrowserModule,
