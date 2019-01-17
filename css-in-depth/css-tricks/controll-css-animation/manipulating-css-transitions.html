@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../base.css">
+  <style>
+    .box {
+      margin: 30px;
+      height: 50px;
+      width: 50px;
+      background-color: lightpink;
+      transition: transform 3s; /*这里要加才有动起来的效果*/
+    }
+
+  </style>
+</head>
+<body>
+  <h3>Pure Javascript</h3>
+  <div class='box'></div>
+  <button class='toggleButton' value='play'>Play</button>
+  <script>
+    window.onload = function () {
+      var box = document.querySelector(".box");
+      var btn = document.querySelector(".toggleButton");
+      btn.onclick = function () {
+        if(this.innerHTML === 'Play') {
+          this.innerHTML = 'Pause';
+          box.style.transform =  'matrix(1, 0, 0, 1, 100, 0)';
+        } else {
+          this.innerHTML = 'Play';
+          // 获取被计算的样式名
+          var computedStyle = window.getComputedStyle(box);
+          // 获取被计算的样式名的值
+          var transformValue = computedStyle.getPropertyValue('transform');
+          box.style.transform = transformValue;
+        }
+      }
+    }
+  </script>
+</body>
+</html>
