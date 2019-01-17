@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style/main.css">
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+    }
+    .conatiner {
+      width: 100vw;
+      height: 100vh;
+      background: #55aaee;
+      border-bottom: 1px solid cornflowerblue;
+      text-align: center;
+    }
+    .scene1 {
+      background-color: #5f4b44;
+    }
+    .box {
+      width: 5em;
+      height: 5em;
+      background-color: pink;
+      border-radius: 1em;
+      transition: transform 0.3s ease-out;
+    }
+    .zap {
+      transform: scale(2.5, 0);
+    }
+    .box2 {
+      width: 5em;
+      height: 5em;
+      background-color: pink;
+      border-radius: 1em;
+      transition: transform 0.3s ease-out 0.2s;
+    }
+    .zap-box2 {
+      transform: rotate(360deg) translateX(100px);
+    }
+    .scene2 {
+      background-color: #709b90;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="conatiner">
+    1
+  </section>
+  <div class="trigger1"></div>
+  <section class="conatiner scene1">
+    <div class="box">ZAP</div>
+    <div class="box2">box2</div>
+  </section>
+  <section class="conatiner scene2">
+    3
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+  <script>
+    window.onload = function () {
+      // build controller
+      var controller = new ScrollMagic.Controller();
+
+      // build scene
+      var scene = new ScrollMagic.Scene({
+        triggerElement: ".trigger1",
+        triggerHook: 0.9
+      })
+      // 为类名为box的元素在进入场景时添加zap类代表的样式
+      .setClassToggle(".box", "zap")
+      .addTo(controller);
+
+      // build scene
+      var sceneBox2 = new ScrollMagic.Scene({
+        triggerElement: ".trigger1"
+      })
+      .setClassToggle(".box2", "zap-box2")
+      .addTo(controller);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style/main.css">
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+    }
+    .conatiner {
+      width: 100vw;
+      height: 100vh;
+      background: #55aaee;
+      border-bottom: 1px solid cornflowerblue;
+    }
+    .scene1 {
+      background-color: #5f4b44;
+    }
+    .scene2 {
+      background-color: #709b90;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="conatiner">
+    1
+  </section>
+  <div class="trigger"></div>
+  <section class="conatiner scene1">
+    2
+  </section>
+  <section class="conatiner scene2">
+    3
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>-->
+  <!--<script src="lib/plugins/animation.gsap.min.js"></script>-->
+  <script>
+    window.onload = function () {
+      // build controller
+      var controller = new ScrollMagic.Controller();
+
+      // build scene
+      var scene = new ScrollMagic.Scene({
+        triggerElement: ".trigger"
+      })
+      .addTo(controller)
+      // 接触到触发元素的时候
+      .on("changes", function (event) {
+        console.log(event.type)
+      })
+      .on("update", function (event) {
+        console.log("=============update===============");
+        // 监听滚动方向： forward || reverse
+        console.log(event.target.controller().info('scrollDirection'));
+        console.log("==============update==============");
+      })
+      .on("progress", function (event) {
+        console.log(event.progress)
+      })
+      .on("start", function (event) {
+        console.log("=============start===============");
+        console.log('top');
+        console.log("=============start===============");
+      })
+      .on("end", function (event) {
+        console.log(event.type)
+      })
+      .on("enter", function (event) {
+        console.log(event.type)
+      })
+      .on("leave", function (event) {
+        console.log(event.type)
+      })
+    }
+  </script>
+</body>
+</html>
