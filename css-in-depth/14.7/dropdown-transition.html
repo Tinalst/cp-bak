@@ -26,12 +26,14 @@
       opacity: 0;
       visibility: hidden;
       transition: opacity 0.2s linear,
-                  visibility 0s linear 0.2s;
+                  visibility 0s linear 0.2s,
+                  height 0.3s ease-out;
     }
     .dropdown.is-open .dropdown__drawer {
       opacity: 1;
       visibility: visible;
       transition-delay: 0s;
+      height: auto;
     }
     .menu {
       padding-left: 0;
@@ -81,10 +83,18 @@
     (function () {
       var toggle = document.querySelector('.dropdown__toggle');
       var dropdown = toggle.parentElement;
+      var drawer = document.querySelector('.dropdown__drawer');
+      // 获取下拉菜单的高度
+      var height = drawer.scrollHeight;
       toggle.addEventListener('click', function (e) {
         e.preventDefault();
         dropdown.classList.toggle('is-open');
-      })
+        if(dropdown.classList.contains('is-open')) {
+          drawer.style.setProperty('height', height + 'px');
+        } else {
+          drawer.style.setProperty('height', '0')
+        }
+      });
     })();
   </script>
 </body>
