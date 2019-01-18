@@ -17,6 +17,7 @@
       position: relative;
       transform-style: preserve-3d;
       transition: transform 1s;
+      transform-origin: center right;
     }
     .card__face {
       position: absolute;
@@ -32,7 +33,7 @@
       transform: rotateY(180deg);
     }
     .card.is-flipped {
-      transform: rotateY(180deg);
+      transform: translateX(-100%) rotateY(180deg);
     }
   </style>
 </head>
