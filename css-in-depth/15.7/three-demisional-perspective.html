@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .row {
+      display: flex;
+      justify-content: center;
+      perspective: 200px;
+      perspective-origin: bottom;
+    }
+    .box {
+      width: 150px;
+      margin: 0 2em;
+      text-align: center;
+      background-color: lightpink;
+      padding: 60px 0;
+      /*transform: perspective(100px) rotateX(30deg); !*只对于单个元素*!*/
+      transform:  rotateX(100deg); /*只对于单个元素*/
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+  </div>
+</body>
+</html>
