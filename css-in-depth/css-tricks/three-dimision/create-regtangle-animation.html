@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../base.css">
+  <style>
+    .scene {
+      width: 400px;
+      height: 200px;
+      border: 1px solid #ccc;
+      margin: 80px;
+      perspective: 400px;
+    }
+    .rectangle {
+      width: 400px;
+      height: 200px;
+      position: relative;
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
+      transition: transform 1s;
+    }
+    .rectangle-front,
+    .rectangle-back {
+      width: 400px;
+      height: 200px;
+      position: absolute;
+      line-height: 200px;
+      text-align: center;
+      font-size: 40px;
+      color: white;
+    }
+
+    .rectangle-left,
+    .rectangle-right{
+      width: 100px;
+      height: 200px;
+      position: absolute;
+      line-height: 200px;
+      text-align: center;
+      font-size: 40px;
+      color: white;
+    }
+
+    .rectangle-top,
+    .rectangle-bottom {
+      width: 400px;
+      height: 100px;
+      position: absolute;
+      line-height: 100px;
+      text-align: center;
+      font-size: 40px;
+      color: white;
+    }
+    .rectangle-front {
+      background: hsla(  0, 100%, 50%, 0.7);
+      transform: rotateY(0deg) translateZ(50px);
+    }
+    .rectangle-back  {
+      background: hsla( 60, 100%, 50%, 0.7);
+      transform: rotateY(180deg)  translateZ(50px);
+    }
+    .rectangle-left   {
+      background: hsla(120, 100%, 50%, 0.7);
+      transform: rotateY(90deg) translateZ(350px);
+    }
+    .rectangle-right   {
+      background: hsla(180, 100%, 50%, 0.7);
+      transform: rotateY(-90deg) translateZ(50px);
+    }
+    .rectangle-top    {
+      background: hsla(240, 100%, 50%, 0.7);
+      transform: rotateX(90deg) translateZ(50px);
+    }
+    .rectangle-bottom {
+      background: hsla(300, 100%, 50%, 0.7);
+      transform: rotateX(-90deg) translateZ(150px);
+    }
+
+    .rectangle.show-front {
+      transform: translateZ(-50px) rotateY(0deg) ;
+    }
+    .rectangle.show-back {
+      transform: translateZ(-50px) rotateY(-180deg)  ;
+    }
+    .rectangle.show-left {
+      transform:translateZ(-350px) rotateY(-90deg) ;
+    }
+    .rectangle.show-right {
+      transform:  translateZ(-50px) rotateY(90deg);
+    }
+    .rectangle.show-top {
+      transform: rotateX(-90deg) translateZ(-50px);
+    }
+    .rectangle.show-bottom {
+      transform: rotateX(90deg) translateZ(-150px);
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="scene">
+      <div class="rectangle">
+        <div class="rectangle-front">front</div>
+        <div class="rectangle-back">back</div>
+        <div class="rectangle-left">left</div>
+        <div class="rectangle-right">right</div>
+        <div class="rectangle-top">top</div>
+        <div class="rectangle-bottom">bottom</div>
+      </div>
+  </div>
+  <button class="front">front</button>
+  <button class="back">back</button>
+  <button class="left">left</button>
+  <button class="right">right</button>
+  <button class="top">top</button>
+  <button class="bottom">bottom</button>
+  <script>
+    window.onload = function () {
+      var rectangle = document.querySelector('.rectangle');
+      var operate = ['front', 'back', 'right', 'left', 'top', 'bottom'];
+      var preOperate = '';
+      operate.forEach((value) => {
+        document.querySelector('.' + value).addEventListener('click',  function () {
+          if(preOperate) {
+            rectangle.classList.remove(preOperate);
+            rectangle.classList.toggle('show-' + value);
+            preOperate = 'show-' + value;
+          }else {
+            preOperate = 'show-' + value;
+            rectangle.classList.toggle('show-' + value);
+          }
+
+        });
+      })
+    }
+  </script>
+</body>
+</html>
