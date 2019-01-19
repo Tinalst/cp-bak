@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <style>
+    .box1,
+    .box2,
+    .box3,
+    .box4{
+      width: 5em;
+      height: 5em;
+      background-color: #709b90;
+      margin: 2em;
+      border-radius: 50%;
+      outline: #55aaee 1px solid;
+      line-height: 5em;
+      text-align: center;
+      color: white;
+    }
+    .box2 {
+      transform: rotate(45deg);
+    }
+    .box3 {
+      transform-origin: 0 0;
+      transform: rotate(45deg);
+    }
+    .box4 {
+      padding: 10px;
+      border-radius: 0;
+      background-clip: content-box;
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box1">1</div>
+  <div class="box2">2</div>
+  <div class="box3">3</div>
+  <div class="box4">4</div>
+</body>
+</html>
