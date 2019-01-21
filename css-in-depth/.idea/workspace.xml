@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-animation-101/squaremelon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-animation-and-transitions-for-the-modern-web/2/transform-origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-animation-101/baymax-eye.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.11/responding-user-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/16.11/responding-user-form.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,16 +52,16 @@
     <session id="771692140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="36" />
-          <entry key="html" value="90" />
+          <entry key="html" value="92" />
           <entry key="jpg" value="6" />
           <entry key="js" value="16" />
           <entry key="md" value="4" />
@@ -76,7 +74,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="36" />
-          <entry key="HTML" value="90" />
+          <entry key="HTML" value="92" />
           <entry key="Image" value="8" />
           <entry key="JavaScript" value="16" />
           <entry key="Markdown" value="4" />
@@ -88,7 +86,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="27080" />
+          <entry key="html" value="27753" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -98,7 +96,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="27087" />
+          <entry key="HTML" value="27760" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -108,18 +106,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css-animation-101/squaremelon.html">
+        <entry file="file://$PROJECT_DIR$/css-animation-101/baymax-eye.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-              <folding>
-                <element signature="n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#g#1;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#g#2;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -156,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css-tricks/stripes/compass.scss" />
         <option value="$PROJECT_DIR$/css-tricks/stripes/stripes.scss" />
         <option value="$PROJECT_DIR$/css-tricks/stripes/index.html" />
         <option value="$PROJECT_DIR$/11/base.css" />
@@ -207,6 +198,7 @@
         <option value="$PROJECT_DIR$/16.11/responding-user-form.html" />
         <option value="$PROJECT_DIR$/css-animation-and-transitions-for-the-modern-web/2/transform-origin.html" />
         <option value="$PROJECT_DIR$/css-animation-101/squaremelon.html" />
+        <option value="$PROJECT_DIR$/css-animation-101/baymax-eye.html" />
       </list>
     </option>
   </component>
@@ -217,8 +209,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1004" />
-    <option name="y" value="182" />
+    <option name="x" value="1158" />
+    <option name="y" value="175" />
     <option name="width" value="1539" />
     <option name="height" value="1230" />
   </component>
@@ -242,6 +234,17 @@
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="css-animation-101" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
+              <item name="three-dimision" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,18 +304,19 @@
       <workItem from="1546824136330" duration="95555000" />
       <workItem from="1547428236727" duration="16179000" />
       <workItem from="1547601340863" duration="20321000" />
-      <workItem from="1547687484167" duration="47377000" />
+      <workItem from="1547687484167" duration="49396000" />
+      <workItem from="1548033230918" duration="2801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188194000" />
+    <option name="totallyTimeSpent" value="193014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1004" y="182" width="1539" height="1230" extended-state="0" />
+    <frame x="1158" y="175" width="1539" height="1230" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04874835" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16205534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,7 +328,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2741652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28558874" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,11 +342,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/threejs/lib/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62694" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threejs/creating-a-scene.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -493,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#svg#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="767">
           <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,18 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-tricks/three-dimision/create-regtangle-animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#1232#1280#0" />
-            <element signature="e#1307#1355#0" />
-            <element signature="e#1383#1431#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-tricks/three-dimision/carousel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -640,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="57" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="57" />
-          <folding>
-            <element signature="e#1605#1623#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,10 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,14 +640,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-animation-101/squaremelon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#1;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#2;n#g#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="26">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-tricks/three-dimision/create-regtangle-animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/baymax-eye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
         </state>
       </provider>
     </entry>

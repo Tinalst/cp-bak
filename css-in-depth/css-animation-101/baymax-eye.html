@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      background: radial-gradient(circle at center, #fff, #fff 50%, #aaa);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    .baymax {
+      border-bottom: 1.5em solid #000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 50%;
+      transform: translate(-50%, -40%);
+    }
+
+    .baymax::before {
+      content: '';
+      width: 12em;
+      height: 12em;
+      background: black;
+      position: absolute;
+      border-radius: 50%;
+      top: -6em;
+      left: -9em;
+      transform: skew(-4deg);
+
+      background-image: linear-gradient(180deg, #efefef, #efefef 50%, #000 50%, #000);
+      background-position: 0 -100%;
+      background-size: 200% 200%;
+
+      animation: blink 5s linear infinite;
+    }
+
+    .baymax::after{
+      content: '';
+      width: 12em;
+      height: 12em;
+      border-radius: 50%;
+      background: black;
+      position: absolute;
+      top: -6em;
+      right: -9em;
+      transform: skew(4deg);
+
+      background-image: linear-gradient(180deg, #efefef, #efefef 50%, #000 50%, #000);
+      background-position: 0 -100%;
+      background-size: 200% 200%;
+
+      animation: blink 5s  0.1s linear  infinite;
+    }
+
+    @keyframes blink {
+      0%,
+      50% {
+        background-position: 0 100%;
+      }
+      85%,
+      95% {
+        background-position: 0 75%;
+      }
+      100% {
+        background-position: 0 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="baymax"></div>
+</body>
+</html>
