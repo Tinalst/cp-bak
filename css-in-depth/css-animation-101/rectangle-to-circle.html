@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    body{
+      background: #0bbea0;
+    }
+    div {
+      background: white;
+      width: 6em;
+      height: 6em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      cursor: pointer;
+      transition: border-radius 0.75s cubic-bezier(.77,-0.7,.24,1.64),
+                  transform 0.75s cubic-bezier(.77,-0.7,.24,1.64);
+    }
+    div:hover {
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(2)  rotateZ(-45deg);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

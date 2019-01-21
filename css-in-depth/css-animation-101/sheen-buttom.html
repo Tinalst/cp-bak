@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    button{
+      background: #d1703c;
+      color: #fff;
+      border-radius: .5em;
+      padding: 0 1em;
+      position: relative;
+      overflow: hidden;
+      line-height: 32px;
+      margin: 20em;
+
+      width: 8em;
+      height: 4em;
+      font-size: 14px;
+      transition: all 0.5s cubic-bezier(.67,-.51,.42,1.43);
+    }
+
+    button::after {
+      content: '';
+      position: absolute;
+      left: -50%;
+      right: -50%;
+      top: -50%;
+      bottom: -50%;
+      background-image: linear-gradient(0deg, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+      transform: rotateZ(60deg) translate(-4em, 7.5em);
+
+    }
+
+    @keyframes sheen {
+      100% {
+        transform: rotateZ(60deg) translate(2em, -7.5em);
+      }
+    }
+
+    button:hover:after,
+    button:focus:after{
+      animation: sheen 1s forwards;
+    }
+    .shiny:hover {
+      width: 10em;
+      height: 4em;
+      /*font-size: 24px;*/
+      /*cursor: pointer;*/
+    }
+  </style>
+</head>
+<body>
+  <button class="shiny">sheen</button>
+</body>
+</html>
