@@ -15,7 +15,7 @@ export class HttpconfigInterceptor implements HttpInterceptor{
    */
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     console.log('req', req);
-    console.log('next',next)
+    console.log('next',next);
     return next.handle(req).pipe(
       tap(res => {
         // console.log(res);

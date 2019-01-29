@@ -32,7 +32,6 @@ export class HttpBaseService {
   public get(url: string): Observable<any> {
     return this.http.get(this.concatEntryUrl(url), this.httpOptions).pipe(
       map(this.handleResponse),
-      catchError(this.handleError)
     )
   }
 
@@ -43,9 +42,8 @@ export class HttpBaseService {
    */
   public post(url: string, data = {}):Observable<any> {
     return this.http.post(this.concatEntryUrl(url), data, this.httpOptions).pipe(
-      map(this.handleResponse),
-      tap(res => console.log(res)),
-      catchError(this.handleError)
+      // 处理数据
+      map(this.handleResponse)
     )
   }
 
@@ -56,8 +54,7 @@ export class HttpBaseService {
    */
   public put(url: string, data = {}): Observable<any> {
     return this.http.put(this.concatEntryUrl(url), data, this.httpOptions).pipe(
-      map(this.handleResponse),
-      catchError(this.handleError)
+      map(this.handleResponse)
     )
   }
 
@@ -67,8 +64,7 @@ export class HttpBaseService {
    */
   public delete(url: string): Observable<any> {
     return this.http.delete(this.concatEntryUrl(url), this.httpOptions).pipe(
-      map(this.handleResponse),
-      catchError(this.handleError)
+      map(this.handleResponse)
     )
   }
 
@@ -84,7 +80,7 @@ export class HttpBaseService {
         return {};
       }
     } else {
-
+      this.handleStatusCode(res['code']);
     }
   }
 
@@ -104,11 +100,11 @@ export class HttpBaseService {
   }
 
   /**
-   * 错误码处理
+   * 状态码处理
    * @param code
    */
-  private handleErrorCode(code: number) {
-
+  private handleStatusCode(code: number) {
+      console.log(code);
   }
 }
 

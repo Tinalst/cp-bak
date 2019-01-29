@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   appConfig: {
-    remoteBaseUrl: 'http://192.168.21.181:8090/fxKyc',  // TTF
+    remoteBaseUrl: 'http://192.168.21.62:8090/fxKyc',  // testonline
     gRecaptcha: '6Lc4ukEUAAAAAHW0WSkD1wphitG6hQvZ5vtpyjl8'
   }
 };

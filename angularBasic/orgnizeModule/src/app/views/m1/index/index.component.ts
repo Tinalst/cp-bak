@@ -11,7 +11,10 @@ export class IndexComponent implements OnInit {
   constructor(private m1Service: M1Service) { }
 
   ngOnInit() {
-    console.log(this.m1Service.findAllNation());
+    this.m1Service.findAllNation().subscribe(res => {
+      console.log(res)
+    });
+    // console.log(this.m1Service.sendEmail());
   }
 
 }
