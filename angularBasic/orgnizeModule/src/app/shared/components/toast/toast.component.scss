@@ -1,0 +1,91 @@
+// 暂时保留，用于想要堆叠效果的样式
+.container {
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 380px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// 公共样式
+.toast {
+  // 用于元素新的覆盖旧的样式
+  position: fixed;
+  //top: 10px;
+  z-index: 10000;
+  width: 380px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+  a {
+    cursor: pointer;
+  }
+  p {
+    padding: 0px 10px;
+    word-break: break-word;
+    font-size: 14px;
+  }
+}
+// 成功提示样式
+.toast-success {
+  background-image: linear-gradient(-180deg, #10923B 0%, #25923D 100%);
+  box-shadow: 0 15px 30px -15px rgba(52,182,43,0.80);
+}
+// 错误提示样式
+.toast-error {
+  background-image: linear-gradient(-180deg, #C6092F 0%, #F22413 100%);
+  box-shadow: 0 20px 30px -15px rgba(235,28,11,0.50);
+}
+// 消息提示样式
+.toast-info {
+  background-image: linear-gradient(-180deg, #0D548D 0%, #176497 100%);
+  box-shadow: 0 15px 30px -15px rgba(99,104,111,0.80);
+}
+// 警告提示样式
+.toast-warning {
+  background-image: linear-gradient(-180deg, #C07715 0%, #D98920 100%);
+  box-shadow: 0 15px 30px -15px rgba(191,121,29,0.80);
+}
+// 显示动画
+@keyframes show {
+  0% {
+    opacity: 0;
+    top: -20px;
+  }
+  25% {
+    opacity: .25;
+  }
+  75% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+// 消失动画
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .75;
+  }
+  75% {
+    opacity: .25;
+  }
+  100% {
+    opacity: 0;
+    top: -20px;
+  }
+}
+.show {
+  animation: show .175s ease-in-out;
+}
+.hide {
+  animation: hide .175s ease-in-out ;
+}

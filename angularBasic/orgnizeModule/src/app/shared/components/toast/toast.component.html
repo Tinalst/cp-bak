@@ -1,0 +1,9 @@
+<!--<section class="container">-->
+<!--<section class="container">-->
+  <!--<div *ngFor="let tosat of toasts" class="{{cssClass(tosat) }} alert-dismissable" [@slideDownAnimation]="isShow">-->
+  <div *ngFor="let tosat of toasts" class="{{cssClass(tosat) }} alert-dismissable" [@slideDownAnimation]="isShow">
+    <p>{{tosat.message}}</p>
+    <a class="close" (click)="removeAlter(tosat)">&times;</a>
+  </div>
+<!--</section>-->
+
