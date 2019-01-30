@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {TranslateModule} from '@ngx-translate/core';
+import {FieldErrorDisplayComponent} from './components/field-error-display/field-error-display.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    FieldErrorDisplayComponent
+  ],
   imports: [
     CommonModule
   ],
   exports: [
-    TranslateModule
+    TranslateModule,
+    FieldErrorDisplayComponent
   ]
   /* No Providers Here! */
 })

@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-import {Myi18Service} from './shared/service/myi18.service';
+import {Myi18Service} from './utils/service/myi18.service';
 
 @Component({
   selector: 'app-root',

@@ -1,0 +1,24 @@
+:host {
+  position: relative;
+}
+.messgae {
+  width: 100%;
+  color: var(--black);
+  padding: 0.1em 0.6em;
+  font-size: 0.9rem;
+
+}
+.messgae:after {
+  content: "";
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent var(--light-yellow) transparent;
+  top: -20px;
+  left: 10px;
+}
+
+@media (min-width: 66.25em) {
+  .messgae {
+    font-size: 0.2rem;
+  }
+}

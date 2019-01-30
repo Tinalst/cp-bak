@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpBaseService} from '../../shared/service/httpBase.service';
+import {HttpBaseService} from '../../utils/service/httpBase.service';
 import {Common} from '../../utils/enum/api.enum';
 
 @Injectable({

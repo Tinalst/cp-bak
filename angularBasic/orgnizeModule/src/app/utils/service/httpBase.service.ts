@@ -3,12 +3,14 @@ import {HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {Observable, throwError} from 'rxjs';
 import {catchError, map, tap} from 'rxjs/operators';
+import {TranslateService} from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HttpBaseService {
-  constructor(private http: HttpClient){}
+  constructor(private http: HttpClient,
+              private translateService: TranslateService){}
   // 请求路径域名+端口
   private baseUrl = environment.appConfig.remoteBaseUrl;
 
@@ -104,7 +106,34 @@ export class HttpBaseService {
    * @param code
    */
   private handleStatusCode(code: number) {
-      console.log(code);
+      this.tranStatusCode(code);
+  }
+
+  /**
+   * 状态码国际化
+   * @param code
+   */
+  tranStatusCode = (code?: number) => {
+    switch (code) {
+      case 200:
+        this.translateService.instant('error.200');
+        break;
+      case 300:
+        this.translateService.instant('error.300');
+        break;
+      case 301:
+        this.translateService.instant('error.301');
+        break;
+      case 400:
+        this.translateService.instant('error.400');
+        break;
+      case 401:
+        this.translateService.instant('error.401');
+        break;
+      case 500:
+        this.translateService.instant('error.500');
+        break;
+    }
   }
 }
 
