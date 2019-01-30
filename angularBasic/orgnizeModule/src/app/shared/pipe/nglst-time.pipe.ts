@@ -2,9 +2,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 import {TimeUtil} from "../../tools/time.util";
 
 @Pipe({
-  name: 'timeTranslate'
+  name: 'NglstTime'
 })
-export class TimePipe implements PipeTransform {
+export class NglstTimePipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
     if(value) {
