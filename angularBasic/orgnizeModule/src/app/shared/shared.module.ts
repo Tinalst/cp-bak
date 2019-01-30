@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   declarations: [],
@@ -7,7 +8,7 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ],
   exports: [
-
+    TranslateModule
   ]
   /* No Providers Here! */
 })
