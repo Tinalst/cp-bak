@@ -26,7 +26,7 @@
 
       // 将外部文件加载为片段
       Snap.load("images/map.svg", function (f) {
-
+        console.log(f.select("g"))
         // 选择最外层元素
         var gr = f.select("g");
         // 选择地图元素并设置填充

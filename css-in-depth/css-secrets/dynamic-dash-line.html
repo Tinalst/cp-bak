@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .dash {
+      width: 10em;
+      height: 8em;
+      background-image: url("images/selection.gif");
+      background-repeat: repeat;
+      margin: 2em;
+      padding: 1px;
+    }
+    .dash-inner {
+      width: calc(10em - 2px);
+      height: calc(8em - 2px);
+      background: rosybrown;
+    }
+
+
+    .menu {
+      list-style: none;
+      display: inline-block;
+    }
+    .menu li {
+      background-image: url("images/selection.gif");
+
+    }
+    .menu li + li {
+      border-top: 1px solid salmon;
+    }
+    .menu li > div {
+      background: #1fa756;
+      padding: 1em 2em;
+    }
+    .menu li > div:hover {
+      margin: 1px;
+      border-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="dash">
+    <div class="dash-inner"></div>
+  </div>
+
+  <ul class="menu">
+    <li>
+      <div>
+        test1
+      </div>
+    </li>
+    <li>
+      <div>
+        test2
+      </div>
+    </li>
+    <li>
+      <div>
+        test3
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
