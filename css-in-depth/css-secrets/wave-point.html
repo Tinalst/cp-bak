@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .module {
+      width: 20em;
+      height: 10em;
+      border: 1px dashed royalblue;
+      margin: 5em;
+    }
+    .wave-point {
+      background-color: #655;
+      background-image: radial-gradient(tan 30%, transparent 0);
+      background-size: 30px 30px;
+    }
+
+    .wave-point2 {
+      background-color: #655;
+      background-image: radial-gradient(tan 30%, transparent 0),
+                        radial-gradient(tan 30%, transparent 0);
+      background-size: 30px 30px;
+
+      background-position: 0 0, 15px 15px ;
+    }
+  </style>
+</head>
+<body>
+  <div class="module wave-point"></div>
+  <div class="module wave-point2"></div>
+</body>
+</html>
