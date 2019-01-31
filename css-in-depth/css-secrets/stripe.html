@@ -48,6 +48,28 @@
       background-color: #58a;
       background-image: repeating-linear-gradient(45deg, white, white 30px, transparent 0, transparent 60px);
     }
+
+    .mesh {
+      background-image: linear-gradient(rgba(200,0,0,0.5) 50%, transparent 0),
+                        linear-gradient(90deg, rgba(200,0,0,0.5) 50%, transparent 0);
+      background-size: 30px 30px;
+    }
+
+    .adjust-mesh {
+      background-color: rgba(200,0,0,0.5);
+      background-image: linear-gradient(white 1px, transparent 0),
+                        linear-gradient(90deg, white 1px, transparent 0);
+       background-size: 30px 30px;
+    }
+
+    .muliple-mesh {
+       background-color: rgba(200,0,0,0.5);
+       background-image: linear-gradient(white 1px, transparent 0),
+                         linear-gradient(90deg, white 1px, transparent 0),
+                         linear-gradient(white 4px, transparent 0),
+                         linear-gradient(90deg, white 4px, transparent 0) ;
+       background-size: 100% 30px, 30px 100%, 100% 60px, 60px 100%;
+    }
   </style>
 </head>
 <body>
@@ -63,6 +85,12 @@
   <div class="module diagonal-stripe2"></div>
 
   <div class="module better-stripe"></div>
+
+  <div class="module mesh"></div>
+
+  <div class="module adjust-mesh"></div>
+
+  <div class="module muliple-mesh"></div>
 
 </body>
 </html>

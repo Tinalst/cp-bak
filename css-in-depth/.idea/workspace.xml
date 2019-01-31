@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/inner-radius.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-secrets/multiple-border.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-secrets/stripe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-secrets/translusant-border.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-secrets/dynamic-dash-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-secrets/dynamic-dash-line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-secrets/stripe.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-secrets/stripe.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,7 +89,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="33565" />
+          <entry key="html" value="33885" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -103,7 +99,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="33572" />
+          <entry key="HTML" value="33892" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -126,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="506">
+              <caret line="70" column="66" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -234,8 +230,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="359" />
+    <option name="x" value="632" />
+    <option name="y" value="112" />
     <option name="width" value="1739" />
     <option name="height" value="1230" />
   </component>
@@ -350,18 +346,18 @@
       <workItem from="1548033230918" duration="24017000" />
       <workItem from="1548128801652" duration="2572000" />
       <workItem from="1548140880065" duration="17973000" />
-      <workItem from="1548835238612" duration="16179000" />
+      <workItem from="1548835238612" duration="17684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250954000" />
+    <option name="totallyTimeSpent" value="252459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="359" width="1739" height="1230" extended-state="0" />
+    <frame x="632" y="112" width="1739" height="1230" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14377183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15133877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -691,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="506">
+          <caret line="70" column="66" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
         </state>
       </provider>
     </entry>
