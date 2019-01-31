@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .module {
+      width: 20em;
+      height: 10em;
+      border: 1px dashed royalblue;
+      margin: 5em;
+    }
+    .stripe {
+      background-repeat: no-repeat;
+      background-image: linear-gradient(#fb3 50%, #58a 50%);
+      background-size: 100% 30px;
+    }
+
+    .unsame-stripe {
+      background-image: linear-gradient(#1fa756 30%, #e0f0f2 0);
+      background-size: 100% 30px;
+    }
+
+    .three-stripes {
+      background-image: linear-gradient(#1fa756 33.3%, #e0f0f2 0, #e0f0f2 66.6%, royalblue 0);
+    }
+
+
+    .vertical-stripe {
+      background-image: linear-gradient(90deg, #fb3 50%, #58a 50%);
+      background-size: 30px 100%;
+
+      background-repeat: no-repeat;
+    }
+
+    .diagonal-stripe {
+      background-image: linear-gradient(45deg, #fb3 50%, #58a 0);
+      background-size: 30px 30px;
+    }
+
+    .diagonal-stripe2 {
+      background-image: repeating-linear-gradient(45deg, #fb3, #fb3 30px, #58a 0, #58a 60px );
+    }
+
+    .better-stripe {
+      background-color: #58a;
+      background-image: repeating-linear-gradient(45deg, white, white 30px, transparent 0, transparent 60px);
+    }
+  </style>
+</head>
+<body>
+  <div class="module stripe"></div>
+  <div class="module unsame-stripe"></div>
+  <div class="module three-stripes"></div>
+
+
+  <div class="module vertical-stripe"></div>
+
+  <div class="module diagonal-stripe"></div>
+
+  <div class="module diagonal-stripe2"></div>
+
+  <div class="module better-stripe"></div>
+
+</body>
+</html>

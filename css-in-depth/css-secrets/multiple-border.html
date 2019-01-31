@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+
+    .box {
+      background: green;
+      width: 10em;
+      height: 5em;
+      margin: 10em;
+
+      box-shadow: 0 0 0 1em #655, 0 0 0 2em #55aaee;
+    }
+
+    .outline{
+      background: green;
+      width: calc(10em + 2em);
+      height: calc(5em + 2em);
+      margin: 10em;
+
+      border: 1em solid #655;
+      outline: #55aaee 1em solid;
+    }
+
+    .outline2 {
+      background: green;
+      width: 10em;
+      height: 5em;
+      margin: 10em;
+
+      border: dashed salmon 2px;
+      background-clip: padding-box;
+      outline: solid green 1em;
+    }
+
+    .outline3{
+      background: green;
+      width: 10em;
+      height: 5em;
+      margin: 10em;
+
+      border-radius: 1em;
+      outline: salmon solid 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+
+  <div class="outline"></div>
+
+  <div class="outline2"></div>
+
+  <div class="outline3"></div>
+</body>
+</html>

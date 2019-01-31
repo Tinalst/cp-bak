@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .box {
+      display: inline-block;
+      background: rosybrown;
+      width: 10em;
+      word-break: break-word;
+      padding: .8em;
+      margin: 5em;
+    }
+    .box > div {
+      background: white;
+      border-radius: .8em;
+      padding: 1em;
+    }
+
+    .box2 {
+      display: inline-block;
+      background: #e0f0f2;
+      width: 10em;
+      word-break: break-word;
+      padding: .8em;
+      margin: 5em;
+
+      border-radius: .8em;
+      outline: 0.8em solid rosybrown;
+
+      box-shadow: 0 0 0 10px rosybrown;
+    }
+
+
+  </style>
+</head>
+<body>
+  <p>内圆角方案一 两个元素实现法</p>
+  <div class="box">
+    <div>testtesttesttesttesttesttesttest</div>
+  </div>
+
+  <p>内圆角方案二 一个元素实现法</p>
+  <div class="box2">testtesttesttesttesttesttesttest</div>
+</body>
+</html>
