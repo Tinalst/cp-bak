@@ -70,6 +70,26 @@
                          linear-gradient(90deg, white 4px, transparent 0) ;
        background-size: 100% 30px, 30px 100%, 100% 60px, 60px 100%;
     }
+
+    .chessboard {
+      background-color: #eee;
+      background-image: linear-gradient(45deg, #bbb 25%, transparent 0),
+                        linear-gradient(45deg, transparent 75%, #bbb 0);
+      background-size:30px 30px;
+
+      background-position: 0 0 , 10px 10px  ;
+    }
+
+    .chessboard-1 {
+      background-color: #eee;
+      background-image: linear-gradient(45deg, #bbb 25%, transparent 0),
+                        linear-gradient(45deg, transparent 75%, #bbb 0),
+                        linear-gradient(45deg, #bbb 25%, transparent 0),
+                        linear-gradient(45deg, transparent 75%, #bbb 0);
+      background-size: 30px 30px;
+
+      background-position: 0 0 , 15px 15px, 15px 15px;
+    }
   </style>
 </head>
 <body>
@@ -91,6 +111,9 @@
   <div class="module adjust-mesh"></div>
 
   <div class="module muliple-mesh"></div>
+
+  <div class="module chessboard"></div>
+  <div class="module chessboard-1"></div>
 
 </body>
 </html>
