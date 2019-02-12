@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/continues-border-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/images/stone-art.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,8 +66,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="38" />
-          <entry key="gif" value="1" />
-          <entry key="html" value="137" />
+          <entry key="gif" value="2" />
+          <entry key="html" value="138" />
           <entry key="jpg" value="6" />
           <entry key="js" value="17" />
           <entry key="md" value="4" />
@@ -79,8 +80,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="137" />
-          <entry key="Image" value="13" />
+          <entry key="HTML" value="138" />
+          <entry key="Image" value="14" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -91,7 +92,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="34800" />
+          <entry key="html" value="35350" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -101,7 +102,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="34807" />
+          <entry key="HTML" value="35357" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -112,6 +113,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-secrets/continues-border-image.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="37" column="154" selection-start-line="37" selection-start-column="154" selection-end-line="37" selection-end-column="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threejs/creating-a-scene.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,20 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="115" column="2" selection-start-line="115" selection-start-column="2" selection-end-line="115" selection-end-column="41" />
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -187,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/14.3/index.html" />
         <option value="$PROJECT_DIR$/css-tricks/transition-steps/index.html" />
         <option value="$PROJECT_DIR$/threejs/creating-a-scene.html" />
         <option value="$PROJECT_DIR$/threejs/lib/starry-sky.html" />
@@ -238,6 +238,7 @@
         <option value="$PROJECT_DIR$/css-tricks/stripes/index.html" />
         <option value="$PROJECT_DIR$/css-secrets/stripe.html" />
         <option value="$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html" />
+        <option value="$PROJECT_DIR$/css-secrets/continues-border-image.html" />
       </list>
     </option>
   </component>
@@ -248,9 +249,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
+    <option name="x" value="744" />
     <option name="y" value="159" />
-    <option name="width" value="1300" />
+    <option name="width" value="1515" />
     <option name="height" value="1157" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -292,6 +293,12 @@
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,18 +325,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/threejs" />
+      <recent name="$PROJECT_DIR$/4.5.2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/4.2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css-secrets/images" />
       <recent name="$PROJECT_DIR$/css-animation-101/imgaes" />
       <recent name="$PROJECT_DIR$/15.4" />
       <recent name="$PROJECT_DIR$/15" />
       <recent name="$PROJECT_DIR$/scrollMagic/lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/threejs" />
-      <recent name="$PROJECT_DIR$/4.5.2" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/4.2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,18 +373,18 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="5118000" />
+      <workItem from="1549950476937" duration="8569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262081000" />
+    <option name="totallyTimeSpent" value="265532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="959" y="159" width="1300" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.051602814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.043002345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,9 +410,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15/images/chicken3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/15/images/chicken4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -578,9 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/images/selection.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-tricks/controll-css-animation/manipulating-css-transitions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -689,6 +690,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/wave-point.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/threejs/creating-a-scene.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -696,10 +711,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/images/selection.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="115" column="2" selection-start-line="115" selection-start-column="2" selection-end-line="115" selection-end-column="41" />
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -708,17 +726,10 @@
         <state relative-caret-position="-54" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/wave-point.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/continues-border-image.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="574">
+          <caret line="37" column="154" selection-start-line="37" selection-start-column="154" selection-end-line="37" selection-end-column="154" />
         </state>
       </provider>
     </entry>

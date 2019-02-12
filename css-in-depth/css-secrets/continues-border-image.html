@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .something-meaningful{
+      background: url("images/stone-art.jpg");
+      padding: 1em;
+      background-size: cover;
+    }
+    .text{
+      background: white;
+      padding: 1em;
+    }
+
+    .method2 {
+      padding: 1em;
+      border: 1em solid transparent;
+
+      /*background-image: linear-gradient(white, white), url("images/stone-art.jpg");*/
+      /*background-clip: padding-box , border-box;*/
+
+      /*background-size: cover;*/
+
+      background-origin: border-box;
+
+      /*简写*/
+      background: linear-gradient(white, white) padding-box, url("images/stone-art.jpg") border-box 0 / cover;
+    }
+    .envelope {
+      padding: 1em;
+      border: 1em solid transparent;
+
+      background: linear-gradient(white, white) padding-box,
+      repeating-linear-gradient(-45deg, palevioletred, palevioletred 10px, white 0, white 20px, cornflowerblue 0, cornflowerblue 30px, white 0, white 40px) border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="something-meaningful">
+    <div class="text"> I have a nice stone art border, don't I look pretty?</div>
+  </div>
+
+  <div class="method2">I have a nice stone art border, don't I look pretty?</div>
+
+  <div class="envelope">test ttest test test</div>
+</body>
+</html>
