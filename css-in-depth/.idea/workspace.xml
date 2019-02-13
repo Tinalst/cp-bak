@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/pie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/static-pie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-secrets/pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-secrets/pie.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +67,7 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="2" />
-          <entry key="html" value="151" />
+          <entry key="html" value="152" />
           <entry key="jpg" value="6" />
           <entry key="js" value="17" />
           <entry key="md" value="4" />
@@ -79,7 +80,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="151" />
+          <entry key="HTML" value="152" />
           <entry key="Image" value="14" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="4" />
@@ -91,7 +92,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="39052" />
+          <entry key="html" value="39102" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -101,7 +102,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="39059" />
+          <entry key="HTML" value="39109" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -112,20 +113,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css-secrets/pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-secrets/trapezoid.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-secrets/static-pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            <state relative-caret-position="617">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -171,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/velocityjs/lib/velocity.min.js" />
         <option value="$PROJECT_DIR$/css-tricks/transition-steps/sprite-animation.html" />
         <option value="$PROJECT_DIR$/14.7/index.html" />
         <option value="$PROJECT_DIR$/snapSvg/images/map.svg" />
@@ -222,6 +222,7 @@
         <option value="$PROJECT_DIR$/css-secrets/bevel-corners.html" />
         <option value="$PROJECT_DIR$/css-secrets/trapezoid.html" />
         <option value="$PROJECT_DIR$/css-secrets/pie.html" />
+        <option value="$PROJECT_DIR$/css-secrets/static-pie.html" />
       </list>
     </option>
   </component>
@@ -362,12 +363,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="26501000" />
+      <workItem from="1549950476937" duration="27531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283464000" />
+    <option name="totallyTimeSpent" value="284494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,7 +383,7 @@
     <frame x="953" y="55" width="1654" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1665646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.074096754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,13 +409,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css-tricks/three-dimision/card-clip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-animation-and-transitions-for-the-modern-web/2/transform-origin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -719,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/trapezoid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-tricks/transition-steps/index-step.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -743,10 +730,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/trapezoid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/pie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="102">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/static-pie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
         </state>
       </provider>
     </entry>
