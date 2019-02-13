@@ -37,6 +37,21 @@
       background: linear-gradient(white, white) padding-box,
       repeating-linear-gradient(-45deg, palevioletred, palevioletred 10px, white 0, white 20px, cornflowerblue 0, cornflowerblue 30px, white 0, white 40px) border-box;
     }
+    .marching-ants {
+      margin: 1em;
+      padding: 1em;
+      border: 1px solid transparent;
+      /*background-image:repeating-linear-gradient(-45deg, black, black 25%, white 0, white 50%);*/
+      /*background-size: 0.6em 0.6em;*/
+      background:   linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, black 0, black 25%, white 0, white 50%) 0 / .6em  .6em ;
+
+      animation: ants 12s linear infinite;
+    }
+    @keyframes ants {
+      to {
+        background-position: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -47,5 +62,7 @@
   <div class="method2">I have a nice stone art border, don't I look pretty?</div>
 
   <div class="envelope">test ttest test test</div>
+
+  <div class="marching-ants"></div>
 </body>
 </html>
