@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/parallelogram.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/diamond.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,7 +66,7 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="2" />
-          <entry key="html" value="143" />
+          <entry key="html" value="144" />
           <entry key="jpg" value="6" />
           <entry key="js" value="17" />
           <entry key="md" value="4" />
@@ -79,7 +79,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="143" />
+          <entry key="HTML" value="144" />
           <entry key="Image" value="14" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="4" />
@@ -91,7 +91,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="36801" />
+          <entry key="html" value="37157" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -101,7 +101,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="36808" />
+          <entry key="HTML" value="37164" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -112,20 +112,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-secrets/ellipse.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-secrets/diamond.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="425">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css-secrets/parallelogram.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            <state relative-caret-position="372">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -162,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/threejs/starry-sky.html" />
         <option value="$PROJECT_DIR$/threejs/start.js" />
         <option value="$PROJECT_DIR$/greensock/load-gsap.html" />
         <option value="$PROJECT_DIR$/scrollMagic/create-scroll.html" />
@@ -213,6 +212,7 @@
         <option value="$PROJECT_DIR$/css-secrets/footnote.html" />
         <option value="$PROJECT_DIR$/css-secrets/ellipse.html" />
         <option value="$PROJECT_DIR$/css-secrets/parallelogram.html" />
+        <option value="$PROJECT_DIR$/css-secrets/diamond.html" />
       </list>
     </option>
   </component>
@@ -347,12 +347,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="17298000" />
+      <workItem from="1549950476937" duration="19091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274261000" />
+    <option name="totallyTimeSpent" value="276054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,13 +393,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/snapSvg/images/map.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -714,6 +707,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/parallelogram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/ellipse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -721,10 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/parallelogram.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/diamond.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
