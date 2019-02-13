@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .box {
+      margin-bottom: 10px;
+    }
+    .bg {
+      width: 100%;
+      height: 53.63px;
+      background-image: url("images/stone-art.jpg") ;
+      background-size: cover;
+    }
+    .number-1 {
+      border: 1em solid transparent;
+      border-image: url("images/stone-art.jpg") 30;
+    }
+    .per-1 {
+      border: 1em solid transparent;
+      border-image: url("images/stone-art.jpg") 30% ;
+      font-size: 5em;
+    }
+    .per-2 {
+      border: 1em solid transparent;
+      border-image: url("images/stone-art.jpg") 30% 50%;
+      font-size: 5em;
+    }
+    .per-3 {
+      border: 1em solid transparent;
+      border-image: url("images/stone-art.jpg") 30% 30% 30%;
+      font-size: 5em;
+    }
+    .footnote {
+      border-top: .2em solid transparent;
+      border-image: linear-gradient(90deg, currentColor, currentColor 4em, transparent 0)  100% 0 0 ;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="box bg"></div>
+  <div class="box number-1">border-image-slice</div>
+  <div class="box per-1">border-image-sliceborder-image-sliceborder-image-sli-image-slice</div>
+  <div class="box per-2">border-image-sliceborder-image-sliceborder-image-sli-image-slice</div>
+  <div class="box per-3">border-image-sliceborder-image-sliceborder-image-sli-image-slice</div>
+  <div class="footnote">this is a footnote</div>
+</body>
+</html>
