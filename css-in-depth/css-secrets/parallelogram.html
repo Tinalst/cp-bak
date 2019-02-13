@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .module {
+      width: 200px;
+      height: 100px;
+      background: #6ED685;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 2rem;
+    }
+    .parallelogram-1 {
+      transform: skewX(-45deg);
+    }
+    .parallelogram-1 > div {
+      transform: skewX(45deg);
+    }
+
+    .button {
+      position: relative;
+    }
+    .button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      width: 200px;
+      height: 100px;
+      background: #6ED685;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 2rem;
+
+      z-index: -1;
+      transform: skewX(-45deg);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="module parallelogram-1">
+    <div>click me</div>
+  </div>
+
+  <button class="button">click me</button>
+</body>
+</html>
