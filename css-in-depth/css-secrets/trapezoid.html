@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .tab {
+      position: relative;
+      display: inline-block;
+      padding: .5em 1em .35em;
+      color: white;
+      text-transform: capitalize;
+      margin-bottom: 1em;
+    }
+
+    .tab::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+
+      background: #58a;
+
+      transform-origin: bottom;
+      transform: perspective(.5em) rotateX(5deg) scale(1.3);
+
+    }
+
+    .tab-right::before {
+      transform-origin: bottom left;
+    }
+
+    .tab-left::before {
+      transform-origin: bottom right;
+    }
+
+
+
+    nav{
+      position: relative;
+      margin-left: 1em;
+    }
+    nav > a {
+      position: relative;
+      display: inline-block;
+      padding: .3em 1em;
+      color: white;
+      text-decoration: none;
+      margin: 0 -.3em;
+    }
+    nav > a::before {
+      border: .1em solid cornflowerblue;
+
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+
+      background: lightskyblue;
+      transform: perspective(.5em) rotateX(5deg) scale(1.1, 1.5);
+      transform-origin: bottom;
+
+
+    }
+    .selected {
+      z-index: 2;
+    }
+    nav > .selected::before {
+      margin-bottom: -0.01em;
+      background: royalblue;
+    }
+
+    main {
+      border: .1em solid cornflowerblue;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab">trapezio</div>
+  <br>
+  <div class="tab tab-right">trapezio</div>
+  <br>
+  <div class="tab tab-left">trapezio</div>
+
+
+  <nav>
+    <a href="#">home</a>
+    <a href="#" class="selected">Project</a>
+    <a href="#">About</a>
+  </nav>
+  <main>
+    Content area
+  </main>
+</body>
+</html>
