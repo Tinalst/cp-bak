@@ -39,7 +39,7 @@
       background-repeat: no-repeat;
     }
 
-
+    /*直角椎角的scss函数*/
     /*@mixin beveled-corners($bg,*/
     /*$tl:0, $tr:$tl, $br:$tl, $bl:$tr) {*/
       /*background: $bg; background:*/
@@ -49,11 +49,25 @@
       /*linear-gradient(45deg, transparent $bl, $bg 0) bottom left;*/
       /*background-size: 50% 50%;*/
       /*background-repeat: no-repeat; }*/
+
+
+    .curved-coner-1 {
+      background-image: radial-gradient(circle at left top, transparent 30px, #709b90 0),
+                        radial-gradient(circle at right top, transparent 30px, #cc6b5a 0),
+                        radial-gradient(circle at bottom left, transparent 30px, palevioletred 0),
+                        radial-gradient(circle at right bottom, transparent 30px, pink 0);
+
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+      background-position: left top, right top, left bottom, right bottom;
+    }
   </style>
 </head>
 <body>
   <div class="module bevel-corner-1">teyewueywuewueyuwyeuwyeuwy</div>
   <div class="module bevel-corner-2">teyewueywuewueyuwyeuwyeuwy</div>
   <div class="module bevel-corner-4">teyewueywuewueyuwyeuwyeuwy</div>
+
+  <div class="module curved-coner-1"></div>
 </body>
 </html>
