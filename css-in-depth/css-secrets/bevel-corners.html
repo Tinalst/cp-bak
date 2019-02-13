@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .module {
+      width: 400px;
+      height: 200px;
+      padding: 1em;
+      color: white;
+      font-size: 1.5rem;
+      word-break: break-word;
+
+    }
+    .bevel-corner-1 {
+      background-image: linear-gradient(145deg ,#55aaee 90%, transparent 0 );
+    }
+
+    .bevel-corner-2 {
+      background-image: linear-gradient(-145deg ,#55aaee 90%, transparent 0 ),
+                        linear-gradient(145deg, #6ED685 90%, transparent 0);
+
+      background-size: 50% 100%;
+      background-position: left, right;
+      background-repeat: no-repeat;
+    }
+
+    .bevel-corner-4 {
+      background-image: linear-gradient(-145deg ,#55aaee 90%, transparent 0 ),
+                        linear-gradient(145deg, #6ED685 90%, transparent 0),
+                        linear-gradient(45deg, #709b90 90%, transparent 0),
+                        linear-gradient(-45deg, #cc6b5a 90%, transparent 0);
+
+      background-size: 50% 50%;
+      background-position: left bottom, right bottom, right top, left top;
+      background-repeat: no-repeat;
+    }
+
+
+    /*@mixin beveled-corners($bg,*/
+    /*$tl:0, $tr:$tl, $br:$tl, $bl:$tr) {*/
+      /*background: $bg; background:*/
+      /*linear-gradient(135deg, transparent $tl, $bg 0) top left,*/
+      /*linear-gradient(225deg, transparent $tr, $bg 0) top right,*/
+      /*linear-gradient(-45deg, transparent $br, $bg 0) bottom right,*/
+      /*linear-gradient(45deg, transparent $bl, $bg 0) bottom left;*/
+      /*background-size: 50% 50%;*/
+      /*background-repeat: no-repeat; }*/
+  </style>
+</head>
+<body>
+  <div class="module bevel-corner-1">teyewueywuewueyuwyeuwyeuwy</div>
+  <div class="module bevel-corner-2">teyewueywuewueyuwyeuwyeuwy</div>
+  <div class="module bevel-corner-4">teyewueywuewueyuwyeuwyeuwy</div>
+</body>
+</html>
