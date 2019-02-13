@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .module {
+      width: 200px;
+      height: 100px;
+      background: #5577bb;
+      margin: 1em;
+    }
+    .single-shadow {
+      box-shadow: #cc6b5a 5px 0px 4px -4px;
+    }
+
+    .single-shadow-1 {
+      box-shadow: #cc6b5a 0px 5px 4px -4px;
+    }
+
+    .near-shadow {
+      box-shadow: #cc6b5a 3px 3px 6px -3px;
+    }
+
+    .aginst-shadow {
+      box-shadow: #cc6b5a 5px 0px 4px -4px,
+                  #cc6b5a -5px 0px 4px -4px;
+    }
+  </style>
+</head>
+<body>
+  <div class=" module single-shadow"></div>
+  <div class=" module single-shadow-1"></div>
+
+  <div class="module near-shadow"></div>
+
+  <div class="module aginst-shadow"></div>
+</body>
+</html>
