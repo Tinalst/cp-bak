@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    blockquote {
+      margin: 0;
+      word-break: break-all;
+    }
+
+    .box {
+      width: 60%;
+      height: 20em;
+      margin: 0 auto;
+
+      background: url("images/sea.jpg");
+      background-size: cover;
+
+      position: relative;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      margin-left: 1em;
+      margin-right: 1em;
+      padding: 1.5em;
+
+      background: hsla(0,0%,100%,.1) border-box;
+
+      overflow: hidden;
+
+
+      border-radius: .3em;
+      box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset,
+      0 .5em 1em rgba(0, 0, 0, 0.6);
+      text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+    }
+
+    .container::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+
+      z-index: -1;
+
+      filter: blur(5px);
+      margin: -5px;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="container">
+      <blockquote>
+        "The only way to get rid of a temptation The only way to get rid of a temptation
+        The only way to get rid of a temptation"
+        The only way to get rid of a temptation" a tempta"
+        <footer>- <cite>
+          Oscar Wilde,
+          The Picture of Dorian Gray
+        </cite>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</body>
+</html>
