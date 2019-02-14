@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .loader {
+      width: 100px;
+      height: 100px;
+      background: url("images/loader.png");
+
+      text-indent: 200%; /*行缩进*/
+      white-space: nowrap;
+      overflow: hidden;
+
+      animation: loader 1s steps(8) infinite;
+    }
+
+    @keyframes loader {
+      to {
+        background-position: -800px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader">loading</div>
+</body>
+</html>

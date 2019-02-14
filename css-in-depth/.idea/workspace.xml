@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/elastic-input-promts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/animation-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/images/loader.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-animation-101/buling-start.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-animation-101/buling-start.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,11 +68,11 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="2" />
-          <entry key="html" value="162" />
+          <entry key="html" value="171" />
           <entry key="jpg" value="6" />
           <entry key="js" value="17" />
           <entry key="md" value="5" />
-          <entry key="png" value="6" />
+          <entry key="png" value="9" />
           <entry key="rb" value="1" />
           <entry key="scss" value="5" />
           <entry key="svg" value="7" />
@@ -79,8 +81,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="162" />
-          <entry key="Image" value="14" />
+          <entry key="HTML" value="171" />
+          <entry key="Image" value="17" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -91,7 +93,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="42957" />
+          <entry key="html" value="43114" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -101,7 +103,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="42964" />
+          <entry key="HTML" value="43121" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -111,34 +113,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4567585">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-secrets/bevel-corners.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-secrets/bounce.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="57" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css-secrets/elastic-input-promts.html">
+            <entry file="file://$PROJECT_DIR$/css-secrets/animation-steps.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="343">
-                  <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css-secrets/images/loader.png">
+              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
         </leaf>
@@ -146,10 +135,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/11/index.html">
+            <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
-                  <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+                <state relative-caret-position="378">
+                  <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -178,6 +167,7 @@
       <find>sydney</find>
       <find>nav-links__icon</find>
       <find>border:</find>
+      <find>modal-close</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;nav-links__icon&quot;</replace>
@@ -189,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrollMagic/animation-with-css.html" />
-        <option value="$PROJECT_DIR$/scrollMagic/basic-with-snap.html" />
         <option value="$PROJECT_DIR$/scrollMagic/svg_drawing.html" />
         <option value="$PROJECT_DIR$/scrollMagic/parallax-section.html" />
         <option value="$PROJECT_DIR$/14.7/dropdown-transition.html" />
@@ -211,7 +199,6 @@
         <option value="$PROJECT_DIR$/css-animation-101/baymax-eye.html" />
         <option value="$PROJECT_DIR$/css-animation-101/rectangle-to-circle.html" />
         <option value="$PROJECT_DIR$/css-animation-101/sheen-buttom.html" />
-        <option value="$PROJECT_DIR$/css-animation-101/buling-start.html" />
         <option value="$PROJECT_DIR$/css-animation-101/fancy-button.html" />
         <option value="$PROJECT_DIR$/css-animation-101/hover-cat.html" />
         <option value="$PROJECT_DIR$/css-animation-101/social-media-card.html" />
@@ -240,6 +227,9 @@
         <option value="$PROJECT_DIR$/css-secrets/frosted-glass.html" />
         <option value="$PROJECT_DIR$/css-secrets/bounce.html" />
         <option value="$PROJECT_DIR$/css-secrets/elastic-input-promts.html" />
+        <option value="$PROJECT_DIR$/css-animation-101/buling-start.html" />
+        <option value="$PROJECT_DIR$/css-animation-101/animtion-steps.html" />
+        <option value="$PROJECT_DIR$/css-secrets/animation-steps.html" />
       </list>
     </option>
   </component>
@@ -250,9 +240,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1103" />
-    <option name="y" value="136" />
-    <option name="width" value="2044" />
+    <option name="x" value="786" />
+    <option name="y" value="269" />
+    <option name="width" value="1578" />
     <option name="height" value="1157" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -273,18 +263,12 @@
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="11" type="462c0819:PsiDirectoryNode" />
+              <item name="7.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="css-animation-101" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
@@ -380,12 +364,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="42556000" />
+      <workItem from="1549950476937" duration="45085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299519000" />
+    <option name="totallyTimeSpent" value="302048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,10 +381,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1103" y="136" width="2044" height="1157" extended-state="0" />
+    <frame x="786" y="269" width="1578" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16056518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,69 +410,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16.11/responding-user-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15.7/three-demisional-perspective.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/hover-cat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/fancy-button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/baymax-eye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/social-media-card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greensock/load-gsap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14.7/dropdown-transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrollMagic/animation-with-css.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -743,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/bevel-corners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/frosted-glass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -767,6 +681,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/imgaes/heart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/squaremelon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/social-media-card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1877">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/fancy-button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/bounce.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -774,10 +712,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/bevel-corners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/animtion-steps.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/elastic-input-promts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="433">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/images/loader.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/animation-steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
