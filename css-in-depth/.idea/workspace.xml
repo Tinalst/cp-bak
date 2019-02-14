@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/bounce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/elastic-input-promts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-secrets/frosted-glass.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-secrets/frosted-glass.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,7 +66,7 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="2" />
-          <entry key="html" value="161" />
+          <entry key="html" value="162" />
           <entry key="jpg" value="6" />
           <entry key="js" value="17" />
           <entry key="md" value="5" />
@@ -80,7 +79,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="161" />
+          <entry key="HTML" value="162" />
           <entry key="Image" value="14" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="5" />
@@ -92,7 +91,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="42469" />
+          <entry key="html" value="42957" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -102,7 +101,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="42476" />
+          <entry key="HTML" value="42964" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -124,11 +123,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css-secrets/bounce.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="698">
-                  <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css-secrets/elastic-input-promts.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="343">
+                  <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -181,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrollMagic/custom-actions.html" />
         <option value="$PROJECT_DIR$/scrollMagic/animation-with-css.html" />
         <option value="$PROJECT_DIR$/scrollMagic/basic-with-snap.html" />
         <option value="$PROJECT_DIR$/scrollMagic/svg_drawing.html" />
@@ -232,6 +239,7 @@
         <option value="$PROJECT_DIR$/css-secrets/filter-dyeing.html" />
         <option value="$PROJECT_DIR$/css-secrets/frosted-glass.html" />
         <option value="$PROJECT_DIR$/css-secrets/bounce.html" />
+        <option value="$PROJECT_DIR$/css-secrets/elastic-input-promts.html" />
       </list>
     </option>
   </component>
@@ -242,9 +250,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1085" />
-    <option name="y" value="152" />
-    <option name="width" value="1734" />
+    <option name="x" value="1103" />
+    <option name="y" value="136" />
+    <option name="width" value="2044" />
     <option name="height" value="1157" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -372,12 +380,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="41329000" />
+      <workItem from="1549950476937" duration="42556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298292000" />
+    <option name="totallyTimeSpent" value="299519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,10 +397,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1085" y="152" width="1734" height="1157" extended-state="0" />
+    <frame x="1103" y="136" width="2044" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +412,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22065727" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22065727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -418,9 +426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css-animation-101/imgaes/twitter_fave.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -764,8 +769,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/bounce.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/elastic-input-promts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
