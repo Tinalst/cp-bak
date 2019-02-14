@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    @keyframes blink-smooth { to { color: transparent } }
+    .blink-1 { animation: 1s blink-smooth infinite; }
+
+    @keyframes blink-smooth-2 { 50% { color: transparent } }
+    .blink-2 { animation: 1s blink-smooth-2 infinite; }
+
+    @keyframes blink-smooth-3 { 50% { color: transparent } }
+    .blink-3 { animation: 1s blink-smooth-2 infinite alternate; }
+
+    @keyframes blink-smooth-4 { 50% { color: transparent } }
+    .blink-4 { animation: 1s blink-smooth-2 infinite alternate-reverse; }
+
+    @keyframes blink-smooth-5 { 50% { color: transparent } }
+    .blink-5 { animation: 1s blink-smooth-2 steps(1) infinite; }
+
+    @keyframes blink-smooth-6 { 50% { color: transparent } }
+    .blink-6 { animation: 1s blink-smooth-2 steps(2) infinite; }
+  </style>
+</head>
+<body>
+  <div class="blink-1">blinking-text</div>
+  <div class="blink-2">blinking-text</div>
+  <div class="blink-3">blinking-text</div>
+  <div class="blink-4">blinking-text</div>
+  <div class="blink-5">blinking-text (real)</div>
+  <div class="blink-6">blinking-text</div>
+</body>
+</html>
