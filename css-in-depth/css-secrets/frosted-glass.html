@@ -40,6 +40,8 @@
       box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset,
       0 .5em 1em rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+
+      z-index: 3;
     }
 
     .container::before {
@@ -47,12 +49,36 @@
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
 
-      z-index: -1;
+      z-index: 2;
 
       filter: blur(5px);
       margin: -5px;
 
     }
+
+    .rec {
+      width: 50px;
+      height: 50px;
+      background:url("images/stone-art.jpg");
+      background-size: cover;
+    }
+    .rectangle {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+
+      animation: rotate 1s infinite;
+
+    }
+
+    @keyframes rotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
 
   </style>
 </head>
@@ -70,6 +96,10 @@
         </footer>
       </blockquote>
     </div>
+    <div class="rec rectangle"></div>
+    <div class="rec rectangle-1"></div>
   </div>
+
+
 </body>
 </html>
