@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    * {
+      font-family: Consolas, Monaco, monospace;
+      font-weight: bold;
+    }
+
+    h1 {
+      width: 15ch;
+      animation: typing 5s steps(15),
+                 caret 1s steps(1) infinite;
+
+      overflow: hidden;
+      white-space: nowrap;
+
+      border-right: 1px solid;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+    @keyframes caret {
+      50% {border-color: transparent;}
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS is awesomesssssssss!</h1>
+  <script>
+    function $$(selector, context) {
+      context = context || document;
+      var elements = context.querySelectorAll(selector);
+      return Array.prototype.slice.call(elements);
+    }
+
+    $$('h1').forEach(function(h1) {
+      var len = h1.textContent.length, s = h1.style;
+      s.width = len + 'ch';
+      s.animationTimingFunction = "steps("+len+"),steps(1)";
+    });
+  </script>
+</body>
+</html>
