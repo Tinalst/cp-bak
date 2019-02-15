@@ -7,9 +7,11 @@
   <link rel="stylesheet" href="../../common/style/main.css">
   <style>
     .module {
-      width: 200px; height: 100px;
+      width: 400px; height: 100px;
       word-break: break-word;
       padding: 1em;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
     .article {
       background: hsl(210, 13%, 60%);
@@ -25,6 +27,114 @@
 
       text-shadow: black 0px -1px 1px;;
     }
+
+    .article-2 {
+      background: palevioletred;
+
+      color: white;
+
+      text-shadow: black 1px 1px ,
+                    black -1px 1px,
+                  black -1px -1px,
+                  black 1px -1px;
+    }
+
+    .article-3 {
+      height: 130px;
+      background: plum;
+      color: white;
+
+      /*text-shadow: ;*/
+    }
+
+    .article-3 text {
+      stroke-width: 6px;
+      stroke: black;
+
+    }
+
+    .article-4 {
+      background: black;
+
+      color: #ffc;
+
+      transition: text-shadow 1s;
+    }
+
+    .article-4:hover {
+      text-shadow: 0 0 .1em, 0 0 .3em;
+    }
+
+
+
+    .article-5 {
+        background: black;
+
+        color: #ffc;
+
+        transition: text-shadow 1s, color 1s;
+      }
+
+    .article-5:hover {
+      color: transparent;
+      text-shadow: white 0 0 .1em, white 0 0 .3em;
+    }
+
+
+    .article-6 {
+      background: black;
+
+      color: #ffc;
+
+      transition: filter 1s, color 1s;
+
+      overflow: hidden;
+    }
+
+    .article-6:hover {
+      color: transparent;
+      filter: blur(.1em);
+      margin: -.1em;
+    }
+
+    .article-7 {
+      background: #58a;
+      color: white;
+
+      text-shadow: hsl(0, 0%, 85%) 0 1px,
+                   hsl(0, 0%, 80%) 0 2px,
+                   hsl(0, 0%, 75%) 0 3px,
+                   hsl(0, 0%, 70%) 0 4px,
+                   hsl(0, 0%, 65%) 0 5px,
+                   black 0 6px;
+    }
+
+    /*@mixin text-3d($color: white, $depth: 5) { SCSS $shadows: ();*/
+    /*$shadow-color: $color;*/
+      /*@for $i from 1 through $depth { $shadow-color: darken($shadow-color, 10%); $shadows: append($shadows,*/
+      /*0 ($i * 1px) $shadow-color, comma);*/
+      /*}*/
+      /*color: $color;*/
+      /*text-shadow: append($shadows,*/
+    /*0 ($depth * 1px) 10px black, comma); h1 { @include text-3d(#eee, 4); }*/
+
+
+    .article-8 {
+      color: white;
+      background: hsl(0,50%,45%);
+
+      text-shadow:
+        black 1px 1px,
+        black 2px 2px,
+        black 3px 3px,
+        black 4px 4px,
+        black 5px 5px,
+        black 6px 6px,
+        black 7px 7px,
+        black 8px 8px;
+
+    }
+
   </style>
 </head>
 <body>
@@ -34,6 +144,39 @@
 
   <article class="module article-1">
     1231231231231231231212312312312312312312
+  </article>
+
+  <article class="module article-2">
+    空心字体效果
+  </article>
+
+  <article class="module article-3">
+    <svg width="100%" height="100%">
+      <foreignObject  width="100%" height="100%">
+          <text>字体描边效果使用svg， 使用css的描边效果由于用到模糊算法所以性能方面不好</text>
+      </foreignObject>
+    </svg>
+  </article>
+
+  <article class="module article-4">
+    外发光字体效果hover me
+  </article>
+
+  <article class="module article-5">
+    字体模糊动效hover me : text-shadow 实现手法
+  </article>
+
+  <article class="module article-6">
+    字体模糊动效hover me ： filter: blur()实现手法
+  </article>
+
+
+  <article class="module article-7">
+    文字凸起效果
+  </article>
+
+  <article class="module article-8">
+    复古字体效果
   </article>
 </body>
 </html>
