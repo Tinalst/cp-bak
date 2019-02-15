@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .circle-container {
+      width: 300px;
+      height: 300px;
+      background: #6ED685;
+      border-radius: 50%;
+
+    }
+
+    @keyframes spin-reserve {
+      to {
+        transform: rotate(-1turn);
+      }
+    }
+
+    .img {
+      width: 50px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+
+      /*animation: spin-reserve 3s linear infinite;*/
+
+      /*animation: inherit;*/
+      /*animation-name: spin-reserve;*/
+
+      transform-origin: 25px 25px;
+
+      animation: inherit;
+      animation-direction: reverse;
+
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+
+    .avatar {
+      animation: spin 3s linear infinite;
+      transform-origin: 50% 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="circle-container">
+    <div class="avatar">
+      <img class="img" src="images/avater.png" alt="AVATER">
+    </div>
+  </div>
+</body>
+</html>
