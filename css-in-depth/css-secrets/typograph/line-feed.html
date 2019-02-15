@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <style>
+    .form-group {
+      display: block;
+    }
+    .form-group + .form-group::before {
+      /*content: '\A';*/
+      /*white-space: pre;*/
+    }
+    .form-group + .form-group {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>换行</h1>
+  <form class="form-container" action="">
+    <label class="form-group" for="">
+      <span class="form-title">name:</span>
+      <input type="text">
+    </label>
+    <label class="form-group" for="">
+      <span class="form-title">age:</span>
+      <input type="text">
+    </label>
+    <label class="form-group" for="">
+      <span class="form-title">sex:</span>
+      <input type="text">
+    </label>
+    <label class="form-group" for="">
+      <span class="form-title">sex:</span>
+      <input type="text">
+    </label>
+  </form>
+</body>
+</html>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css-secrets/images/avater.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-secrets/path-animation-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/path-animation-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/typograph/hyphenation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/typograph/line-feed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -67,7 +68,7 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="3" />
-          <entry key="html" value="176" />
+          <entry key="html" value="179" />
           <entry key="jpg" value="8" />
           <entry key="js" value="17" />
           <entry key="md" value="5" />
@@ -80,7 +81,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="176" />
+          <entry key="HTML" value="179" />
           <entry key="Image" value="21" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="5" />
@@ -92,7 +93,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="44303" />
+          <entry key="html" value="44697" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -102,7 +103,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="44310" />
+          <entry key="HTML" value="44704" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -112,14 +113,32 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.53464055">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css-secrets/typograph/line-feed.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css-secrets/path-animation-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="385">
-                  <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="57" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css-secrets/path-animation-2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="524">
+                  <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -191,9 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css-tricks/controll-css-animation/manipulating-css-transitions.html" />
-        <option value="$PROJECT_DIR$/css-tricks/three-dimision/index.html" />
-        <option value="$PROJECT_DIR$/css-tricks/three-dimision/perspective-origin.html" />
         <option value="$PROJECT_DIR$/css-tricks/controll-css-animation/css-callback-function.html" />
         <option value="$PROJECT_DIR$/15.7/three-demisional-perspective.html" />
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/card-clip.html" />
@@ -242,6 +258,9 @@
         <option value="$PROJECT_DIR$/css-secrets/typing.html" />
         <option value="$PROJECT_DIR$/css-secrets/state-animations.html" />
         <option value="$PROJECT_DIR$/css-secrets/path-animation-1.html" />
+        <option value="$PROJECT_DIR$/css-secrets/path-animation-2.html" />
+        <option value="$PROJECT_DIR$/css-secrets/typograph/hyphenation.html" />
+        <option value="$PROJECT_DIR$/css-secrets/typograph/line-feed.html" />
       </list>
     </option>
   </component>
@@ -252,8 +271,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="992" />
-    <option name="y" value="189" />
+    <option name="x" value="980" />
+    <option name="y" value="190" />
     <option name="width" value="1578" />
     <option name="height" value="1157" />
   </component>
@@ -292,6 +311,12 @@
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
+              <item name="typograph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
@@ -376,12 +401,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="52365000" />
+      <workItem from="1549950476937" duration="54103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309328000" />
+    <option name="totallyTimeSpent" value="311066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,10 +418,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="992" y="189" width="1578" height="1157" extended-state="0" />
+    <frame x="980" y="190" width="1578" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11689146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,23 +447,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/14/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14.3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrollMagic/svg_drawing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/multiple-border.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -746,10 +754,31 @@
     <entry file="file://$PROJECT_DIR$/css-secrets/images/avater.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/path-animation-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/typograph/hyphenation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/path-animation-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/typograph/line-feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
