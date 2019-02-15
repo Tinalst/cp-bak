@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    .state-animation-1 {
+      width: 150px;
+      height: 150px;
+      background: url("images/long-bg.png");
+      background-size: auto 100%;
+
+      animation: panoramic 5s linear infinite alternate;
+      animation-play-state: paused;
+    }
+
+    .state-animation-1:hover,
+    .state-animation-1:focus {
+      animation-play-state: running;
+    }
+
+    @keyframes panoramic {
+      to {
+        background-position: 100% 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="state-animation-1"></div>
+</body>
+</html>
