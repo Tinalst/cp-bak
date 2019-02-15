@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css-secrets/typograph/zebra-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-secrets/typograph/zebra-line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-secrets/typograph/word-effect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,7 +66,7 @@
         <counts>
           <entry key="css" value="38" />
           <entry key="gif" value="3" />
-          <entry key="html" value="180" />
+          <entry key="html" value="181" />
           <entry key="jpg" value="8" />
           <entry key="js" value="17" />
           <entry key="md" value="5" />
@@ -78,7 +79,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="180" />
+          <entry key="HTML" value="181" />
           <entry key="Image" value="21" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="5" />
@@ -90,7 +91,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="925" />
-          <entry key="html" value="44886" />
+          <entry key="html" value="45119" />
           <entry key="js" value="1" />
           <entry key="md" value="623" />
           <entry key="scss" value="695" />
@@ -100,7 +101,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="925" />
-          <entry key="HTML" value="44893" />
+          <entry key="HTML" value="45126" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="616" />
           <entry key="SCSS" value="695" />
@@ -114,10 +115,19 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css-secrets/typograph/word-effect.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css-secrets/typograph/zebra-line.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+                <state relative-caret-position="85">
+                  <caret line="6" column="60" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="60" />
                 </state>
               </provider>
             </entry>
@@ -171,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/15.7/three-demisional-perspective.html" />
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/card-clip.html" />
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/create-cube-animation.html" />
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/create-regtangle-animation.html" />
@@ -222,6 +231,7 @@
         <option value="$PROJECT_DIR$/css-secrets/typograph/hyphenation.html" />
         <option value="$PROJECT_DIR$/css-secrets/typograph/line-feed.html" />
         <option value="$PROJECT_DIR$/css-secrets/typograph/zebra-line.html" />
+        <option value="$PROJECT_DIR$/css-secrets/typograph/word-effect.html" />
       </list>
     </option>
   </component>
@@ -362,12 +372,12 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
-      <workItem from="1549950476937" duration="55198000" />
+      <workItem from="1549950476937" duration="56966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312161000" />
+    <option name="totallyTimeSpent" value="313929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,7 +392,7 @@
     <frame x="980" y="190" width="1578" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.070648685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14515093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,13 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css-secrets/translusant-border.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/dynamic-dash-line.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -738,8 +741,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/typograph/zebra-line.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="6" column="60" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/typograph/word-effect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
