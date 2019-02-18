@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <style>
+    body {
+      padding: 5em;
+    }
+    .blobs {
+      /*background: white;*/
+      /*filter: contrast(30)  blur(10px);;*/
+
+      /*animation:demonstration 10s linear infinite;*/
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background:white;
+      width:400px;
+      height:200px;
+      margin:auto;
+      filter:blur(20px) contrast(30);
+      animation:demonstration 10s linear infinite;
+    }
+    .blob {
+      width: 100px;
+      height: 100px;
+      background: black;
+      border-radius: 50%;
+      display: inline-block;
+
+      position: absolute;
+      left:50%;
+      top:50%;
+      margin-top:-50px;
+      margin-left:-50px;
+    }
+
+    @keyframes demonstration{
+      0%{
+        filter:blur(0) contrast(1);
+      }
+      25%{
+        filter:blur(0) contrast(1);
+      }
+      30%{
+        filter:blur(20px) contrast(1);
+      }
+      55%{
+        filter:blur(20px) contrast(1);
+        animation-timing-function:ease-in;
+      }
+      80%{
+        filter:blur(20px) contrast(30);
+      }
+      100%{
+        filter:blur(20px) contrast(30);
+      }
+    }
+
+    @keyframes blob-anim-left {
+      0% {
+        transform: translateX(-10px);
+      }
+      100% {
+        transform: translateX(-55px);
+      }
+    }
+    .blob:first-child {
+      /*background: salmon;*/
+      animation:blob-anim-left ease-in-out 0.8s infinite alternate;
+    }
+
+    @keyframes blob-anim-right {
+      100% {
+        transform: translateX(55px);
+      }
+    }
+    .blob:last-child {
+      animation:blob-anim-right ease-in-out 0.8s infinite alternate;
+    }
+
+
+
+
+
+    .blobs-wired {
+      width: 100px;
+      height: 100px;
+      border: 1px solid salmon;
+
+      filter: blur(5px) contrast(20);
+    }
+
+    .blob-wired {
+      width: 40px;
+      height: 40px;
+      background: salmon;
+      border-radius: 50%;
+      display: inline-block;
+
+      position: absolute;
+    }
+
+    @keyframes shinmy-wired-left {
+      to {
+        transform: translateX(-20px);
+      }
+    }
+    .blob-wired:first-child {
+      background: royalblue;
+      animation: shinmy-wired-left 0.8s infinite ease-in-out alternate;
+    }
+    @keyframes shinmy-wired-right {
+      to {
+        transform: translateX(20px);
+      }
+    }
+    .blob-wired:last-child {
+      animation: shinmy-wired-right 0.8s infinite ease-in-out alternate;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="blobs">
+    <div class="blob"></div>
+    <div class="blob"></div>
+  </div>
+
+
+  <p>容器的大小 和内容的可视部分的多少会影响粘性效果的形状</p>
+  <p>改变两个球的颜色，会有意想不到的效果</p>
+  <div class="blobs-wired">
+    <div class="blob-wired"></div>
+    <div class="blob-wired"></div>
+  </div>
+</body>
+</html>
