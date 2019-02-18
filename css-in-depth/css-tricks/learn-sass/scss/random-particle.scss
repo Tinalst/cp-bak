@@ -1,0 +1,15 @@
+.bar {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #10923B;
+
+  position: absolute;
+}
+@for $i from 1 through 100 {
+  .bar:nth-child(#{$i}) {
+    top: random(400) - 100 + px;
+    left: random(400) - 100 + px;
+  }
+}
+

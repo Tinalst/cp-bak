@@ -1,0 +1,11 @@
+.bar {
+  width: 10px;
+  display: inline-block;
+  background: #10923B;
+}
+@for $i from 1 through 20 {
+  .bar:nth-child(#{$i}){
+    height: random(200)+px;
+  }
+}
+
