@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <link rel="stylesheet" href="scss/stick-menu.css">
+</head>
+<body>
+  <div>water-drop</div>
+  <svg>
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur stdDeviation="10" in="SourceGraphic" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0   0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo" />
+      </filter>
+    </defs>
+  </svg>
+</body>
+</html>
