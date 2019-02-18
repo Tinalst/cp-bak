@@ -10,13 +10,14 @@ body,html {
   position: relative;
   top: 0; left: 0; right: 0; bottom: 0;
 
-  filter: url("#goo");
+  //filter: url("#goo");
+  filter: url("#fancy-goo");
 }
 .blob {
   width: 100px;
   height: 100px;
   background: salmon;
-  border-radius: 50%;
+  //border-radius: 50%;
 
   position: absolute;
   top: 50%;
