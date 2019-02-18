@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70aac3a-9e36-44e9-b97f-2e13274849b9" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/css-secrets/user-experience/custom-checkbox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/css-secrets/blur-drapback.html" afterDir="false" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +116,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.44632354">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -184,6 +190,46 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blur-drapback.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-secrets/blur-drapback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buling-start.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-checkbox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css-secrets/custom-checkbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stripe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -217,8 +263,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/create-regtangle-animation.html" />
         <option value="$PROJECT_DIR$/css-tricks/three-dimision/carousel.html" />
+=======
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
         <option value="$PROJECT_DIR$/15.4/index.html" />
         <option value="$PROJECT_DIR$/16.11/responding-user-form.html" />
         <option value="$PROJECT_DIR$/css-animation-and-transitions-for-the-modern-web/2/transform-origin.html" />
@@ -267,7 +316,13 @@
         <option value="$PROJECT_DIR$/css-secrets/typograph/zebra-line.html" />
         <option value="$PROJECT_DIR$/css-secrets/typograph/word-effect.html" />
         <option value="$PROJECT_DIR$/css-secrets/typograph/custom-underline.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css-secrets/user-experience/custom-checkbox.html" />
+=======
+        <option value="$PROJECT_DIR$/css-secrets/custome-chexkbox" />
+        <option value="$PROJECT_DIR$/css-secrets/custom-checkbox.html" />
+        <option value="$PROJECT_DIR$/css-secrets/blur-drapback.html" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
       </list>
     </option>
   </component>
@@ -277,11 +332,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="786" />
     <option name="y" value="149" />
     <option name="width" value="1711" />
     <option name="height" value="1157" />
+=======
+    <option name="x" value="477" />
+    <option name="width" value="1788" />
+    <option name="height" value="1044" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -306,24 +370,7 @@
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="css-animation-101" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="css-secrets" type="462c0819:PsiDirectoryNode" />
-              <item name="typograph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="css-in-depth" type="b2602c69:ProjectViewProjectNode" />
@@ -408,12 +455,21 @@
       <workItem from="1548835238612" duration="19015000" />
       <workItem from="1549933661524" duration="3108000" />
       <workItem from="1549950392338" duration="65000" />
+<<<<<<< HEAD
       <workItem from="1549950476937" duration="67473000" />
+=======
+      <workItem from="1549950476937" duration="65983000" />
+      <workItem from="1550408805200" duration="4909000" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="324436000" />
+=======
+    <option name="totallyTimeSpent" value="327855000" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,26 +481,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="786" y="149" width="1711" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19526628" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+    <frame x="382" y="0" width="1430" height="835" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17992832" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16244131" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953548" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28995755" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,6 +517,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css-tricks/stripes/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -475,6 +539,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
     <entry file="file://$PROJECT_DIR$/threejs/starry-sky.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -594,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/animtion-steps.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/animtion-steps.html" />
     <entry file="file://$PROJECT_DIR$/7.1/fixed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -652,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -747,36 +801,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/frosted-glass.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/typograph/custom-underline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="165">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="146">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css-secrets/typograph/word-effect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/pseudo-random-backgrpund.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/stripe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="-7">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-secrets/typograph/custom-underline.html">
+    <entry file="file://$PROJECT_DIR$/css-secrets/currentColor.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/custome-chexkbox">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/frosted-glass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-animation-101/buling-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/custom-checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-secrets/blur-drapback.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="6" column="60" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="60" />
         </state>
@@ -786,6 +876,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+>>>>>>> 570fdae19dec6fe530b8dcd9967f65cccd4cfbc1
         </state>
       </provider>
     </entry>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/style/main.css">
+  <style>
+    input[type="checkbox"] + label::before {
+      content: '\a0'; /*表示&nbsp*/
+      width: .8em;
+      height: .8em;
+      background: silver;
+
+      display: inline-block;
+      vertical-align: .2em;
+
+      border-radius: .2em;
+
+      text-indent: .15em;
+
+      line-height: .65;
+
+      margin-right: .2em;
+
+      cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked + label:before {
+      content: '\2713';
+      background: yellowgreen;
+    }
+
+    input[type="checkbox"]:focus + label:before {
+      box-shadow: red 0 0 .1em .1em;
+    }
+
+    input[type="checkbox"]:disabled + label:before {
+      background: grey;
+      box-shadow: none;
+      color: #555;
+    }
+    input[type="checkbox"] {
+      position: absolute;
+      clip: rect(0,0,0,0);
+    }
+
+  </style>
+</head>
+<body>
+  <input type="checkbox" id="a1"/>
+  <label for="a1">awesome</label>
+
+  <input type="checkbox" id="a2" disabled/>
+  <label for="a2">awesome</label>
+
+  <input type="checkbox" id="a3" checked/>
+  <label for="a3">awesome</label>
+
+  <input type="checkbox" id="a4" autofocus/>
+  <label for="a4">awesome</label>
+</body>
+</html>
