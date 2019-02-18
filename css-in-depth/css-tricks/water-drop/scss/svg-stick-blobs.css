@@ -1,0 +1,58 @@
+body, html {
+  background: url("../images/sea.jpg") no-repeat;
+  background-size: cover; }
+
+.blobs {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: url("#goo"); }
+
+.blob {
+  width: 100px;
+  height: 100px;
+  background: salmon;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 1.5rem;
+  animation: blob-left-top-anim cubic-bezier(0.77, 0, 0.175, 1) 4s infinite;
+  animation-fill-mode: backwards;
+  transform-origin: 0 0; }
+  .blob:nth-child(2) {
+    animation-name: blob-right-top-anim; }
+  .blob:nth-child(3) {
+    animation-name: blob-left-bottom-anim; }
+  .blob:nth-child(4) {
+    animation-name: blob-right-bottom-anim; }
+
+@keyframes blob-left-top-anim {
+  33.3% {
+    transform: scale(0.9) translateX(-65px); }
+  66.6% {
+    transform: scale(0.7) translate(-65px, -65px); } }
+@keyframes blob-left-bottom-anim {
+  33.3% {
+    transform: scale(0.9) translateX(-65px); }
+  66.6% {
+    transform: scale(0.7) translate(-65px, 65px); } }
+@keyframes blob-right-top-anim {
+  33.3% {
+    transform: scale(0.9) translateX(65px); }
+  66.6% {
+    transform: scale(0.7) translate(65px, -65px); } }
+@keyframes blob-right-bottom-anim {
+  33.3% {
+    transform: scale(0.9) translateX(65px); }
+  66.6% {
+    transform: scale(0.7) translate(65px, 65px); } }
+
+/*# sourceMappingURL=svg-stick-blobs.css.map */
