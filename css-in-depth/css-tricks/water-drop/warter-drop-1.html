@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <style>
+    .stage {
+      background: black; /*必须新增背景： 水滴的效果来源于模糊和对比度的冲突，导致颜色产生链接效果*/
+      filter: contrast(20) ;
+      padding: 30px; /*解决边缘融合出现模糊现象*/
+    }
+    .dot {
+      border-radius: 50%;
+      width: 5em;
+      height: 5em;
+      display: inline-block;
+      background: white;
+      filter: blur(15px);
+      margin: 1px;
+
+      animation: rotate 6s linear infinite;
+    }
+
+    @keyframes rotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+
+</body>
+</html>

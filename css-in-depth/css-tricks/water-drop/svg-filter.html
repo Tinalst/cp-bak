@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>svg filter & </title>
+
+  <link rel="stylesheet" href="../../common/style/main.css">
+  <style>
+    body,html {
+      width: 100%; height: 100%;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: lightskyblue;
+      filter: url('#blur'); /**/
+    }
+  </style>
+</head>
+<body>
+  <svg width="100%" height="20%">
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+    </filter>
+    <circle cx="60px" cy="60" r="50" fill="pink" filter="url(#blur)"></circle>
+  </svg>
+
+  <div class="circle"></div>
+</body>
+</html>
