@@ -19,5 +19,17 @@
     <rect x="10" y="10" width="100" height="100"
           style="stroke: #000000; fill: url(#pattern1);" />
   </svg>
+  <p>使用图片的pattern</p>
+  <svg width="100%" height="150">
+    <defs>
+      <pattern id="pattern2"
+                x="0" y="0" width="20" height="20"
+                patternUnits="userSpaceOnUse">
+        <image xlink:href="images/stone-art.jpg" x="0" y="0" width="10" height="10" /><
+      </pattern>
+    </defs>
+    <rect x="10" y="10" width="100" height="100"
+          style="stroke: #000000; fill: url(#pattern2);" />
+  </svg>
 </body>
 </html>
