@@ -49,5 +49,33 @@
     <rect x="1" y="1" width="200" height="100"
           style="stroke: none; fill: #d1703c; mask: url(#mask4)"/>
   </svg>
+  <p>pattrn + mask + lineargradient 实现带渐变效果的背景填充</p>
+  <svg width="100%" height="200">
+    <defs>
+      <linearGradient id="lineargradient1"
+                      x1="0%" y1="0%"
+                      x2="100%" y2="0%"
+                      spreadMethod="pad">
+        <stop offset="0%"   stop-color="#ffffff" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+      </linearGradient>
+
+      <mask id="mask5" x="0" y="0" width="400" height="100" >
+        <rect x="0" y="0"  width="400" height="100"
+              style="stroke:none; fill: url(#lineargradient1)"/>
+      </mask>
+
+      <pattern id="pattern1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+        <circle cx="10" cy="10" r="10" style="stroke: none; fill: #d1703c" />
+      </pattern>
+
+    </defs>
+
+    <text x="10" y="55" style="stroke: none; fill: #000000;">
+      This text is under the rectangle
+    </text>
+    <rect x="1" y="1" width="400" height="100"
+          style="stroke: none; fill: url(#pattern1); mask: url(#mask5)"/>
+  </svg>
 </body>
 </html>

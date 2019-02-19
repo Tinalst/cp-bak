@@ -28,7 +28,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="gif" value="1" />
-          <entry key="html" value="11" />
+          <entry key="html" value="13" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
@@ -39,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="13" />
           <entry key="Image" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="SCSS" value="16" />
@@ -47,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1533" />
+          <entry key="html" value="1873" />
           <entry key="js" value="54" />
           <entry key="scss" value="1338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1533" />
+          <entry key="HTML" value="1873" />
           <entry key="JavaScript" value="54" />
           <entry key="SCSS" value="1338" />
         </counts>
@@ -65,11 +65,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.77662957">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/mask.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="46" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="46" />
+                <state relative-caret-position="687">
+                  <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
                   <folding>
                     <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,6 +79,9 @@
                     <element signature="n#style#0;n#rect#0;n#mask#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#text#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#rect#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#text#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -112,14 +115,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="77" />
                   <folding>
                     <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -134,18 +138,13 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
                   <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -189,9 +188,9 @@
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/scss/clip-path.scss" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/clip-path.html" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/scss/mask.scss" />
-        <option value="$PROJECT_DIR$/css-in-depth/learn-svg/mask.html" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/learn-svg/mask.html" />
       </list>
     </option>
   </component>
@@ -325,12 +324,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550473050434</updated>
-      <workItem from="1550473051560" duration="13589000" />
+      <workItem from="1550473051560" duration="15325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13589000" />
+    <option name="totallyTimeSpent" value="15325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +345,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12820514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07623008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -441,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/clip-path.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -476,10 +468,31 @@
     <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/mask.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js">
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/avater.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/JavaScript.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/loader.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/long-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/sea.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/selection.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -500,25 +513,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/avater.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/JavaScript.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/loader.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/long-bg.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/mask.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="687">
+          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -528,23 +545,9 @@
             <element signature="n#style#0;n#rect#0;n#mask#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#text#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/sea.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/selection.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
