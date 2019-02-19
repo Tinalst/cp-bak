@@ -26,105 +26,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="4" />
           <entry key="gif" value="1" />
-          <entry key="html" value="13" />
+          <entry key="html" value="24" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="1" />
+          <entry key="js" value="10" />
           <entry key="png" value="3" />
-          <entry key="scss" value="16" />
+          <entry key="scss" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="13" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="24" />
           <entry key="Image" value="6" />
-          <entry key="JavaScript" value="1" />
-          <entry key="SCSS" value="16" />
+          <entry key="JavaScript" value="10" />
+          <entry key="SCSS" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1873" />
-          <entry key="js" value="54" />
-          <entry key="scss" value="1338" />
+          <entry key="html" value="2286" />
+          <entry key="js" value="1350" />
+          <entry key="scss" value="1919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1873" />
-          <entry key="JavaScript" value="54" />
-          <entry key="SCSS" value="1338" />
+          <entry key="HTML" value="2286" />
+          <entry key="JavaScript" value="1350" />
+          <entry key="SCSS" value="1919" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.77662957">
+    <splitter split-orientation="horizontal" split-proportion="0.38851604">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/mask.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="687">
-                  <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-                  <folding>
-                    <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#1;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#mask#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#text#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#text#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="729">
-                  <caret line="44" column="73" lean-forward="true" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
-                  <folding>
-                    <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#0;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#1;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#stop#2;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html">
+            <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/down-rect.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="77" />
-                  <folding>
-                    <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -134,15 +79,28 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/mask.scss">
-              <provider selected="true" editor-type-id="text-editor" />
+            <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss">
+            <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/scss/down-rect.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css-in-depth/composite/script/simple-particle.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -154,9 +112,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -164,6 +122,9 @@
     <findStrings>
       <find>feGaussianBlur</find>
       <find>treePathMask</find>
+      <find>desc</find>
+      <find>coloredBlur</find>
+      <find>glow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,7 +143,6 @@
         <option value="$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/random-particle.html" />
         <option value="$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random-particle.scss" />
         <option value="$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation.scss" />
-        <option value="$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js" />
         <option value="$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss" />
         <option value="$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation.html" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/scss/clip-path.scss" />
@@ -191,6 +151,17 @@
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/patterns.html" />
         <option value="$PROJECT_DIR$/css-in-depth/learn-svg/mask.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js" />
+        <option value="$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation-tree.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/greensock/circle-path-animation.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/composite/scss/circle-path-animation.scss" />
+        <option value="$PROJECT_DIR$/css-in-depth/composite/circle-path-animation.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/composite/scss/simple-particle.scss" />
+        <option value="$PROJECT_DIR$/css-in-depth/composite/simple-particle.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/composite/script/simple-particle.js" />
+        <option value="$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js" />
+        <option value="$PROJECT_DIR$/css-in-depth/greensock/down-rect.html" />
+        <option value="$PROJECT_DIR$/css-in-depth/greensock/scss/down-rect.scss" />
       </list>
     </option>
   </component>
@@ -233,9 +204,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1078" />
-    <option name="y" value="255" />
-    <option name="width" value="1464" />
+    <option name="x" value="786" />
+    <option name="y" value="298" />
+    <option name="width" value="1667" />
     <option name="height" value="1133" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -263,20 +234,76 @@
               <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
               <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-svg" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
               <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-svg" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="css-tricks" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-sass" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="greensock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
               <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
               <item name="snapSvg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="snapSvg" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="snapSvg" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="snapSvg" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="move-path-animation-tree.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -298,6 +325,7 @@
       <recent name="$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css-in-depth/composite" />
       <recent name="$PROJECT_DIR$/css-in-depth/learn-svg/images" />
       <recent name="$PROJECT_DIR$/css-in-depth/css-tricks" />
     </key>
@@ -324,12 +352,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550473050434</updated>
-      <workItem from="1550473051560" duration="15325000" />
+      <workItem from="1550473051560" duration="25892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15325000" />
+    <option name="totallyTimeSpent" value="25892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,15 +369,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1078" y="255" width="1464" height="1133" extended-state="0" />
+    <frame x="786" y="298" width="1667" height="1133" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07623008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19980788" />
+      <window_info anchor="bottom" id="Terminal" weight="0.15081653" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
@@ -384,24 +412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/random.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random-particle.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -433,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/create-map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/clip-path.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -465,9 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/mask.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/images/avater.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -489,26 +493,23 @@
     <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/patterns.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation.scss">
+    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/mask.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="44" column="73" lean-forward="true" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+        <state relative-caret-position="177">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
           <folding>
-            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#2;n#radialGradient#1;n#defs#0;n#svg#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#1;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#mask#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,30 +526,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js">
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/scss/move-path-animation-tree.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/mask.html">
+    <entry file="file://$PROJECT_DIR$/css-in-depth/learn-svg/scss/mask.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/path-animation-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        <state relative-caret-position="-103" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-secrets/path-animation-2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/style/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/move-path-animation-tree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#1;n#mask#0;n#defs#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#svg#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#mask#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#text#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#0;n#mask#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#circle#0;n#pattern#0;n#defs#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#text#0;n#svg#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#3;n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/create-map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/snapSvg/script/move-path-animation.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/lib/snap.svg-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/circle-path-animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/scss/circle-path-animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/circle-path-animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/scss/simple-particle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/load-gsap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/simple-particle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/script/simple-particle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/down-rect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/random.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/scss/down-rect.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>

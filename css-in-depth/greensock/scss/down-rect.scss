@@ -1,0 +1,51 @@
+html,body {
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.86);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.dot {
+  width: 7px;
+  height: 12px;
+  background: #D98920;
+  position: absolute;
+}
+@for $i from 1 through 100 {
+  .dot:nth-child(#{$i}) {
+    width: random(12)+ px;
+    top: random(500)+ px;
+    left: random(1000) + px;
+
+    animation: down-anim 6s ease-in-out infinite,
+              wave 3s ease-in-out infinite 1s;
+  }
+}
+
+@keyframes down-anim {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(80%);
+    opacity: 0;
+  }
+}
+$pox : 2px;
+@keyframes wave {
+  25%{
+    transform: translateX(-$pox);
+  }
+  50%{
+    transform: translateX($pox);
+  }
+  85%{
+    transform: translateX(-$pox);
+  }
+  100%{
+    transform: translateX($pox);
+  }
+}

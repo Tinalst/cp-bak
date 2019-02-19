@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAS;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;;AAEd,IAAK;EACH,UAAU,EAAE,YAAY;;AAE1B,MAAO;EACL,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,IAAI",
+"sources": ["simple-particle.scss"],
+"names": [],
+"file": "simple-particle.css"
+}
