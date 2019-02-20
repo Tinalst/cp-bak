@@ -28,7 +28,7 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="gif" value="1" />
-          <entry key="html" value="24" />
+          <entry key="html" value="25" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="10" />
@@ -39,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="24" />
+          <entry key="HTML" value="25" />
           <entry key="Image" value="6" />
           <entry key="JavaScript" value="10" />
           <entry key="SCSS" value="23" />
@@ -49,20 +49,20 @@
         <counts>
           <entry key="html" value="2286" />
           <entry key="js" value="1350" />
-          <entry key="scss" value="1919" />
+          <entry key="scss" value="2650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2286" />
           <entry key="JavaScript" value="1350" />
-          <entry key="SCSS" value="1919" />
+          <entry key="SCSS" value="2650" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38851604">
+    <splitter split-orientation="horizontal" split-proportion="0.19409548">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
@@ -81,8 +81,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -90,8 +90,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/scss/down-rect.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+                <state relative-caret-position="428">
+                  <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
                 </state>
               </provider>
             </entry>
@@ -204,9 +204,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="786" />
-    <option name="y" value="298" />
-    <option name="width" value="1667" />
+    <option name="x" value="928" />
+    <option name="y" value="147" />
+    <option name="width" value="1859" />
     <option name="height" value="1133" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -229,6 +229,12 @@
               <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
               <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
               <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp-bak" type="462c0819:PsiDirectoryNode" />
+              <item name="css-in-depth" type="462c0819:PsiDirectoryNode" />
+              <item name="15.7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cp-bak" type="b2602c69:ProjectViewProjectNode" />
@@ -352,12 +358,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550473050434</updated>
-      <workItem from="1550473051560" duration="25892000" />
+      <workItem from="1550473051560" duration="31363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25892000" />
+    <option name="totallyTimeSpent" value="31363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,11 +375,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="786" y="298" width="1667" height="1133" extended-state="0" />
+    <frame x="1005" y="225" width="1859" height="1133" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13384113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -381,7 +387,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32853025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32853025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,27 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/script/simple-particle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/down-rect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/css-tricks/learn-sass/scss/random.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -666,10 +651,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/15.7/three-demisional-perspective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/composite/script/simple-particle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/script/down-rect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/down-rect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/scss/down-rect.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="428">
+          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
         </state>
       </provider>
     </entry>
