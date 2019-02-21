@@ -1,0 +1,99 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background: black;
+  margin: 0;
+  padding: 100px; }
+
+body::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.box-2d {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 0.2;
+  border: 2px solid white;
+  position: absolute;
+  transform-oringin: 50% 50%;
+  transition: transform 2s linear;
+  animation: anima1 4s linear infinite alternate; }
+
+.box-2d:nth-child(1) {
+  animation-delay: 0.2s;
+  background: #ffeb3b; }
+
+.box-2d:nth-child(2) {
+  animation-delay: 0.4s;
+  background: #f44336; }
+
+.box-2d:nth-child(3) {
+  animation-delay: 0.6s;
+  background: #f44336; }
+
+.box-2d:nth-child(4) {
+  animation-delay: 0.8s;
+  background: #f44336; }
+
+.box-2d:nth-child(5) {
+  animation-delay: 1s;
+  background: #f44336; }
+
+.box-2d:nth-child(6) {
+  animation-delay: 1.2s;
+  background: #f44336; }
+
+.box-2d:nth-child(7) {
+  animation-delay: 1.4s;
+  background: #ffeb3b; }
+
+.box-2d:nth-child(8) {
+  animation-delay: 1.6s;
+  background: #00bcd4; }
+
+.box-2d:nth-child(9) {
+  animation-delay: 1.8s;
+  background: #ffeb3b; }
+
+@keyframes anima1 {
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%; } }
+.box-2d::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.box-2d::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  background: green;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+.line-1 {
+  width: 100px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 100px;
+  left: 100px; }
+
+/*# sourceMappingURL=axis-integrate.css.map */
