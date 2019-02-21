@@ -35,7 +35,7 @@ body::before {
   transition: transform 2s linear;
   animation: anima1 4s linear infinite alternate;
 }
-$color:#f44336,#ff5722,#ffeb3b,#00bcd4,#2196f3;
+$color:#f44336,#ff5722,#ffeb3b,#00bcd4,#2196f3，#f44336,#ff5722,#ffeb3b,#00bcd4,#2196f3;
 @for $i from 1 through 9 {
   .box-2d:nth-child(#{$i}) {
     animation-delay: $i * 0.2s;
