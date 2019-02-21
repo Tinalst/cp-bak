@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,mBAAmB;EAC/B,KAAK,EAAE,KAAK",
+"sources": ["split-text.scss"],
+"names": [],
+"file": "split-text.css"
+}
