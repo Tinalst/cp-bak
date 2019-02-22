@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/move-path-animation-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="510">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -194,8 +194,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="768" />
-    <option name="y" value="230" />
+    <option name="x" value="737" />
+    <option name="y" value="676" />
     <option name="width" value="1557" />
     <option name="height" value="1128" />
   </component>
@@ -296,12 +296,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550473050434</updated>
-      <workItem from="1550473051560" duration="40784000" />
+      <workItem from="1550473051560" duration="43014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40784000" />
+    <option name="totallyTimeSpent" value="43014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,23 +313,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="768" y="230" width="1557" height="1128" extended-state="0" />
+    <frame x="737" y="676" width="1557" height="1128" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20898438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18945312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.19208494" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.19208494" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.05019305" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.05019305" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32818532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.30643612" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.30598456" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-in-depth/greensock/move-path-animation-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
